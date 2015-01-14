@@ -1,0 +1,11 @@
+Name,description,timestamp,begin,end,altitudeMode,tessellate,extrude,visibility,drawOrder,icon,atr_gr_id,atr_gr_tipo,atr_gr_visible,atr_gr_tiene_q,atr_gr_alerta,equip_a_codigo,equip_a_observaciones,equip_a_estado_fecha,equip_a_fecha_declaracion,estado_id,equip_b_senalizacion_ext,equip_b_acceso_modo,equip_b_nombre,cerramiento_id,acc_id,acc_dis_id,equip_b_tiene_interes,equip_b_superficie_aprox,cerramiento_material_id,web,OGR_GEOM_WKT
+,,,,,,-1,-1,-1,,,79851,10,true,false,,HERQC00001,,2010-05-09T22:00:00Z,2004-08-25T22:00:00Z,1,false,,Bar a la orilla del río Ebro,4,3,2,false,0,4,,POINT (-3.714890189367477 42.89095884824274)
+,,,,,,-1,-1,-1,,,81789,10,false,false,,LNUQC00001,,2010-06-13T22:00:00Z,2010-03-01T23:00:00Z,4,false,Pista forestal de la Laguna Negra,Quiosco-aparcamiento Paso de la Serrá,4,1,3,false,0,1,,POINT (-2.827147172488869 41.998271324993766)
+,,,,,,-1,-1,-1,,,81790,10,true,false,,LNUQC00002,,2010-06-13T22:00:00Z,2010-03-01T23:00:00Z,3,true,Pista forestal de la Laguna Negra,Bar Paso de la Serrá,4,1,1,true,0,1,,POINT (-2.824511636878558 41.999557993747857)
+,,,,,,-1,-1,-1,,,89250,10,true,false,,SGRQC00001,,2011-06-12T22:00:00Z,1996-06-19T22:00:00Z,1,false,,La Carrera,1,1,2,false,0,1,,POINT (-5.546953794629817 40.341626322963229)
+,,,,,,-1,-1,-1,,,89251,10,true,false,,SGRQC00002,,2011-06-12T22:00:00Z,1996-06-19T22:00:00Z,1,true,,El Berrocal,1,1,2,false,0,1,,POINT (-5.516363760001726 40.268145860821363)
+,,,,,,-1,-1,-1,,,89252,10,true,false,,SGRQC00003,,2011-06-12T22:00:00Z,1996-06-19T22:00:00Z,1,true,,El Vergel de Gredos,1,1,2,false,0,1,,POINT (-5.43469873870172 40.314052727078824)
+,,,,,,-1,-1,-1,,,89253,10,true,false,,SGRQC00004,,2011-06-12T22:00:00Z,1996-06-19T22:00:00Z,1,true,,Pozo de las Paredes,3,2,2,false,0,3,,POINT (-5.250023869540838 40.345482381100574)
+,,,,,,-1,-1,-1,,,89254,10,true,false,,SGRQC00005,,2011-06-12T22:00:00Z,1996-06-19T22:00:00Z,3,true,,La Puente,1,1,2,false,0,1,,POINT (-5.32498018247474 40.342004206025258)
+,,,,,,-1,-1,-1,,,89255,10,true,false,,SGRQC00006,,2011-06-12T22:00:00Z,1996-06-19T22:00:00Z,2,false,,Plataforma de Gredos,4,3,2,false,0,4,,POINT (-5.232488002097597 40.274907027459683)
+,,,,,,-1,-1,-1,,,89578,10,true,false,,VLIQC00001,,2010-07-13T22:00:00Z,1997-06-16T22:00:00Z,1,true,,Las Cruceras,1,1,2,false,0,1,,POINT (-4.561179537785208 40.421160397472867)
