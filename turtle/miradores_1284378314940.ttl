@@ -1,0 +1,1099 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix cjcyl: <http://geo.linkeddata.es/cjcyl#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/89172> a cjcyl:Mirador ;
+	cjcyl:nombre "Mirador en la N-502" ;
+	cjcyl:codigo "SGRAP00003" ;
+	cjcyl:accesoModo "En la N-502, en la subida del puerto del Pico, en coche" ;
+	cjcyl:observaciones "En obras. En una pequeña zona de la carretera forestal, con un murete de piedra y acera." ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.016836101988829 40.309164952869835)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:entorno "Mirador al Torozo" ;
+	cjcyl:cerramiento "1"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/89173> a cjcyl:Mirador ;
+	cjcyl:nombre "Curva del Sidrillo" ;
+	cjcyl:codigo "SGRAP00020" ;
+	cjcyl:accesoModo "En la N-502, en el km 59,200, a un lado de la carretera, en coche" ;
+	cjcyl:observaciones "Señal de Vivero Forestal del Sidrillo y de limite de Parque, entrada a la pista forestal asfaltada a San Esteban del Valle." ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.00481293296682 40.308663642322038)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:entorno "Vistas a Cuevas del Valle." ;
+	cjcyl:cerramiento "3"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/89174> a cjcyl:Mirador ;
+	cjcyl:nombre "Hoyos del Collado" ;
+	cjcyl:codigo "SGRAP00006" ;
+	cjcyl:accesoModo "En la carretrera C-500, a la salida de Hoyos del Collado a 200 m andando desde la entrada a la finca de Hoyos, en coche" ;
+	cjcyl:observaciones "Posibles obras, sin construir" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.213670403521433 40.359919397283704)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:entorno "Vistas al Macizo Central y vega del Tormes" ;
+	cjcyl:cerramiento "1"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/89572> a cjcyl:Mirador ;
+	cjcyl:nombre "Risquillo Hambriento" ;
+	cjcyl:codigo "VLIMR00002" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-4.595096149505615 40.355225315288273)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:entorno "Valle del Tiemblo y Valle de Iruelas" ;
+	cjcyl:cerramiento "1"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/89573> a cjcyl:Mirador ;
+	cjcyl:nombre "San Gregorio" ;
+	cjcyl:codigo "VLIMR00003" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-4.508846547219409 40.384160831595409)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "3"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/89574> a cjcyl:Mirador ;
+	cjcyl:nombre "Mirador Senda Accesible" ;
+	cjcyl:codigo "VLIMR00004" ;
+	cjcyl:observaciones "Pendiente la cartelería accesible" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-4.564107006052638 40.421569251766826)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:entorno "Embalse y paisaje de vegetación mediterránea" ;
+	cjcyl:cerramiento "2"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/77648> a cjcyl:Mirador ;
+	cjcyl:nombre "Mirador de las Gullurias" ;
+	cjcyl:codigo "CRLMR00002" ;
+	cjcyl:accesoModo "Sendero" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.06357149824138 41.740883022830872)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "2"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/77650> a cjcyl:Mirador ;
+	cjcyl:nombre "Mirador de Costalago" ;
+	cjcyl:codigo "CRLMR00004" ;
+	cjcyl:accesoModo "Pista forestal desde Hontoria del Pinar." ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.174219070331299 41.815381774334128)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "3"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/88855> a cjcyl:Mirador ;
+	cjcyl:nombre "Mirador del Pinar" ;
+	cjcyl:codigo "RCDMR00002" ;
+	cjcyl:observaciones "El mirador se ubica en terrenos de un particular, aunque su propiedad es de la Consejería" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.267446149723203 41.401393017993755)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "3"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/88856> a cjcyl:Mirador ;
+	cjcyl:nombre "Mirador de Cartago" ;
+	cjcyl:codigo "RCDMR00003" ;
+	cjcyl:observaciones "Situado en terrenos de cañada" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.089195065064106 41.485388527000083)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "3"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/88857> a cjcyl:Mirador ;
+	cjcyl:nombre "Mirador La Muela" ;
+	cjcyl:codigo "RCDMR00004" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.262626811231235 41.39092277661976)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "4"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/88962> a cjcyl:Mirador ;
+	cjcyl:nombre "Mirador de El Mirón" ;
+	cjcyl:codigo "SCLMR00002" ;
+	cjcyl:accesoModo "Pista a Cabrejas" ;
+	cjcyl:observaciones "Mirador de estructura de madera, existente en la carretera de acceso a la RN y al MN" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-2.840675149547318 41.719749829648016)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "4"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/88963> a cjcyl:Mirador ;
+	cjcyl:nombre "Mirador de la Cerrada El Ratón" ;
+	cjcyl:codigo "SCLMR00003" ;
+	cjcyl:accesoModo "Carretera Calatañazor" ;
+	cjcyl:observaciones "Mirador existente en la pista de Muriel a Cabrejas. Firme de zahorra Aripaq" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-2.832830145940504 41.70840786517978)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "4"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/89154> a cjcyl:Mirador ;
+	cjcyl:nombre "Mirador al castillo de Mombeltran" ;
+	cjcyl:codigo "SGRAP00008" ;
+	cjcyl:accesoModo "Por la carretera N-502 a la entrada del pueblo de Mombeltran por el sur, en coche" ;
+	cjcyl:observaciones "Pequeña entrada de la carretera nacional antes de llegar a mombeltran, en el sentido de ascenso del puerto del Pico. Contiene una señal con un plano generla del Parque. El castillo de Mombeltran está iluminado por la noche" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.0202671467735 40.257043158281476)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:entorno "Vistas al Castillo de Mombeltrán" ;
+	cjcyl:cerramiento "3"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/89155> a cjcyl:Mirador ;
+	cjcyl:nombre "Ermita de San Andrés" ;
+	cjcyl:codigo "SGRAP00012" ;
+	cjcyl:accesoModo "Carretera de San Esteban del Valle a Santa Cruz del Valle, a la salida del pueblo en el lado derecho de la carretera, en coche" ;
+	cjcyl:observaciones "Con 5 mesas de piedra y bancos." ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-4.984755873565681 40.266521954036769)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:entorno "Vistas al pueblo y al Barranco de las Cinco Villas" ;
+	cjcyl:cerramiento "3"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/89156> a cjcyl:Mirador ;
+	cjcyl:nombre "Mirador de Zapardiel" ;
+	cjcyl:codigo "SGRAP00021" ;
+	cjcyl:accesoModo "En el puieblo de Zapardiel de la Rivera, en la torre de la iglesia con poco aparcamiento en el casco urbano" ;
+	cjcyl:observaciones "Torre de la iglesia de zapardiel desde donde se divisa el Tormes y valle de Conco Lagunas, garganta del Pinar y cumbre de Cabeza Nevada" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.327601103546394 40.354632430396059)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:entorno "Vistas a la garganta del Pinar y cumbre del Cervunal o Cabeza Nevada" ;
+	cjcyl:cerramiento "3"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/78620> a cjcyl:Mirador ;
+	cjcyl:nombre "Mirador de la Umbría" ;
+	cjcyl:codigo "FCCMR00007" ;
+	cjcyl:accesoModo "En el trayecto de la Senda de Ursi." ;
+	cjcyl:observaciones "Mirador en la Peña la Rulaya, formado por una talanquera de madera tratada a modo de barandilla." ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-4.32779865138106 42.904996128007078)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "3"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/78619> a cjcyl:Mirador ;
+	cjcyl:nombre "Mirador de La Pernía" ;
+	cjcyl:codigo "FCCMR00006" ;
+	cjcyl:observaciones "Pequeño mirador junto senda del Bosque Fósil. Es una zona elevada, delimitada por grandes rocas. Solera de zahorra." ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-4.47527542939882 42.947703933266297)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "3"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/78622> a cjcyl:Mirador ;
+	cjcyl:nombre "Mirador de madera en Senda del Gigante del Valle Estrecho" ;
+	cjcyl:codigo "FCCMR00009" ;
+	cjcyl:observaciones "Mirador con talanquera de madera tratada." ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-4.61419600044661 42.895273101281724)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "4"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/78624> a cjcyl:Mirador ;
+	cjcyl:nombre "Mirador de Piedrasluengas" ;
+	cjcyl:codigo "FCCMR00011" ;
+	cjcyl:observaciones "Mirador de madera de sabina, colocado en un lugar muy emblemático a 1,355 m de altitud. Dos tramos de murete, uno a cada lado del mirador y a continuación la barandilla de sabina. Solera de tablones de madera en voladizo sobre pilares también de madera." ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-4.458668332170809 43.04167109010514)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "3"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/78621> a cjcyl:Mirador ;
+	cjcyl:nombre "Mirador de las Alto de las Matas" ;
+	cjcyl:codigo "FCCMR00008" ;
+	cjcyl:observaciones "Mirador de madera tanalizada, el suelo y la barandilla. Alrededores con solera de zahorra. Consta de un acceso formado por tres escalones y otro acceso que es una rampa." ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-4.488039313833155 42.887922933301724)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "3"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/72580> a cjcyl:Mirador ;
+	cjcyl:nombre "Mirador de la Ribera del Pontón (Villardiegua de la Ribera)" ;
+	cjcyl:codigo "ARDMR00001" ;
+	cjcyl:accesoModo "Se accede por un camino que parte desde Villardiegua en dirección a Peña Redonda a unos 3,5km." ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-6.225072571641932 41.530297701582157)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:entorno "Vistas Rivera" ;
+	cjcyl:cerramiento "2"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/72332> a cjcyl:Mirador ;
+	cjcyl:nombre "Mirador del Acebal" ;
+	cjcyl:codigo "AGRMR00001" ;
+	cjcyl:accesoModo "Entrada principal del Acebal" ;
+	cjcyl:observaciones "Mirador adaptado, con sendero practicable, a 25 metros de la entrada principal del Acebal" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-2.421005677301734 41.965042820458279)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "1"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/72581> a cjcyl:Mirador ;
+	cjcyl:nombre "Mirador de las Escaleras (Fermoselle)" ;
+	cjcyl:codigo "ARDMR00002" ;
+	cjcyl:accesoModo "Se accede por un camino que parte desde Fermoselle en dirección a la Ermita del Cristo y continua hasta el Mirador con una distancia total de 2,8km." ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-6.430443287516119 41.314459065865485)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:entorno "Vistas Arribe" ;
+	cjcyl:cerramiento "2"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/72582> a cjcyl:Mirador ;
+	cjcyl:nombre "Mirador de la Peña del Cura (Pinilla de Fermoselle)" ;
+	cjcyl:codigo "ARDMR00003" ;
+	cjcyl:accesoModo "Se accede directamente desde una calle del casco urbano de Pinilla." ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-6.382417185275154 41.368853125605447)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:entorno "Vistas Arribe" ;
+	cjcyl:cerramiento "1"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/72583> a cjcyl:Mirador ;
+	cjcyl:nombre "Mirador de las Barrancas" ;
+	cjcyl:codigo "ARDMR00004" ;
+	cjcyl:accesoModo "Se accede por un camino-sendero que parte desde la Ermita Nuestra Señora del Castillo a una distancia de 551m" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-6.28998194925333 41.440169847998057)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:entorno "Vistas Arribe" ;
+	cjcyl:cerramiento "2"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/72584> a cjcyl:Mirador ;
+	cjcyl:nombre "Asomadero del Alto del Cueto (Mámoles)" ;
+	cjcyl:codigo "ARDMR00005" ;
+	cjcyl:accesoModo "Se accede siguiendo la ruta interpretativa de los Lagares Rupestres de Mámoles que parte del pueblo." ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-6.313735481663212 41.401210747998014)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:entorno "Vistas Arribe" ;
+	cjcyl:cerramiento "1"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/72585> a cjcyl:Mirador ;
+	cjcyl:nombre "Mirador de las Janas" ;
+	cjcyl:codigo "ARDMR00006" ;
+	cjcyl:accesoModo "Pista" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-6.758759702184526 41.033577319025596)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:entorno "Puerto de la Molinera, río Huebra" ;
+	cjcyl:cerramiento "3"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/72587> a cjcyl:Mirador ;
+	cjcyl:nombre "Mirador Casa Quiquín" ;
+	cjcyl:codigo "ARDMR00008" ;
+	cjcyl:accesoModo "Senda" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-6.678513189140671 41.027574610572628)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:entorno "Arribes del Huebra" ;
+	cjcyl:cerramiento "2"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/72588> a cjcyl:Mirador ;
+	cjcyl:nombre "Mirador de la Code" ;
+	cjcyl:codigo "ARDMR00009" ;
+	cjcyl:accesoModo "Pista" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-6.700699771761327 41.174851156489112)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:entorno "Almezal de Mieza, río Duero" ;
+	cjcyl:cerramiento "2"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/72589> a cjcyl:Mirador ;
+	cjcyl:nombre "Mirador del Colagón del Tío Paco" ;
+	cjcyl:codigo "ARDMR00010" ;
+	cjcyl:accesoModo "Pista" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-6.698903493184349 41.173383171772898)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:entorno "Almezal de Mieza, río Duero" ;
+	cjcyl:cerramiento "3"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/76539> a cjcyl:Mirador ;
+	cjcyl:nombre "El Portillo" ;
+	cjcyl:codigo "BSFMR00001" ;
+	cjcyl:accesoModo "Este mirador se encuentra en la carretera SA-201 que va desde La Alberca al Valle de Las Batuecas, a unos 3 km de la Alberca en el puerto denominado El Portillo." ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-6.119840892283955 40.472309936068172)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:entorno "Desde este mirador se podrá disfrutar de la profundidad del Valle de Las Batuecas Y de la Sierra de Las Hurdes y con un poco de suerte se podrá contemplar a algunas de las aves más emblemáticas del Parque Natural." ;
+	cjcyl:cerramiento "3"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/76540> a cjcyl:Mirador ;
+	cjcyl:nombre "El Viborero" ;
+	cjcyl:codigo "BSFMR00002" ;
+	cjcyl:accesoModo "Este mirador se encuentra en la población de Monforte de la Sierra en el antiguo camino a La Alberca (hoy GR10) a unos 500 m del pueblo." ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-6.060932938582966 40.485459181581746)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:entorno "Desde este mirador situado por encima del pueblo de Monforte de la Sierra se puede observar desde otra perspectiva la arquitectura de los pueblos serranos, además del Valle del Arroyo Milanos y de la imponenete Sierra de Béjar." ;
+	cjcyl:cerramiento "3"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/76541> a cjcyl:Mirador ;
+	cjcyl:nombre "La Peña de Francia" ;
+	cjcyl:codigo "BSFMR00003" ;
+	cjcyl:accesoModo "Este mirador está situado en el alto de la Peña de Francia, a ésta se accede desde el Cabaco por la carretera SA-201 (El Cabaco-La Alberca), a unos 3 Km de El Cabaco se coge la carretera SA-203 (subida a la Peña de Francia)." ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-6.168058169415045 40.512310163769065)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:entorno "Desde este mirador se puede ver gran parte del sur de la Provincia de Salamanca: Sierra de Béjar, Campo Charro, Sierra de Las Quilamas. En cuanto a la fauna del Parque Natural es fácil ver rebaños de cabra móntes y algunas de sus aves como águila real, buitre negro y leonado y halcón peregrino." ;
+	cjcyl:cerramiento "3"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/76542> a cjcyl:Mirador ;
+	cjcyl:nombre "Las Juntas" ;
+	cjcyl:codigo "BSFMR00004" ;
+	cjcyl:accesoModo "Este mirador está en la carretera que va de Sotoserrano a Béjar a 2 km del primero." ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-6.019746688968725 40.425770710364091)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:entorno "Desde este mirador situado en la unión de los Ríos Alagón y Cuerpo de Hombre se puede disfrutar de las hermosas vistas hacia la ribera de ambos ríos y de los verdes pastizales que las bordean. Desde el mismo también se puede ver uno de los puentes de piedra más antiguos del Parque Natural." ;
+	cjcyl:cerramiento "3"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/76543> a cjcyl:Mirador ;
+	cjcyl:nombre "Los Bardales" ;
+	cjcyl:codigo "BSFMR00005" ;
+	cjcyl:accesoModo "Desde la población de El Casarito (ctra. SA-201 El Cabaco-La Alberca), coger la carretera que va a San Martín del Castañar, a unos 250 m del cruce coger una pista que sale a mano izquierda y que lleva a la población de Nava de Francia, el mirador está en esta pista a unos 1,2 km." ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-6.121360317028786 40.530821534204165)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:entorno "Desde este mirador se pueden contemplar las cumbres reinas del Parque Natural como son la Sierra de la Horconera, la Peña del Huevo, la Peña de Francia y el pico más alto de la Sierra de Francia: El Hastiala ." ;
+	cjcyl:cerramiento "3"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/76544> a cjcyl:Mirador ;
+	cjcyl:nombre "Madroñal" ;
+	cjcyl:codigo "BSFMR00006" ;
+	cjcyl:accesoModo "Este mirador está situado en la carretera que va desde La Alberca a la población de Sotoserrano, a unos 6,5 km de La Alberca." ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-6.059617012973748 40.470150763402884)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:entorno "Desde este mirador se pueden ver las poblaciones y el entorno de Cepedas y Miranda del Castañar, además de la Sierra de Béjar, y parte del Valle del Río Alagón y del Río Francia" ;
+	cjcyl:cerramiento "3"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/76545> a cjcyl:Mirador ;
+	cjcyl:nombre "Paso de los Lobos" ;
+	cjcyl:codigo "BSFMR00007" ;
+	cjcyl:accesoModo "Este mirador se encuentra antes de llegar al alto de la Peña de Francia, en el cruce con la carretera de va a Monsagro." ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-6.176488141307661 40.508892818506538)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:entorno "Este mirador situado en el collado del Paso de los Lobos, entre la Mesa del Francés y la Peña de Francia, nos permite disfrutar, por una vertiente, de la profundidad Valle del Río Agadón, cuyas aguas vierten a la cuenca del río Duero, y hacia la otra vertiente, del Valle del Lera (La Alberca), cuyas aguas vierten a la cuenca del Río Tajo." ;
+	cjcyl:cerramiento "3"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/76546> a cjcyl:Mirador ;
+	cjcyl:nombre "Peña La Cabra" ;
+	cjcyl:codigo "BSFMR00008" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-6.039423996225347 40.49236537199004)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:entorno "Desde este mirador se puede contemplar parte del Valle del Río Francia, la Sierra de Las Quilamas, el pueblo Miranda del Castañar y la Sierra de Béjar." ;
+	cjcyl:cerramiento "3"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/77647> a cjcyl:Mirador ;
+	cjcyl:nombre "Mirador de la Galiana" ;
+	cjcyl:codigo "CRLMR00001" ;
+	cjcyl:accesoModo "Carretera S0-920 PK 20" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.042975658781933 41.731647891536866)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "3"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/89157> a cjcyl:Mirador ;
+	cjcyl:nombre "Barranco del Herradero" ;
+	cjcyl:codigo "SGRAP00002" ;
+	cjcyl:accesoModo "Por la carretera N-502 en el desvio a el Arenal a 300 metros de la entrada, en coche" ;
+	cjcyl:observaciones "Actualmente en restauracion por el incendio del verano del 2009" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.018570441765915 40.299935487913928)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:entorno "Vistas al Barranco de las Cinco Villas" ;
+	cjcyl:cerramiento "1"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/77649> a cjcyl:Mirador ;
+	cjcyl:nombre "Mirador de la Lastrilla" ;
+	cjcyl:codigo "CRLMR00003" ;
+	cjcyl:accesoModo "Carretera S0-960 PK8" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.128086804369618 41.781333421663128)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "1"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/72590> a cjcyl:Mirador ;
+	cjcyl:nombre "Mirador del Jormo" ;
+	cjcyl:codigo "ARDMR00011" ;
+	cjcyl:accesoModo "Senda" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-6.649848697958032 41.014545657663078)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:entorno "Río Huebra" ;
+	cjcyl:cerramiento "2"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/77651> a cjcyl:Mirador ;
+	cjcyl:nombre "Mirador del Castillo" ;
+	cjcyl:codigo "CRLMR00005" ;
+	cjcyl:accesoModo "Senda del Castillo/Ruta de las Sabinas" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.045144873918301 41.719554181542961)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "1"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/78614> a cjcyl:Mirador ;
+	cjcyl:nombre "Mirador de Alba de los Cardaños" ;
+	cjcyl:codigo "FCCMR00001" ;
+	cjcyl:observaciones "Mirador que consta de una rampa de subida y una explanada circular, ambas de hormigón impreso. La plataforma está bordeada por una talanquera de madera, más baja en los extremos en que va sobre un murete de piedra de 50x50cm." ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-4.724158829953629 42.907354888130435)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "3"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/78627> a cjcyl:Mirador ;
+	cjcyl:nombre "Mirador de la Senda del Pinar de Velilla" ;
+	cjcyl:codigo "FCCMR00014" ;
+	cjcyl:observaciones "Mirador con forma triángular de lados 12x8x5m, colocado sobre pilares de antigua construcción. Solera de entarimado de madera." ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-4.829384022352389 42.849196784314351)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:entorno "Pinar autóctono de pino silvestre" ;
+	cjcyl:cerramiento "2"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/78616> a cjcyl:Mirador ;
+	cjcyl:nombre "Mirador de El Campo" ;
+	cjcyl:codigo "FCCMR00003" ;
+	cjcyl:observaciones "Mirador con forma semicircular en cuyo borde se distribuyen 4 bancos con sus correspondientes barandillas de forja." ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-4.501429646060608 42.975844441676941)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "2"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/72591> a cjcyl:Mirador ;
+	cjcyl:nombre "Mirador de la Monja y el Fraile" ;
+	cjcyl:codigo "ARDMR00012" ;
+	cjcyl:accesoModo "Senda" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-6.653147826944614 41.01573879468981)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:entorno "Río Huebra" ;
+	cjcyl:cerramiento "2"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/78618> a cjcyl:Mirador ;
+	cjcyl:nombre "Mirador de la Penilla" ;
+	cjcyl:codigo "FCCMR00005" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-4.526607568770472 42.864772784621351)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:entorno "Embalse de Ruesga y pradería." ;
+	cjcyl:cerramiento "4"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/72592> a cjcyl:Mirador ;
+	cjcyl:nombre "Mirador Cachón del Camaces" ;
+	cjcyl:codigo "ARDMR00013" ;
+	cjcyl:accesoModo "Carretera" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-6.754233720331671 41.020104605621277)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "2"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/72586> a cjcyl:Mirador ;
+	cjcyl:nombre "Mirador del Duero" ;
+	cjcyl:codigo "ARDMR00007" ;
+	cjcyl:accesoModo "Carretera" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-6.730009858429794 41.103431368584779)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:entorno "Embalse de Saucelle" ;
+	cjcyl:cerramiento "2"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/78628> a cjcyl:Mirador ;
+	cjcyl:nombre "Mirador en la Senda de Tosande" ;
+	cjcyl:codigo "FCCMR00015" ;
+	cjcyl:accesoModo "En el trayecto dela Senda de Tosande" ;
+	cjcyl:observaciones "Mirador formado por una talanquera de madera tratada a modo de barandilla." ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-4.551327982046779 42.835187014933183)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "2"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/78623> a cjcyl:Mirador ;
+	cjcyl:nombre "Mirador de piedra en Senda del Gigante del Valle Estrecho" ;
+	cjcyl:codigo "FCCMR00010" ;
+	cjcyl:observaciones "Mirador con muro de piedra de mampostería." ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-4.628941204520294 42.898963354498271)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "4"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/72593> a cjcyl:Mirador ;
+	cjcyl:nombre "Mirador de Mafeito" ;
+	cjcyl:codigo "ARDMR00014" ;
+	cjcyl:accesoModo "Pista" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-6.866529792936237 41.020378181556765)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:entorno "Río Duero" ;
+	cjcyl:cerramiento "2"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/72595> a cjcyl:Mirador ;
+	cjcyl:nombre "Mirador Peña de la Vela" ;
+	cjcyl:codigo "ARDMR00016" ;
+	cjcyl:accesoModo "Senda" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-6.82454892807438 41.02461538558692)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:entorno "Presa de Saucelle, viñedos, río Duero" ;
+	cjcyl:cerramiento "3"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/72596> a cjcyl:Mirador ;
+	cjcyl:nombre "Mirador Pozo de los Humos" ;
+	cjcyl:codigo "ARDMR00017" ;
+	cjcyl:accesoModo "Pista" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-6.570781268230643 41.218564051801835)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:entorno "Pozo de los Humos" ;
+	cjcyl:cerramiento "1"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/78615> a cjcyl:Mirador ;
+	cjcyl:nombre "Mirador de Compuerto" ;
+	cjcyl:codigo "FCCMR00002" ;
+	cjcyl:accesoModo "Está en el trazado de la senda del Pinar" ;
+	cjcyl:observaciones "Es una plataforma de zahorra, delimitada por una barandilla de madera de alt 96 y 13 tramos de aprox. 1m, con dos cables de acero horizontales como elem. de seguridad." ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-4.828166634223939 42.852232640514302)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:entorno "Monte de pinos y robles y la presa de Compuerto." ;
+	cjcyl:cerramiento "2"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/72594> a cjcyl:Mirador ;
+	cjcyl:nombre "Mirador de Picón de Felipe" ;
+	cjcyl:codigo "ARDMR00015" ;
+	cjcyl:accesoModo "Senda" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-6.678298682476447 41.214725124865282)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:entorno "Embalse y presa de Aldeadávila" ;
+	cjcyl:cerramiento "2"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/78626> a cjcyl:Mirador ;
+	cjcyl:nombre "Mirador del Alto de la Varga" ;
+	cjcyl:codigo "FCCMR00013" ;
+	cjcyl:observaciones "Mirador con zona circular (30 m de diámetro), con zona circular central ajardinada y dos zonas laterales de observación. Rodeada de murete de mampostería. Solera de zahorra." ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-4.64527431928407 42.90844450693546)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "3"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/89158> a cjcyl:Mirador ;
+	cjcyl:nombre "Mirador de Arbillas" ;
+	cjcyl:codigo "SGRAP00001" ;
+	cjcyl:accesoModo "Desde la C-501 de Arenas a Candeleda, Km 7,8 siguiendo los indicadores a 2,5 km por la carretera forestal de Arbillas, en coche" ;
+	cjcyl:observaciones "En la zona de Arbillas de Arenas de San Pedro" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.143690774492615 40.189549898026236)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:entorno "Mirador al río Arbillas y a la vega de Poyales" ;
+	cjcyl:cerramiento "3"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/78629> a cjcyl:Mirador ;
+	cjcyl:nombre "Mirador junto Bosque Fósil" ;
+	cjcyl:codigo "FCCMR00016" ;
+	cjcyl:observaciones "Mirador junto Bosque Fósil. Delimitado por una roca y 12 m de barandilla de madera, del mismo tipo que la del Bosque Fósil." ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-4.474372696218514 42.946408379637525)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:entorno "Vistas a San Salvador de Cantamuda." ;
+	cjcyl:cerramiento "3"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/79081> a cjcyl:Mirador ;
+	cjcyl:nombre "Mirador de la Fuentona" ;
+	cjcyl:codigo "FNTMR00001" ;
+	cjcyl:accesoModo "La Fuentona" ;
+	cjcyl:observaciones "Es el propio mirador del Ojo de la Fuentona. Firme de zahorra Aripaq" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-2.863653600961456 41.73470397681443)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "4"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/79510> a cjcyl:Mirador ;
+	cjcyl:nombre "Mirador de San Felices del Rudrón" ;
+	cjcyl:codigo "HERMR00001" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.803526741225825 42.760884819700777)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:entorno "Valle del Rudrón en ambas direcciones" ;
+	cjcyl:cerramiento "2"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/79511> a cjcyl:Mirador ;
+	cjcyl:nombre "Mirador del Cañón del Ebro" ;
+	cjcyl:codigo "HERMR00002" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.733206053051549 42.792575695634248)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:entorno "Vistas al Caón del Ebro" ;
+	cjcyl:cerramiento "2"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/79512> a cjcyl:Mirador ;
+	cjcyl:nombre "Mirador de Vallejo" ;
+	cjcyl:codigo "HERMR00003" ;
+	cjcyl:accesoModo "Desde la crt. de Cidad a Vallejo a la izq." ;
+	cjcyl:observaciones "Recién hecho con subvenciones del Parque." ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.726157778358806 42.884737437833188)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:entorno "Desfiladero de los Tornos" ;
+	cjcyl:cerramiento "3"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/79513> a cjcyl:Mirador ;
+	cjcyl:nombre "Mirador Alto de Cielma" ;
+	cjcyl:codigo "HERMR00004" ;
+	cjcyl:observaciones "Puesto de vigilancia" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.793398328481463 42.923895518761803)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "1"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/79514> a cjcyl:Mirador ;
+	cjcyl:nombre "Mirador del Ebro en Pesquera de Ebro" ;
+	cjcyl:codigo "HERMR00005" ;
+	cjcyl:accesoModo "A pie por escalones" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.802570336813536 42.735564528647416)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "2"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/79515> a cjcyl:Mirador ;
+	cjcyl:nombre "Mirador de San Felices del Rudrón" ;
+	cjcyl:codigo "HERMR00006" ;
+	cjcyl:accesoModo "A pie" ;
+	cjcyl:observaciones "Está en construcción" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.802060900554775 42.735847263040974)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "2"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/80329> a cjcyl:Mirador ;
+	cjcyl:nombre "Virgen de la Peña" ;
+	cjcyl:codigo "HDRMR00001" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.750444015652404 41.302767186923241)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:entorno "Las Hoces del Duratón" ;
+	cjcyl:cerramiento "3"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/80330> a cjcyl:Mirador ;
+	cjcyl:nombre "La Senda de la Glorieta" ;
+	cjcyl:codigo "HDRMR00002" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.757742381953928 41.298342469815267)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:entorno "Río Carlilla" ;
+	cjcyl:cerramiento "2"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/80331> a cjcyl:Mirador ;
+	cjcyl:nombre "Mirador del Convento" ;
+	cjcyl:codigo "HDRMR00003" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.872761837576484 41.313554675900313)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:entorno "Monasterio de Nuestra Señora de los Ángeles de la Hoz" ;
+	cjcyl:cerramiento "1"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/80332> a cjcyl:Mirador ;
+	cjcyl:nombre "San Frutos" ;
+	cjcyl:codigo "HDRMR00004" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.873352175559407 41.326664685473744)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:entorno "Hoces del Duratón, presa y Ermita de San Frutos" ;
+	cjcyl:cerramiento "2"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/80716> a cjcyl:Mirador ;
+	cjcyl:nombre "Cerro el Alto" ;
+	cjcyl:codigo "HRRMR00001" ;
+	cjcyl:accesoModo "Partiendo de Valdevacas de Montejo, desde la calle de la Fuente, y siguiendo la señalización, nos aproximamos hasta la iglesia del pueblo. Dejando este emblemático edificio a nuestra derecha, ascendemos, durante 700 metros, al cerro el Alto." ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.635547067551966 41.523342317316263)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:entorno "Matorral" ;
+	cjcyl:cerramiento "2"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/80717> a cjcyl:Mirador ;
+	cjcyl:nombre "La Rivilla" ;
+	cjcyl:codigo "HRRMR00002" ;
+	cjcyl:accesoModo "Partiendo de Maderuelo, en dirección al camino de los huertos, continuamos por el marquen izquierdo del embalse de Linares del Arroyo durante aproximadamente un kilómetro quinientos metros." ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.516230979509557 41.493098852937806)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:entorno "Embalse" ;
+	cjcyl:cerramiento "2"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/81577> a cjcyl:Mirador ;
+	cjcyl:nombre "San Francisco" ;
+	cjcyl:codigo "LGNMR00001" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.041109863931212 42.045731433033922)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:entorno "Picos de Urbión, Pinar de Neila, Sierra de la Demanda" ;
+	cjcyl:cerramiento "2"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/81578> a cjcyl:Mirador ;
+	cjcyl:nombre "Mirador junto talud de regeneración" ;
+	cjcyl:codigo "LGNMR00002" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.049933900162784 42.046248140929507)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:entorno "Lagunas Glaciares de Neila" ;
+	cjcyl:cerramiento "1"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/81767> a cjcyl:Mirador ;
+	cjcyl:nombre "Mirador desde Laguna Negra" ;
+	cjcyl:codigo "LNUMR00001" ;
+	cjcyl:accesoModo "Mirador en la senda de retorno de la Laguna Negra" ;
+	cjcyl:observaciones "Mirador en la senda de retorno" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-2.846660865286205 41.997644299283678)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:entorno "Mirador del valle del Revinuesa desde la Laguna Negra" ;
+	cjcyl:cerramiento "3"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/81768> a cjcyl:Mirador ;
+	cjcyl:nombre "Mirador-pasarela Laguna Negra" ;
+	cjcyl:codigo "LNUMR00002" ;
+	cjcyl:accesoModo "El mirador lo constituye la propia pasarela de la Laguna Negra" ;
+	cjcyl:observaciones "Pasarela sobre la morrena de la laguna" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-2.846296431606904 41.998562481613426)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:entorno "Mirador de la Laguna negra" ;
+	cjcyl:cerramiento "3"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/81769> a cjcyl:Mirador ;
+	cjcyl:nombre "Castroviejo" ;
+	cjcyl:codigo "LNUMR00003" ;
+	cjcyl:accesoModo "Pista forestal" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-2.921235290453181 41.986161143618766)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:entorno "Mirador del valle del Duero desde Castroviejo" ;
+	cjcyl:cerramiento "3"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/81770> a cjcyl:Mirador ;
+	cjcyl:nombre "Mirador de La Laguna Negra" ;
+	cjcyl:codigo "LNUMR00004" ;
+	cjcyl:accesoModo "Senda desde la Laguna" ;
+	cjcyl:observaciones "Sin instalaciones." ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-2.849969952003539 41.997315428827797)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:entorno "Mirador de la laguna desde arriba" ;
+	cjcyl:cerramiento "1"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/81771> a cjcyl:Mirador ;
+	cjcyl:nombre "Mirador de La Laguna Negra" ;
+	cjcyl:codigo "LNUMR00005" ;
+	cjcyl:accesoModo "Senda desde Bocalprado" ;
+	cjcyl:observaciones "Sin instalaciones." ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-2.851017772286526 41.993263836804395)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:entorno "Mirador de la laguna desde la pista de Covaleda" ;
+	cjcyl:cerramiento "1"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/81772> a cjcyl:Mirador ;
+	cjcyl:nombre "Mirador de la Cascada" ;
+	cjcyl:codigo "LNUMR00006" ;
+	cjcyl:accesoModo "Senda desde Laguna Negra" ;
+	cjcyl:observaciones "Sin instalaciones." ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-2.848401459739172 41.996836020088168)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:entorno "Mirador de la cascada de la laguna" ;
+	cjcyl:cerramiento "1"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/81773> a cjcyl:Mirador ;
+	cjcyl:nombre "Mirador de Santa Inés" ;
+	cjcyl:codigo "LNUMR00007" ;
+	cjcyl:accesoModo "Carretera a Montenegro" ;
+	cjcyl:observaciones "Sin instalaciones." ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-2.78553741051397 42.03842702432042)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:entorno "Mirador de Urbión desde Santa Inés" ;
+	cjcyl:cerramiento "1"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/78617> a cjcyl:Mirador ;
+	cjcyl:nombre "Mirador de la cascada en la Senda de Mazobre" ;
+	cjcyl:codigo "FCCMR00004" ;
+	cjcyl:accesoModo "Encontramos este mirador en el punto final de la Senda de Mazobre" ;
+	cjcyl:observaciones "Firme de zahorra" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-4.792775620674453 42.958699307073829)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "3"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/82640> a cjcyl:Mirador ;
+	cjcyl:nombre "Neveira" ;
+	cjcyl:codigo "LSNMR00001" ;
+	cjcyl:accesoModo "Carretera" ;
+	cjcyl:observaciones "MIR.01" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-6.720631831325867 42.132477276648785)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:entorno "Lago de Sanabria" ;
+	cjcyl:cerramiento "2"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/82641> a cjcyl:Mirador ;
+	cjcyl:nombre "Los Ojos" ;
+	cjcyl:codigo "LSNMR00002" ;
+	cjcyl:accesoModo "Carretera" ;
+	cjcyl:observaciones "MIR.02" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-6.726466745814144 42.141850879522984)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:entorno "Lago de Sanabria" ;
+	cjcyl:cerramiento "2"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/82642> a cjcyl:Mirador ;
+	cjcyl:nombre "Forcadura" ;
+	cjcyl:codigo "LSNMR00003" ;
+	cjcyl:accesoModo "Sendero" ;
+	cjcyl:observaciones "MIR.03" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-6.719984544148964 42.155230581798364)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:entorno "Cañón del Forcadura" ;
+	cjcyl:cerramiento "2"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/82643> a cjcyl:Mirador ;
+	cjcyl:nombre "Bubela" ;
+	cjcyl:codigo "LSNMR00004" ;
+	cjcyl:accesoModo "Sendero" ;
+	cjcyl:observaciones "MIR.04" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-6.719073327712588 42.094991809562366)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:entorno "Valle de Sotillo" ;
+	cjcyl:cerramiento "2"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/82644> a cjcyl:Mirador ;
+	cjcyl:nombre "Cascada de Sotillo" ;
+	cjcyl:codigo "LSNMR00005" ;
+	cjcyl:accesoModo "Sendero" ;
+	cjcyl:observaciones "MIR.05" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-6.752171040883911 42.092169050216071)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:entorno "Cascada de Sotillo" ;
+	cjcyl:cerramiento "2"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/82645> a cjcyl:Mirador ;
+	cjcyl:nombre "Pinar de Quintana" ;
+	cjcyl:codigo "LSNMR00006" ;
+	cjcyl:accesoModo "Pista forestal" ;
+	cjcyl:observaciones "MIR.06" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-6.705248154882217 42.103496547340271)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:entorno "Lago de Sanabria" ;
+	cjcyl:cerramiento "2"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/82646> a cjcyl:Mirador ;
+	cjcyl:nombre "La Filatería" ;
+	cjcyl:codigo "LSNMR00007" ;
+	cjcyl:observaciones "MIR.07" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-6.885889260614849 42.154293585714868)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:entorno "Acebedas de Valdesirgas" ;
+	cjcyl:cerramiento "2"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/82647> a cjcyl:Mirador ;
+	cjcyl:nombre "Mirador Vigo de Sanabria" ;
+	cjcyl:codigo "LSNMR00008" ;
+	cjcyl:accesoModo "Carretera" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-6.691297120618965 42.131703352716869)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:entorno "Lago de Sanabria" ;
+	cjcyl:cerramiento "2"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/83576> a cjcyl:Mirador ;
+	cjcyl:nombre "Apartadero de La Laguna de Barillos" ;
+	cjcyl:codigo "LVFMR00001" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.57191905711681 41.861249550110486)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:entorno "La Laguna de Barillos" ;
+	cjcyl:cerramiento "2"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/83577> a cjcyl:Mirador ;
+	cjcyl:nombre "Apartadero de Lagunas de Tapioles" ;
+	cjcyl:codigo "LVFMR00002" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.527073460110358 41.862468645024869)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:entorno "La Laguna de Barillos" ;
+	cjcyl:cerramiento "2"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/83860> a cjcyl:Mirador ;
+	cjcyl:nombre "Mirador de Las Pedrices" ;
+	cjcyl:codigo "MDLMR00001" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-6.774791523289112 42.449553169587759)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:entorno "Las Médulas" ;
+	cjcyl:cerramiento "1"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/83861> a cjcyl:Mirador ;
+	cjcyl:nombre "Mirador de Orellán" ;
+	cjcyl:codigo "MDLMR00002" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-6.751680544092204 42.456610495660541)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:entorno "Las Médulas" ;
+	cjcyl:cerramiento "3"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/83862> a cjcyl:Mirador ;
+	cjcyl:nombre "Mirador del Alto de Reirigo" ;
+	cjcyl:codigo "MDLMR00003" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-6.766962901542536 42.450091613422735)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:entorno "Las Médulas" ;
+	cjcyl:cerramiento "1"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/83863> a cjcyl:Mirador ;
+	cjcyl:nombre "Mirador del Lago Somido" ;
+	cjcyl:codigo "MDLMR00004" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-6.779027115053937 42.462071733011236)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:entorno "Chao de Maseiros" ;
+	cjcyl:cerramiento "3"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/83864> a cjcyl:Mirador ;
+	cjcyl:nombre "Mirador Chao de Maseriros" ;
+	cjcyl:codigo "MDLMR00005" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-6.779101318674523 42.461725202361592)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "4"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/84212> a cjcyl:Mirador ;
+	cjcyl:nombre "Mirador de Vista Alegre" ;
+	cjcyl:codigo "MOBMR00001" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.405922960023525 42.732536763392353)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:entorno "Valle del Oca, Viña de Oña" ;
+	cjcyl:cerramiento "1"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/84213> a cjcyl:Mirador ;
+	cjcyl:nombre "Mirador Susenes" ;
+	cjcyl:codigo "MOBMR00002" ;
+	cjcyl:observaciones "Mirador natural sin infraestructura propia" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.411580875483462 42.776769750808832)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:entorno "Desfiladero de la Horadada" ;
+	cjcyl:cerramiento "1"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/84214> a cjcyl:Mirador ;
+	cjcyl:nombre "Mirador de Tobera (El Molinos)" ;
+	cjcyl:codigo "MOBMR00003" ;
+	cjcyl:observaciones "Está en la ruta marcado por \"Raíces de Castilla\"" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.305399235708542 42.749327475687863)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:entorno "Cascada Tobera" ;
+	cjcyl:cerramiento "1"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/84215> a cjcyl:Mirador ;
+	cjcyl:nombre "Mirador del Portillo de Busto" ;
+	cjcyl:codigo "MOBMR00004" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.266401051914964 42.689970417412525)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:entorno "Bureba-Merindades" ;
+	cjcyl:cerramiento "1"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/84216> a cjcyl:Mirador ;
+	cjcyl:nombre "Mirador del Ebro" ;
+	cjcyl:codigo "MOBMR00005" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.139376288490703 42.764424680229396)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:entorno "Desfiladero del Sobrón" ;
+	cjcyl:cerramiento "3"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/84620> a cjcyl:Mirador ;
+	cjcyl:nombre "Mirador del Salto del Nervión" ;
+	cjcyl:codigo "MSTMR00001" ;
+	cjcyl:accesoModo "Pista forestal y senderos" ;
+	cjcyl:observaciones "Mirador con barandilla de hierro y suelo forrado en piedra caliza." ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-2.981053854803192 42.939709822005689)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:entorno "Cortados de Sierra Salvada" ;
+	cjcyl:cerramiento "3"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/84621> a cjcyl:Mirador ;
+	cjcyl:nombre "Mirador de Esquina Rubén" ;
+	cjcyl:codigo "MSTMR00002" ;
+	cjcyl:accesoModo "Pista forestal y senderos" ;
+	cjcyl:observaciones "Mirador con barandilla de hierro y suelo forrado en piedra caliza." ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.003153150960063 42.953399062855922)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:entorno "Cortados de Sierra Salvada" ;
+	cjcyl:cerramiento "3"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/85063> a cjcyl:Mirador ;
+	cjcyl:nombre "Mirador de Campos" ;
+	cjcyl:codigo "NCPMR00001" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-4.712163873760653 42.025182203390898)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:entorno "Zona húmeda Laguna de la Nava" ;
+	cjcyl:cerramiento "4"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/85064> a cjcyl:Mirador ;
+	cjcyl:nombre "Castillo Torremormojón" ;
+	cjcyl:codigo "NCPMR00002" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-4.771857038001865 41.95951684964848)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:entorno "Zona húmeda Laguna de la Nava" ;
+	cjcyl:cerramiento "4"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/85339> a cjcyl:Mirador ;
+	cjcyl:nombre "Alto de Retuerta" ;
+	cjcyl:codigo "OJGMR00001" ;
+	cjcyl:accesoModo "Con vehículo por carretera asfaltada que conecta el Valle de Villamartín con Ahedo y Cogullos" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.637386818643049 43.008794348229358)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:entorno "Cerro testigo \"La Mesa\", sinclinal de Villamartín, relieve de cuestas" ;
+	cjcyl:cerramiento "2"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/85993> a cjcyl:Mirador ;
+	cjcyl:nombre "Collada de Lois" ;
+	cjcyl:codigo "PEUMR00001" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.198014281231123 42.960791302315563)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "4"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/85994> a cjcyl:Mirador ;
+	cjcyl:nombre "Mirador de Huelde" ;
+	cjcyl:codigo "PEUMR00003" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.057242313662941 42.940265599796376)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "4"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/85995> a cjcyl:Mirador ;
+	cjcyl:nombre "Mirador de la Puerta" ;
+	cjcyl:codigo "PEUMR00004" ;
+	cjcyl:accesoModo "Senda" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-4.997948421327436 42.988582346467823)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:entorno "Embalse de Riaño" ;
+	cjcyl:cerramiento "3"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/85996> a cjcyl:Mirador ;
+	cjcyl:nombre "Mirador de Lodares" ;
+	cjcyl:codigo "PEUMR00005" ;
+	cjcyl:accesoModo "Senda" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.264704979026717 42.941529012606217)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:entorno "Embalse del Porma" ;
+	cjcyl:cerramiento "3"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/85997> a cjcyl:Mirador ;
+	cjcyl:nombre "Mirador de Los Fontanales" ;
+	cjcyl:codigo "PEUMR00006" ;
+	cjcyl:accesoModo "Carretera LE-331" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.282283159052473 42.92750354779443)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:entorno "Embalse del Porma" ;
+	cjcyl:cerramiento "2"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/85998> a cjcyl:Mirador ;
+	cjcyl:nombre "Mirador de Los Porros" ;
+	cjcyl:codigo "PEUMR00007" ;
+	cjcyl:accesoModo "Pista forestal" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.006097843729083 43.167631266928602)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:entorno "Valle de Sajambre" ;
+	cjcyl:cerramiento "2"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/85999> a cjcyl:Mirador ;
+	cjcyl:nombre "Mirador de Piedrasitas" ;
+	cjcyl:codigo "PEUMR00008" ;
+	cjcyl:accesoModo "Senda" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-4.980363593229046 43.128998199623034)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:entorno "Valle Valdeón - Macizos Picos Europa" ;
+	cjcyl:cerramiento "1"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/86000> a cjcyl:Mirador ;
+	cjcyl:nombre "Mirador de Valdeón" ;
+	cjcyl:codigo "PEUMR00009" ;
+	cjcyl:accesoModo "Carretera" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-4.968122760038144 43.129626982424682)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:entorno "Valle Valdeón" ;
+	cjcyl:cerramiento "2"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/86001> a cjcyl:Mirador ;
+	cjcyl:nombre "Mirador de Vegamián" ;
+	cjcyl:codigo "PEUMR00010" ;
+	cjcyl:accesoModo "Carretera LE-331" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.28089608738183 42.934609146192926)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:entorno "Embalse del Porma" ;
+	cjcyl:cerramiento "2"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/86002> a cjcyl:Mirador ;
+	cjcyl:nombre "Mirador del Lago de Isoba" ;
+	cjcyl:codigo "PEUMR00011" ;
+	cjcyl:accesoModo "Carretera" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.315918818057206 43.045802340617946)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:entorno "Lago de Isoba" ;
+	cjcyl:cerramiento "1"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/86003> a cjcyl:Mirador ;
+	cjcyl:nombre "Mirador del Tombo" ;
+	cjcyl:codigo "PEUMR00012" ;
+	cjcyl:accesoModo "Carretera" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-4.903771352342435 43.17097932465397)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:entorno "Picos de Europa" ;
+	cjcyl:cerramiento "2"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/86004> a cjcyl:Mirador ;
+	cjcyl:nombre "Mirador Portilla la Reina" ;
+	cjcyl:codigo "PEUMR00013" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-4.849059943985458 43.043953778860214)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "4"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/86005> a cjcyl:Mirador ;
+	cjcyl:nombre "Mirador Sierra de Orpiñas" ;
+	cjcyl:codigo "PEUMR00014" ;
+	cjcyl:accesoModo "Carretera" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-4.821791164634831 43.052636919096535)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:entorno "Valle y Sierra Orpiñas" ;
+	cjcyl:cerramiento "2"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/86006> a cjcyl:Mirador ;
+	cjcyl:nombre "Soto de Sajambre" ;
+	cjcyl:codigo "PEUMR00017" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.051232144318914 43.148463973002237)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "2"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/86007> a cjcyl:Mirador ;
+	cjcyl:nombre "Verrunde" ;
+	cjcyl:codigo "PEUMR00018" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.027372240287437 43.128868942953169)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "1"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/88854> a cjcyl:Mirador ;
+	cjcyl:nombre "Mirador del Teso Sombrero" ;
+	cjcyl:codigo "RCDMR00001" ;
+	cjcyl:observaciones "El mirador se ubica en terrenos de camino vecinal, de titularidad municipal, aunque su propiedad es de la Consejería" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.21401163678855 41.399691006466973)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "3"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/78625> a cjcyl:Mirador ;
+	cjcyl:nombre "Mirador de San Julián" ;
+	cjcyl:codigo "FCCMR00012" ;
+	cjcyl:accesoModo "En el trayecto de la Senda de Ursi." ;
+	cjcyl:observaciones "Mirador de madera tratada con rampa de acceso de 28m de largo y 1,5m de ancho. Barandilla perimetral de protección." ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-4.332845668347379 42.894770751208526)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "3"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/89159> a cjcyl:Mirador ;
+	cjcyl:nombre "Cumbre de la Mira" ;
+	cjcyl:codigo "SGRAP00004" ;
+	cjcyl:accesoModo "Por la senda del carril de los Galayos, en la cuimbre de La Mira a 3,40 minutos desde Guisando, andando" ;
+	cjcyl:observaciones "Sólo se llega andando, es la cumbre de La Mira a 2347 metros de altitud. Tiene una torreta de piedra de 5 metros de alto y escaleras de piedra hasta arriba, es un antigüo telegrafo óptico. Tambien es vértice geodésico." ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.182592094899582 40.259614222282259)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:entorno "Vistas a los Galayos y Macizo Central de Gredos" ;
+	cjcyl:cerramiento "1"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/89160> a cjcyl:Mirador ;
+	cjcyl:nombre "Hostal Don Pepe" ;
+	cjcyl:codigo "SGRAP00005" ;
+	cjcyl:accesoModo "Carretera forestal desde Guisando al camping, en la entrada al Fogón de Gredos a 2,5 km de Guisando, en coche" ;
+	cjcyl:observaciones "Hostal El Fogón de Gredos. Bar y restaurante. 6 contenedores entre paredes de piedra. Entrada del Camping de Guisando y zona de baño en el río Pelayos próximo a la carretera." ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.152442172132151 40.223192537188673)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:entorno "Vistas a valle de rio Pelayos" ;
+	cjcyl:cerramiento "3"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/89161> a cjcyl:Mirador ;
+	cjcyl:nombre "Mirador a Mesegosillo" ;
+	cjcyl:codigo "SGRAP00007" ;
+	cjcyl:accesoModo "Desde Navarredonda de Gredos a Hoyos del Espino, en la C-500, a escasos 200 metros del pueblo en el lado izquierdo, en coche" ;
+	cjcyl:observaciones "En construccion" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.164079677327391 40.352174577484298)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:entorno "Vistas al Macizo Central" ;
+	cjcyl:cerramiento "2"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/89162> a cjcyl:Mirador ;
+	cjcyl:nombre "Puerto de Tornavacas" ;
+	cjcyl:codigo "SGRAP00011" ;
+	cjcyl:accesoModo "En la N-110, en el alto del puerto de Tornavacas" ;
+	cjcyl:observaciones "En la vertiente sur de la carretera a Tornavacas, en el alto del Puerto de Tornavacas" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.662548277723348 40.272667631004019)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:entorno "Vistas al Valle del Jerte" ;
+	cjcyl:cerramiento "1"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/89163> a cjcyl:Mirador ;
+	cjcyl:nombre "El Tremedal" ;
+	cjcyl:codigo "SGRAP00014" ;
+	cjcyl:accesoModo "En el alto del puerto del Tremedal, carretera de Solana de Avila a Becedas, en coche" ;
+	cjcyl:observaciones "No hay instalaciones propias del mirador" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.617303863837452 40.363889707834012)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:entorno "Macizo Occidental de Gredos" ;
+	cjcyl:cerramiento "1"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/89164> a cjcyl:Mirador ;
+	cjcyl:nombre "Puerto de Umbrías" ;
+	cjcyl:codigo "SGRAP00015" ;
+	cjcyl:accesoModo "En la carretera que une Umbrias con La Nava de Barco, en el puerto, en coche" ;
+	cjcyl:observaciones "Inicio de senda de la Garganta de Galín Gomez" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.561695974842054 40.303154631430985)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:entorno "Vistas al Aravalle, Solana de Avila, Sierra Llana y la Nava de Barco" ;
+	cjcyl:cerramiento "2"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/89165> a cjcyl:Mirador ;
+	cjcyl:nombre "Puerto del Pico" ;
+	cjcyl:codigo "SGRAP00017" ;
+	cjcyl:accesoModo "Carretera N-502, en el alto del puerto del Pico, en coche" ;
+	cjcyl:observaciones "Inicio de sendas del Torozo, La Rubia y la Calzada Romana. Pequeña mesa interpretativa con los pueblos del Barranco de las Cinco Villas" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.012822490023556 40.321182621818942)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:entorno "Vistas al Barranco de las Cinco Villas" ;
+	cjcyl:cerramiento "1"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/89166> a cjcyl:Mirador ;
+	cjcyl:nombre "Estación metereológica" ;
+	cjcyl:codigo "SGRAP00018" ;
+	cjcyl:accesoModo "Carretera forestal asfaltada del Sidrillo, desde la N-502 hacia San esteban del Valle, a 2,5 km del cruce, en coche" ;
+	cjcyl:observaciones "Estación metereológica. Fuente y pilón de incendios próximo." ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-4.999972387638707 40.307862599842025)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:entorno "Vistas al Barranco de las Cinco Villas" ;
+	cjcyl:cerramiento "3"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/89167> a cjcyl:Mirador ;
+	cjcyl:nombre "Mirador a Villarejo" ;
+	cjcyl:codigo "SGRAP00016" ;
+	cjcyl:accesoModo "Por la carretera de Cuevas del Valle a Villarejo del Valle, en coche" ;
+	cjcyl:observaciones "Con una mesa y una pequeña entrada antes de llegar al pueblo de Villarejo se contempla el casco urbano de Villarejo y zonas de cultivos cercanos" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.000602448476322 40.28521261043479)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:entorno "Vistas al pueblo de Villarejo." ;
+	cjcyl:cerramiento "3"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/89168> a cjcyl:Mirador ;
+	cjcyl:nombre "Mirador a los Riscos de Villarejo" ;
+	cjcyl:codigo "SGRAP00019" ;
+	cjcyl:accesoModo "En la N-502 en la subida del puerto del Pico, en coche" ;
+	cjcyl:observaciones "En la carretera N-502, en obras ahora por la ubicación de un pilón de incendios." ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-4.976422395836636 40.296612676638688)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:entorno "Mirador a los Riscos de Villarejo al norte." ;
+	cjcyl:cerramiento "3"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/89169> a cjcyl:Mirador ;
+	cjcyl:nombre "Alto de los Barrerones" ;
+	cjcyl:codigo "SGRAP00009" ;
+	cjcyl:accesoModo "Por la senda de la Laguna Grande a 1,40 minutos, andando" ;
+	cjcyl:observaciones "Tiene un panel interpretativo del Circo de gredos. Se llega andando por la senda de la Laguna Grande de Gredos" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.261383658647914 40.270466590803231)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:entorno "Vistas al Circo de Gredos" ;
+	cjcyl:cerramiento "1"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/89170> a cjcyl:Mirador ;
+	cjcyl:nombre "Cabezas Altas" ;
+	cjcyl:codigo "SGRAP00010" ;
+	cjcyl:accesoModo "Carretera de Navatejares a Cabezas Altas, en coche" ;
+	cjcyl:observaciones "Estructura de madera elevada en construccion" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.534867538681683 40.327515411269495)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:entorno "Vistas al Valle de Aravalle y Barco de Ávila" ;
+	cjcyl:cerramiento "1"^^xsd:int .
+
+<http://geo.linkeddata.es/cjcyl/resource/mirador/89171> a cjcyl:Mirador ;
+	cjcyl:nombre "Mirador de la carretera del puerto de Serranillos" ;
+	cjcyl:codigo "SGRAP00013" ;
+	cjcyl:accesoModo "En la subida del Puerto de Serranillos en un pequeño ensanchamiento de la carretera a ambos lados, en coche" ;
+	cjcyl:observaciones "En la subida al Puerto de Serranillos, arboles, pequeña zona de aparcamiento y pilón contra incendios" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-4.960049703272816 40.276091575317771)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:entorno "Mirador al Barranco de las Cinco Villas." ;
+	cjcyl:cerramiento "3"^^xsd:int .

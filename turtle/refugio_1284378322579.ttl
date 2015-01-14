@@ -1,0 +1,1615 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix cjcyl: <http://geo.linkeddata.es/cjcyl#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/81598> a cjcyl:Refugio ;
+	cjcyl:nombre "La Cascada" ;
+	cjcyl:estado "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesoModo "Dirección a la Laguna de la Cascada" ;
+	cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.052315062169233 42.051117162716359)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/78691> a cjcyl:Refugio ;
+	cjcyl:nombre "Refugio de Postil Soña" ;
+	cjcyl:observaciones "Refugio de montaña. De planta rectangular con muros de piedra y cubierta de teja. Altura total: 1,80+2,30m, anchura pared 50 cm. Dotaciones: mesa de madera tipo camping con dos bancos acoplados, banco de piedra en el interior y banco de piedra en la fachada principal, escalera interior que da acceso a la parte superior del refugio." ;
+	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-4.69322658237836 42.960162581767001)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "3"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/89582> a cjcyl:Refugio ;
+	cjcyl:nombre "Majalespino" ;
+	cjcyl:observaciones "Zona de uso limitado" ;
+	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-4.534921979963654 40.372710123509378)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/89583> a cjcyl:Refugio ;
+	cjcyl:nombre "Pozo de la Nieve" ;
+	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-4.543116721647658 40.355953697796217)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/72344> a cjcyl:Refugio ;
+	cjcyl:nombre "Refugio del Pastor" ;
+	cjcyl:observaciones "Refugio de 20x20m adosado a la taina" ;
+	cjcyl:estado "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-2.421691491557583 41.975944218806127)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/72658> a cjcyl:Refugio ;
+	cjcyl:nombre "Refugios de Los Molinos" ;
+	cjcyl:estado "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesoModo "Pista" ;
+	cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-6.649813612794909 41.020162426312616)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "2"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/72659> a cjcyl:Refugio ;
+	cjcyl:nombre "Refugio La Barca" ;
+	cjcyl:estado "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesoModo "Pista asfaltada" ;
+	cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-6.752014068626358 41.107097788964509)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "2"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/77872> a cjcyl:Refugio ;
+	cjcyl:nombre "Cabeza Gorda" ;
+	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesoModo "Pista forestal desde la comarcal So-960" ;
+	cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.095185748741724 41.796569033264063)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/77873> a cjcyl:Refugio ;
+	cjcyl:nombre "Costalago" ;
+	cjcyl:observaciones "Tiene cerca una fuente" ;
+	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesoModo "Pista forestal desde Hontoria del Pinar y desde Espeja de San Marcelino" ;
+	cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.175328454362667 41.811597207534561)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/77874> a cjcyl:Refugio ;
+	cjcyl:nombre "Fuente del Pino" ;
+	cjcyl:observaciones "Tiene cerca una fuente" ;
+	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesoModo "Pista forestal desde Santa María de las Hoyas" ;
+	cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.138683242723973 41.790156887629578)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/77875> a cjcyl:Refugio ;
+	cjcyl:nombre "Refugio del Ciervo" ;
+	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesoModo "Pista forestal desde Santa María de las Hoyas" ;
+	cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.159737884311408 41.792255167491049)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/77876> a cjcyl:Refugio ;
+	cjcyl:nombre "Casetón de Casarejos" ;
+	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesoModo "Pista forestal desde la comarcal So-920" ;
+	cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.051623931886148 41.793642609075384)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/77877> a cjcyl:Refugio ;
+	cjcyl:nombre "Vallejo la Sierra" ;
+	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesoModo "Pista forestal desde Hontoria del Pinar." ;
+	cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.169859158626494 41.827117648817101)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/78688> a cjcyl:Refugio ;
+	cjcyl:nombre "Refugio del Cristo Sierra" ;
+	cjcyl:observaciones "Refugio de piedra con dos estancias: una capilla y una estancia comedor-refugio con chimenea. Techo 2,15m, altura max. 4m aprox., anchura muro 40 cm. El interior del refugio tiene las paredes llenas de pintadas. Hay tres bancos y una mesa en el interior y un banco adosado a la pared exterior." ;
+	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-4.74130092423488 42.851351425929884)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "3"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/78689> a cjcyl:Refugio ;
+	cjcyl:nombre "Refugio de Santa Marina" ;
+	cjcyl:observaciones "Refugio de montaña construído en piedra, en un enclave muy emblemático. Interior abajo: 480anchox390largox240alt. Arriba: 480x390x204en el centro y cero a los extremos. Frente ext. Incl. Alas de piedra 11,2 m" ;
+	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-4.606141419801674 42.974276827227946)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "3"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/78692> a cjcyl:Refugio ;
+	cjcyl:nombre "Caseta refugio junto al sendero" ;
+	cjcyl:observaciones "Caseta refugio con estructura de madera y cubierta de tejas. Paredes de mampostería de coloración rojiza. Banco interior de madera en ángulo: 40 anch.x 50 alt x (1,80+3,50) long. Anch.muro 50, alt vita ant 2,70." ;
+	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-4.475459701406188 42.916759548123871)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "3"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/79852> a cjcyl:Refugio ;
+	cjcyl:nombre "Tubilla del Agua" ;
+	cjcyl:estado "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesoModo "Por la carretera BU-V-6431 de Tubilla del Agua a Tablada de Rudrón, a la altura del puente sobre el río Rudrón a mano izquierda junto a la carretera." ;
+	cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.820413273755219 42.709605817442949)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/79853> a cjcyl:Refugio ;
+	cjcyl:nombre "San Felices del Rudrón" ;
+	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesoModo "Por la carretera N-623, nada más pasar Barrio de Nápoles en dirección Cantabria parte una pista a mano derecha que tras recorrer 0,4 km por una senda señalizada conduce al refugio." ;
+	cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.793100525399136 42.7636034418489)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/81599> a cjcyl:Refugio ;
+	cjcyl:nombre "Refugio de pescadores de La Cerrada" ;
+	cjcyl:estado "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesoModo "Desde Neila dirección Vilavelallo (La Rioja)" ;
+	cjcyl:cerramiento "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-2.981606031431597 42.080516652354113)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/81600> a cjcyl:Refugio ;
+	cjcyl:nombre "Casa del Dolar" ;
+	cjcyl:observaciones "Fuente natural cercana." ;
+	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesoModo "Río Frío-La Mina-Caseta el Dolar" ;
+	cjcyl:cerramiento "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-2.944957870278294 42.045625251453473)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/81601> a cjcyl:Refugio ;
+	cjcyl:nombre "Caseta de pescadores \"Negra Larga\"" ;
+	cjcyl:estado "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesoModo "Dirección Laguna Negra" ;
+	cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.062161047678274 42.045332734858484)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/81602> a cjcyl:Refugio ;
+	cjcyl:nombre "Caseta de pescadores \"Los Patos\"" ;
+	cjcyl:estado "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesoModo "Dirección Laguna de Los Patos" ;
+	cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.045635019285361 42.044884438203795)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/81603> a cjcyl:Refugio ;
+	cjcyl:nombre "Caseta de pescadores \"La Brava\"" ;
+	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesoModo "Dirección a la Laguna Brava" ;
+	cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.042529205714802 42.040409827440897)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/81791> a cjcyl:Refugio ;
+	cjcyl:nombre "Refugio Muchachón" ;
+	cjcyl:estado "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesoModo "Pista forestal" ;
+	cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-2.856423599884474 41.973113977583814)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/81792> a cjcyl:Refugio ;
+	cjcyl:nombre "Fuente del Berro" ;
+	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesoModo "Pista forestal" ;
+	cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-2.920897344797468 41.998309274382208)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/81793> a cjcyl:Refugio ;
+	cjcyl:nombre "Bocalprado" ;
+	cjcyl:estado "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesoModo "Pista forestal" ;
+	cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-2.839984646809496 41.9461182443493)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/81794> a cjcyl:Refugio ;
+	cjcyl:nombre "Tres Fuentes" ;
+	cjcyl:estado "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesoModo "Pista forestal" ;
+	cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-2.845081079066683 41.970805003341511)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/81795> a cjcyl:Refugio ;
+	cjcyl:nombre "Refugio Fuente el Pico" ;
+	cjcyl:estado "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesoModo "Pista forestal" ;
+	cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-2.830061371989168 41.943297183199078)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/81796> a cjcyl:Refugio ;
+	cjcyl:nombre "Refugio del Becedo" ;
+	cjcyl:estado "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesoModo "Pista forestal" ;
+	cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-2.854042146825749 41.953611640771427)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/81797> a cjcyl:Refugio ;
+	cjcyl:nombre "Refugio El Bunker" ;
+	cjcyl:estado "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesoModo "Senda peatonal a Urbión" ;
+	cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-2.90501474322822 42.008626179179508)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/81798> a cjcyl:Refugio ;
+	cjcyl:nombre "Refugio" ;
+	cjcyl:estado "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesoModo "Senda peatonal a Urbión" ;
+	cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-2.873951957393191 42.008238199510373)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/81799> a cjcyl:Refugio ;
+	cjcyl:nombre "Refugio de pescadores Laguna Negra" ;
+	cjcyl:estado "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesoModo "Por la pista forestal asfaltada que desde Vinuesa de acceso a la Laguna Negra, junto a la laguna." ;
+	cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-2.845971056072756 41.998300855094485)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/81800> a cjcyl:Refugio ;
+	cjcyl:nombre "Refugio Los Lomos" ;
+	cjcyl:estado "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesoModo "Por una pista forestal asfaltada que parte a mano izquierda en el pk10,500 de la carretera local SO-830 que une Vinuesa con Montenegro de Cameros, a mano izquierda junto a la pista." ;
+	cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-2.797115741737664 42.014400669478995)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "2"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/81801> a cjcyl:Refugio ;
+	cjcyl:nombre "Refugio de los Ciemos" ;
+	cjcyl:estado "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesoModo "Pista forestal" ;
+	cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-2.791644560397833 42.02554995775094)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/81802> a cjcyl:Refugio ;
+	cjcyl:nombre "Refugio de Cebrián" ;
+	cjcyl:estado "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesoModo "Pista forestal" ;
+	cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-2.82379000005904 42.024784214197368)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/81803> a cjcyl:Refugio ;
+	cjcyl:nombre "Refugio de Peñas Albas" ;
+	cjcyl:estado "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesoModo "Senda peatonal desde Puerto a Urbión" ;
+	cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-2.807549498971067 42.030765480454299)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/81804> a cjcyl:Refugio ;
+	cjcyl:nombre "Refugio de pescadores" ;
+	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesoModo "Pista forestal" ;
+	cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-2.780540410018653 41.949144466683855)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "2"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/81805> a cjcyl:Refugio ;
+	cjcyl:nombre "Refugio del Tormo" ;
+	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesoModo "Pista forestal" ;
+	cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-2.79434921209707 41.958392822883972)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "2"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/82684> a cjcyl:Refugio ;
+	cjcyl:nombre "Refugio en Matanoso" ;
+	cjcyl:observaciones "RDM.01 / Cabaña construida con piedra y cubierta de pizarras. Están equipadas con chimeneas y tarimas - camas." ;
+	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:cerramiento "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-6.779486430748108 42.132400571836058)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/82685> a cjcyl:Refugio ;
+	cjcyl:nombre "Refugio de la Agrupación Montañera Zamorana en Chanos de Anta" ;
+	cjcyl:observaciones "RDM.02 / Cabaña construida con piedra y cubierta de pizarras. Están equipadas con chimeneas y tarimas - camas." ;
+	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:cerramiento "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-6.726680730575952 42.152595719009121)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/82686> a cjcyl:Refugio ;
+	cjcyl:nombre "Refugio de la majada" ;
+	cjcyl:observaciones "RDM.04 / Cabaña construida con piedra y cubierta de pizarras. Están equipadas con chimeneas y tarimas - camas." ;
+	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:cerramiento "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-6.71591867371626 42.186176077177151)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/82687> a cjcyl:Refugio ;
+	cjcyl:nombre "Refugio de Cubellos" ;
+	cjcyl:observaciones "RDM.06 / Cabaña construida con piedra y cubierta de pizarras. Están equipadas con chimeneas y tarimas - camas." ;
+	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:cerramiento "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-6.754277527755808 42.069887243282849)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/82688> a cjcyl:Refugio ;
+	cjcyl:nombre "Refugio de Peña Cueva" ;
+	cjcyl:observaciones "RDM.07 / Cabaña construida con piedra y cubierta de pizarras. Están equipadas con chimeneas y tarimas - camas." ;
+	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:cerramiento "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-6.750341135211881 42.086400198490821)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/82689> a cjcyl:Refugio ;
+	cjcyl:nombre "Refugio de Puente Porto" ;
+	cjcyl:observaciones "RDM.08 / Cabaña construida con piedra y cubierta de pizarras. Están equipadas con chimeneas y tarimas - camas." ;
+	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:cerramiento "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-6.828126361774713 42.11748617872783)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/82690> a cjcyl:Refugio ;
+	cjcyl:nombre "Refugio en As Corvaceiras" ;
+	cjcyl:observaciones "RDM.09 / Cabaña construida con piedra y cubierta de pizarras. Están equipadas con chimeneas y tarimas - camas." ;
+	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:cerramiento "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-6.860486278262118 42.149923077937906)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/82691> a cjcyl:Refugio ;
+	cjcyl:nombre "Refugio de Valdesirgas" ;
+	cjcyl:observaciones "RDM.10 / Cabaña construida con piedra y cubierta de pizarras. Están equipadas con chimeneas y tarimas - camas." ;
+	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:cerramiento "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-6.877477098875463 42.147988632503498)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/82692> a cjcyl:Refugio ;
+	cjcyl:nombre "Chozo de la majada de Valdesirgas" ;
+	cjcyl:observaciones "RDM.11 / Cabaña construida con piedra y cubierta de pizarras. Están equipadas con chimeneas y tarimas - camas." ;
+	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:cerramiento "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-6.880369419821545 42.135727717008152)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/82693> a cjcyl:Refugio ;
+	cjcyl:nombre "Refugio de la Sierra de Rábano" ;
+	cjcyl:observaciones "RDM.12 / Cabaña construida con piedra y cubierta de pizarras. Están equipadas con chimeneas y tarimas - camas." ;
+	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:cerramiento "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-6.809163887253253 42.17721859021318)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/82694> a cjcyl:Refugio ;
+	cjcyl:nombre "Refugio de los Puertos de Ungilde y Quintana" ;
+	cjcyl:observaciones "RDM.13 / Cabaña construida con piedra y cubierta de pizarras. Están equipadas con chimeneas y tarimas - camas." ;
+	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:cerramiento "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-6.833043069179698 42.125187914198385)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/82695> a cjcyl:Refugio ;
+	cjcyl:nombre "Refugio de la Porpasa" ;
+	cjcyl:observaciones "RDM.15 / Cabaña construida con piedra y cubierta de pizarras. Están equipadas con chimeneas y tarimas - camas." ;
+	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:cerramiento "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-6.885127284169571 42.192185592237216)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/82696> a cjcyl:Refugio ;
+	cjcyl:nombre "Refugio de Corrais" ;
+	cjcyl:observaciones "RDM.16 / Cabaña construida con piedra y cubierta de pizarras. Están equipadas con chimeneas y tarimas - camas." ;
+	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:cerramiento "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-6.919145533690335 42.185328533313772)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/82697> a cjcyl:Refugio ;
+	cjcyl:nombre "Refugio de Pescadores Coto de Galende" ;
+	cjcyl:observaciones "RDP.01 / Sirve principalmente para dar cobijo a los pescadores que vienen a este coto." ;
+	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:cerramiento "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-6.685849375082266 42.122895071179968)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/82698> a cjcyl:Refugio ;
+	cjcyl:nombre "Refugio de Pescadores Orilla del Lago" ;
+	cjcyl:observaciones "RDP.02 / Se utiliza como centro de socorro durante los meses veraniegos." ;
+	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:cerramiento "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-6.72095897037255 42.117521843314307)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/82699> a cjcyl:Refugio ;
+	cjcyl:nombre "Refugio de montaña de Ríopedro" ;
+	cjcyl:observaciones "En el GR84" ;
+	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:cerramiento "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-6.756860587194057 42.214945532400826)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/82700> a cjcyl:Refugio ;
+	cjcyl:nombre "Refugio de montaña de Campo Laiol" ;
+	cjcyl:observaciones "En el GR84" ;
+	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:cerramiento "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-6.865092449621881 42.102908941286735)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/82701> a cjcyl:Refugio ;
+	cjcyl:nombre "Refugio de montaña del Marmolin" ;
+	cjcyl:observaciones "En el GR84" ;
+	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:cerramiento "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-6.818191965515978 42.086350354438132)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/82702> a cjcyl:Refugio ;
+	cjcyl:nombre "Refugio de montaña de Sotillo de Sanabria" ;
+	cjcyl:observaciones "En el GR84" ;
+	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:cerramiento "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-6.759349251312583 42.102446018846386)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/82703> a cjcyl:Refugio ;
+	cjcyl:nombre "Chozo de la Sierra de Valdespino" ;
+	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:cerramiento "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-6.835561621617515 42.162218830087347)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/82704> a cjcyl:Refugio ;
+	cjcyl:nombre "Refugio de montaña la Vega del Conde" ;
+	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:cerramiento "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-6.761656382275573 42.20863338323506)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/82705> a cjcyl:Refugio ;
+	cjcyl:nombre "Refugio de Montaña de Playa" ;
+	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:cerramiento "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-6.811836384649967 42.125565855947251)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/82706> a cjcyl:Refugio ;
+	cjcyl:nombre "Refugio de montaña de Cárdema" ;
+	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:cerramiento "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-6.790867659146433 42.128768434273887)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/82707> a cjcyl:Refugio ;
+	cjcyl:nombre "Refugio de la Agrupación Montañera Zamorana en Vega de Conde" ;
+	cjcyl:observaciones "RDM.03 / Cabaña construida con piedra y cubierta de pizarras. Están equipadas con chimeneas y tarimas - camas." ;
+	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:cerramiento "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-6.770258157398731 42.204352466440241)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/82708> a cjcyl:Refugio ;
+	cjcyl:nombre "Refugiode montaña de la Majada Murias" ;
+	cjcyl:observaciones "En el GR84" ;
+	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:cerramiento "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-6.725076872114498 42.192225325489076)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/84255> a cjcyl:Refugio ;
+	cjcyl:nombre "Ocejo" ;
+	cjcyl:observaciones "Se puede acceder por una pista forestal en vehículo pero restringida a vehiculos autorizados. Se puede solicitar permiso a la Casa Forestal." ;
+	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.419929409599289 42.711604797829274)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "2"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/84256> a cjcyl:Refugio ;
+	cjcyl:nombre "Pociles" ;
+	cjcyl:observaciones "Se puede acceder por una pista forestal en vehículo pero restringida a vehiculos autorizados. Se puede solicitar permiso a la Casa Forestal." ;
+	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.399780756659006 42.761456331950924)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "2"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/85605> a cjcyl:Refugio ;
+	cjcyl:nombre "Refugio Pico del Ángel" ;
+	cjcyl:observaciones "Gestionado desde La Casa del Parque. Punto de agua no potable para extinción de incendios forestales. Señalización usos y servicios." ;
+	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesoModo "Pista forestal de tierra-grava" ;
+	cjcyl:cerramiento "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.653533502424771 43.066457200001743)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "2"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/86147> a cjcyl:Refugio ;
+	cjcyl:nombre "Collado Jermoso (Federacion De Montaña)" ;
+	cjcyl:observaciones "Paraje: Collado Jermoso" ;
+	cjcyl:estado "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-4.869441984994846 43.173005724707089)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/86295> a cjcyl:Refugio ;
+	cjcyl:nombre "Vegabaño" ;
+	cjcyl:observaciones "Uso libre (previo pago)" ;
+	cjcyl:estado "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.004995608911505 43.166031880804525)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "3"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/88864> a cjcyl:Refugio ;
+	cjcyl:nombre "Refugio de pescadores del Escenario Deportivo Social de Pesca de Castronuño" ;
+	cjcyl:observaciones "El refugio se presta a los colectivos de pescadores que ostentan la fecha en cuestión según el calendario de pesca" ;
+	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesoModo "Cruzamos el río Duero por la presa de San José en dirección a San Román de Hornija, y justo pasada la presa giramos 90º y entramos en el camino de Cubillas. Seguir este camino 1,5 kilómetros en dirección al río Duero y llegamos el refugio." ;
+	cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.251031836451397 41.402251719114595)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "2"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/89257> a cjcyl:Refugio ;
+	cjcyl:nombre "Prado del Toro" ;
+	cjcyl:observaciones "Situado en la margen izquierda del río Tormes, al inicio de la senda de Cinco lagunas" ;
+	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesoModo "Desde Navalperal por la pista de asfalto que baja al rio Tormes y cruzado el puente al fondo de la pradera del prado del Toro" ;
+	cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.290058347770135 40.347655048285382)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "2"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/89260> a cjcyl:Refugio ;
+	cjcyl:nombre "Casa del Guarda" ;
+	cjcyl:observaciones "Grande y de piedra con un amplio corral de piedra en la parte de atrás y con grandes paredes de piedra" ;
+	cjcyl:estado "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesoModo "Desde el puerto de Serranillos por la pista forestal que conduce hasta el puerto del Pico, pasandop por las antenas de tv, a unos dos kilometros" ;
+	cjcyl:cerramiento "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-4.943670838974236 40.320802756247595)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "2"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/89261> a cjcyl:Refugio ;
+	cjcyl:nombre "Cazadores" ;
+	cjcyl:observaciones "Casa grande con porche y recinto vallado con árboles. Cerca del puerto de Serranillos. Utilizado por los cazadores al< paso de las palomas en el mes de noviembre" ;
+	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesoModo "A 15 Km de San Esteban del Valle, por el puerto de Serranillos y desde allí a 200 metros con dirección Oeste. Desde el puerto se Serranillos a 200 m por la pista forestal" ;
+	cjcyl:cerramiento "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-4.949162497542861 40.307612673794949)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "2"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/89263> a cjcyl:Refugio ;
+	cjcyl:nombre "Casa de Gredos" ;
+	cjcyl:observaciones "En la cuerda de la montaña cercano a la pared de la sierra entre la Aliseda y Navamediana, a casi 2000 metros de altitud" ;
+	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.327772191801798 40.286867121839997)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/89264> a cjcyl:Refugio ;
+	cjcyl:nombre "El Churrital" ;
+	cjcyl:observaciones "En la senda de la gargfanta de Navamediana" ;
+	cjcyl:estado "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.389739856623953 40.289460118910149)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/89273> a cjcyl:Refugio ;
+	cjcyl:nombre "El Cervunal" ;
+	cjcyl:observaciones "Pequeño edificio de forma cónica con paredes de piedra y cubierta de tejas en la base del Cabeza Nevada." ;
+	cjcyl:estado "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesoModo "Por la garganta de Gredos" ;
+	cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.288541011858094 40.290675364082404)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/89265> a cjcyl:Refugio ;
+	cjcyl:nombre "Las Portillas" ;
+	cjcyl:observaciones "Pequeño refugio con tejado a un agua. Con vistas a los Riscos de Morezón, Hermanitos de Gredos y Almanzor por el Norte; al Sur se encuentran el Valle del Tietar y el pantano de Rosarito. Usado por el vigilante de la torreta de incendio." ;
+	cjcyl:estado "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesoModo "Desde Candeleda, por la pista del camino del Puerto de Candeleda hasta la Torreta de Incendios, unos 5 Km. Desde Poyales se llega por la pista forestal de tierra de La Garganta, pasar la Casa de La Barrera y 4 Km. Hasta La Torreta, unos 11 Km." ;
+	cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.211495344434883 40.185626262827483)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "2"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/78690> a cjcyl:Refugio ;
+	cjcyl:nombre "Refugio de Mazobre" ;
+	cjcyl:observaciones "Refugio con paredes de piedra rejuntada. Anchura de muros 60 cm. y cubierta de tejas coloración gris. Tiene una puerta y una ventana, ambas de madera en la fachada. Dotaciones: 4bancos de metal, dos mesas en el interior y una escalera metalica en el interior, y un banco de madera en la fachada." ;
+	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-4.777062127536043 42.952532698787714)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "3"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/89268> a cjcyl:Refugio ;
+	cjcyl:nombre "El Artiñuelo" ;
+	cjcyl:observaciones "Antigua cabaña de pastores con dos dependencias restaurada, una de ellas orientada al oeste y alejada de la garganta de las Pozas." ;
+	cjcyl:estado "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesoModo "Desde la plataforma de Gredos." ;
+	cjcyl:cerramiento "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.244658721857882 40.283713014808711)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/89269> a cjcyl:Refugio ;
+	cjcyl:nombre "La Moncillera" ;
+	cjcyl:observaciones "Típico refugio de pescadores próximo al río Tormes con pequeño porche, al pie de la pista que acaba en este punto. Cubierta a un agua." ;
+	cjcyl:estado "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesoModo "Pista de tierra que sale del Km 24,2 de la C-500, con dirección Sur, hacia el río, de 2 km y termina en el refugio." ;
+	cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.270031419338043 40.35099079160306)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/89270> a cjcyl:Refugio ;
+	cjcyl:nombre "Los Labradillos" ;
+	cjcyl:observaciones "Dos cabañas adosadas con camastros y bancos, en el camino de la Garganta de Gredos, en la margen izquierda, cerca de Roncesvalles, en zona de robles. Señalizado." ;
+	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesoModo "Desde Navalperal por el camino de la garganta de Gredos, a 2,3 h andando en subida . Desde la Plataforma por la garganta de Prado de las Pozas y garganta de Gredos, en bajada a 2 h." ;
+	cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.270509263180478 40.309911162423155)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/89271> a cjcyl:Refugio ;
+	cjcyl:nombre "Roncesvalles" ;
+	cjcyl:observaciones "Refugio semicircular en zona de antiguos puestos de pastores." ;
+	cjcyl:estado "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesoModo "Desde Navalperal por la garganta de Gredos y pasado el puente de Roncesvalles, por la garganta de Las Pozas a 3 h. También desde la plataforma de Gredos por la garganta de las Pozas, en bajada y antes de llegar a la garganta de Gredos, a 1,3 h." ;
+	cjcyl:cerramiento "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.267052264001645 40.301542409776815)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/89266> a cjcyl:Refugio ;
+	cjcyl:nombre "Refugio pescadores El Tejar" ;
+	cjcyl:observaciones "Refugio abierto en la orilla del río Arenal, en el Hornillo." ;
+	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesoModo "Desde el puente del Tejar, en el Hornillo a 30 metros del puente por una pista de tierra" ;
+	cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.09039934207077 40.23877012998048)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/89267> a cjcyl:Refugio ;
+	cjcyl:nombre "Cañada La Huesa" ;
+	cjcyl:observaciones "Abierto todo el año y utilizado por cazadores, montañeros y ganaderos. Tiene un gran corral de piedra alrededor" ;
+	cjcyl:estado "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesoModo "Andando desde la pista de Brbellido y collado tejedo por una trocha a 1,3 h andando" ;
+	cjcyl:cerramiento "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.242958847126799 40.314373164294302)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/89274> a cjcyl:Refugio ;
+	cjcyl:nombre "La Barranca" ;
+	cjcyl:observaciones "Refugio de fortuna circular sobre un antiguo chozo de pastores, con cubierta de tejas de forma cónica, en zona de montaña, alejado, en la senda de Cinco Lagunas." ;
+	cjcyl:estado "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesoModo "Desde Navalperal por la senda de Cinco Lagunas a 2,3 h." ;
+	cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.299752126981267 40.290042361343197)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/89275> a cjcyl:Refugio ;
+	cjcyl:nombre "Las Hoyuelas" ;
+	cjcyl:observaciones "Caseta de ganaderos cerca del arroyo de una sola pieza, porche de piedra a la entrada y corral grande de piedra para el ganado." ;
+	cjcyl:estado "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesoModo "Desde el puente nuevo de Zapardiel de la Ribera por la garganta del Hornillo, a 2 h." ;
+	cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.315717507087226 40.306258680727588)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/89276> a cjcyl:Refugio ;
+	cjcyl:nombre "Los Barquillos" ;
+	cjcyl:observaciones "Refugio de fortuna con cubierta a un agua, apoyado en una gran roca. Orientado al este, en la parte alta de la Cuerda de los Barquillos." ;
+	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesoModo "Desde la fuente de Navalperal remontar a la Cuerda del Barquillo, a 30 minutos." ;
+	cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.302387962768493 40.298336575338816)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/89300> a cjcyl:Refugio ;
+	cjcyl:nombre "Quemaculos" ;
+	cjcyl:observaciones "En la garagnata de Navamediana, con suelo de cemento y cuarto de leña." ;
+	cjcyl:estado "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesoModo "Desde Navamediana por la garganta a 2,3 h." ;
+	cjcyl:cerramiento "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.367384791941568 40.28639178310825)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/89278> a cjcyl:Refugio ;
+	cjcyl:nombre "La Ortiga" ;
+	cjcyl:observaciones "Refugio de fortuna a pie de carretera con tejado a un agua y bancos exteriores de madera, en zona de pinar." ;
+	cjcyl:estado "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesoModo "Carretera del Arenal al puerto de la Centenera km. 4,5 . A pie de carretera en un ensanche después del arroyo de la Ortiga." ;
+	cjcyl:cerramiento "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.072184734486321 40.292378478247393)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/89279> a cjcyl:Refugio ;
+	cjcyl:nombre "Las Campanas" ;
+	cjcyl:observaciones "Refugio en la ruta del puerto del Arenal. Con tejado a un agua y banco interior." ;
+	cjcyl:estado "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesoModo "Desde el puerto de la Centenera hacia el Norte, por la pista de las Campanas, a 35 minutos andando desde este puerto." ;
+	cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.05875242752936 40.298876433429584)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/89288> a cjcyl:Refugio ;
+	cjcyl:nombre "Nogal del Barranco" ;
+	cjcyl:observaciones "Edificio con porche a la entrada y zócalo alrededor. Con tejado de pizarra a dos aguas en la plataforma del Nogal del Barranco, zona de pinar." ;
+	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesoModo "Desde Guisando 4,5 Km por la carretera al Nogal del Barranco" ;
+	cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.162403609578694 40.23453114473778)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "2"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/89281> a cjcyl:Refugio ;
+	cjcyl:nombre "Domingo Fernando" ;
+	cjcyl:observaciones "Refugio de fortuna cerca del inicio de la senda del Puerto del Peón y Canal Seca, con tejado a un agua." ;
+	cjcyl:estado "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesoModo "A unos 7,2 Km del Hornillo por el carril forestal del Charco Verde. Desde la plataforma de Domingo Fernando por la calleja andando durante 10 minutos por el camino del Puerto del Peón." ;
+	cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.140059888484728 40.262207316513567)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/89282> a cjcyl:Refugio ;
+	cjcyl:nombre "La Francisca" ;
+	cjcyl:observaciones "Refugio grande, con porche a la entrada, en la zona de la Francisca, cubierta a dos aguas. Contraventanas de madera y almacén." ;
+	cjcyl:estado "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesoModo "Carretera del Hornillo a Guisando. Camino Forestal al Collado de la Casa y La Francisca, cruzando el Río Cantos. A 2,5 Km desde El Hornillo." ;
+	cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.129726388659607 40.258559537598501)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "2"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/89283> a cjcyl:Refugio ;
+	cjcyl:nombre "La Lancha del Rey" ;
+	cjcyl:observaciones "Pequeño refugio de fortuna con tejado a una agua cerca del area recreativa, en zona de pinar con buenas vistas." ;
+	cjcyl:estado "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesoModo "Desde el Hornillo 7,1 Km., dirección a Guisando y por el camino de La Francisca, después por pista de tierra dirección la Lancha del Rey. A 80 m de la pista forestal. Pista de las Tormeras." ;
+	cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.122062318293874 40.265862525094462)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/89284> a cjcyl:Refugio ;
+	cjcyl:nombre "Las Tormeras" ;
+	cjcyl:observaciones "Edificio a dos aguas, entre pinos. Tejado de pizarra negra con porche cubierto en la entrada." ;
+	cjcyl:estado "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesoModo "Desde el Hornillo a 8,5 Km por pista forestal hacia la Lancha del Rey y desde allí continúa una pista hacia las Tormeras. Después andando, desde el final de esta pista con dirección Norte, durante 5 minutos." ;
+	cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.125642320599223 40.271452524913606)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/89285> a cjcyl:Refugio ;
+	cjcyl:nombre "El Hoyuelo" ;
+	cjcyl:observaciones "Pequeño refugio en el cruce de pistas forestales con tejado a un agua, en zona de pinar." ;
+	cjcyl:estado "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesoModo "Desde Guisando sale la pista con dirección a el Hoyuelo, a 4,5 Km." ;
+	cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.138832223245714 40.241412508073438)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/89286> a cjcyl:Refugio ;
+	cjcyl:nombre "Guisandillo" ;
+	cjcyl:observaciones "Pequeño refugio en el cruce de pistas forestales y cortafuegos, con tejado a un agua, en zona de pinar." ;
+	cjcyl:estado "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesoModo "A 5 Km de Guisando por la carretera a Candeleda, desviandose en el P.K. 4,5 por la pista forestal a la derecha. En la confluencia de pistas forestales y cortafuegos." ;
+	cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.135556177031132 40.206047008905031)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/89287> a cjcyl:Refugio ;
+	cjcyl:nombre "La Sillita" ;
+	cjcyl:observaciones "Refugio de fortuna con tejado a un agua en zona de pinar, con vistas a Arenas y al Valle del Tietar. Usado por el vigilante de la torreta de incendios de la Sillita" ;
+	cjcyl:estado "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesoModo "Desde Guisando a unos 10 Km. por la pista forestal que une Guisando con la C-501 y desde esta por el camino forestal de La Torreta. Desde Arenas a unos 17 km dirección Candeleda y por la pista de Arbillas y la de La Torreta." ;
+	cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.144190138193701 40.203161231963058)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "2"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/89280> a cjcyl:Refugio ;
+	cjcyl:nombre "Collado de la Casa" ;
+	cjcyl:observaciones "Pequeño refugio con tejado a un agua, a pie de pista forestal en zona de pinar." ;
+	cjcyl:estado "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesoModo "Desde el Hornillo por la pista forestal de la Francisca" ;
+	cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.123109753828074 40.24550476632465)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/89289> a cjcyl:Refugio ;
+	cjcyl:nombre "La Hoya" ;
+	cjcyl:observaciones "Refugio grande en la margen derecha del río Tormes en el tramo del GR-10 entre Hoyos del Espino y Navacepeda." ;
+	cjcyl:estado "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesoModo "Desde Hoyos del Collado por pista asfaltada a 2 Km dirección Norte. Andando desde Prado Molino en Hoyos del Espino por el cordel de ganado dirección a Barco de Avila 15 minutos." ;
+	cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.201275089339225 40.34458614148366)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/89325> a cjcyl:Refugio ;
+	cjcyl:nombre "El Piesnillo" ;
+	cjcyl:observaciones "En la margen izquierda de la garaganta de Bohoyo." ;
+	cjcyl:estado "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesoModo "Margen izquierda de la garaganta de Bohoyo, en zona de robledal y brezal." ;
+	cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.406667435032549 40.299629982579113)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/89579> a cjcyl:Refugio ;
+	cjcyl:nombre "Majalavilla" ;
+	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-4.516559867436398 40.352526120955105)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/89580> a cjcyl:Refugio ;
+	cjcyl:nombre "Corral del Riscazo" ;
+	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-4.535643848533196 40.359189787700984)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/89290> a cjcyl:Refugio ;
+	cjcyl:nombre "El Mellizo" ;
+	cjcyl:observaciones "Típico refugio de pescadores, próximo a la Garganta de Barbellido con pequeño porche, al pie de pista . Cubierta a un agua." ;
+	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesoModo "Carretera de la Plataforma de Gredos y desvio a Navacepeda de Tormes. Desde Navacepeda de Tormes, por la pista de Barbellido" ;
+	cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.213682336893732 40.3163024404627)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/89272> a cjcyl:Refugio ;
+	cjcyl:nombre "La Mangá" ;
+	cjcyl:observaciones "Refugio de piedra grande con tejado a dos aguas, a pie de pista del Colmenar, en zona de pinar orientado al norte." ;
+	cjcyl:estado "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesoModo "Pista forestal del Colmenar." ;
+	cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-4.987129449401932 40.343046285282099)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/89291> a cjcyl:Refugio ;
+	cjcyl:nombre "Carbonero" ;
+	cjcyl:observaciones "Pequeño refugio en la garganta de la Solana, en zona de pastos. Cubierta a dos aguas de teja roja árabe. Cercado alrededor de piedra." ;
+	cjcyl:estado "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesoModo "Desde la Aliseda por la pista forestal de la garganta de La Solana a 4,5 Km. Situado a 200 metros del final de la pista. Sin señalización." ;
+	cjcyl:cerramiento "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.347386344204832 40.308475621424407)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/89292> a cjcyl:Refugio ;
+	cjcyl:nombre "El Carbonero" ;
+	cjcyl:observaciones "Pequeño refugio en la garganta de la Solana, en zona de pastos. Cubierta a dos aguas de teja roja árabe. Cercado alrededor de piedra." ;
+	cjcyl:estado "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesoModo "Desde la Aliseda por la pista forestal de la garganta de La Solana a 4,5 Km. Situado a 200 metros del final de la pista. Sin señalización." ;
+	cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.347276945046617 40.308510081392917)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/89293> a cjcyl:Refugio ;
+	cjcyl:nombre "Majada del Tío Manteca" ;
+	cjcyl:observaciones "Caseta de piedra con tejado a dos aguas en un pequeño rellano de la Senda del Torozo." ;
+	cjcyl:estado "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesoModo "Desde el puerto del Pico por la senda del Torozo" ;
+	cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.005098292706553 40.321221450133763)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/89294> a cjcyl:Refugio ;
+	cjcyl:nombre "Martillo" ;
+	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesoModo "El la Garganta de Los Caballeros, en la senda a unas 2 horas andanado desde Navalguijo" ;
+	cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.55571105206241 40.212613018629824)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/89295> a cjcyl:Refugio ;
+	cjcyl:nombre "El Belesar" ;
+	cjcyl:observaciones "Refugio de fortuna circular de piedra, con tejado a dos aguas, bajo y muy alejado, en zona de pradera a bastante altitud." ;
+	cjcyl:estado "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesoModo "Camino de la Garganta de Bohoyo, en la base de la última subida hasta la cumbre del Belesar. A 5 h del pueblo de Bohoyo." ;
+	cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.332892131382827 40.265342341851486)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/89296> a cjcyl:Refugio ;
+	cjcyl:nombre "El Lanchón" ;
+	cjcyl:observaciones "Refugio pequeño y bajo en la senda de la garganta de Bohoyo, tejado a un agua . Uso sólo en mal tiempo. Poco confortable." ;
+	cjcyl:estado "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesoModo "Por el camino de la Garganta de Bohoyo a 2,45 h. Zona de canchales al pie del camino en zona alta." ;
+	cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.371572142352866 40.268912263973313)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/89297> a cjcyl:Refugio ;
+	cjcyl:nombre "La Longuilla" ;
+	cjcyl:observaciones "Edificio grande con dos dependencias adosadas. Una parte con cuarto de leña, habitación grande con suelo de cemento. Buen refugio en caso de mal tiempo." ;
+	cjcyl:estado "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesoModo "Camino de la Garganta de Bohoyo en la zona alta de una amplia pradera, separado de la ruta unos 200 metros, próximo a la regadera alta. A 2 h del inicio." ;
+	cjcyl:cerramiento "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.395372091573207 40.274102267263721)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/89298> a cjcyl:Refugio ;
+	cjcyl:nombre "La Redonda" ;
+	cjcyl:observaciones "Caseta restaurada con tejado a dos aguas en el camino de la gargantra de Bohoyo, señalizada." ;
+	cjcyl:estado "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesoModo "Camino de la Garganta de Bohoyo, después del refugio de La Secá a 50 minutos del inicio de ruta." ;
+	cjcyl:cerramiento "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.415422037873293 40.277552243658285)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/89299> a cjcyl:Refugio ;
+	cjcyl:nombre "La Secá" ;
+	cjcyl:observaciones "Caseta con tejado a dos aguas y pequeño corral de caballos a la entrada, en senda de la Garganta de Bohoyo." ;
+	cjcyl:estado "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesoModo "Camino de la Garganta de Bohoyo, pasada la segunda portera en una pradera a la izquierda. A 35 minutos a pie, por camino entre bosques." ;
+	cjcyl:cerramiento "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.42214204167741 40.281432192296187)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/89301> a cjcyl:Refugio ;
+	cjcyl:nombre "Regero Llano" ;
+	cjcyl:observaciones "Edificio grande de piedra, alto, con tejado a dos aguas. En el lado sur del Prado Pozas, cercano a otros refugios." ;
+	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesoModo "Desde la plataforma de Gredos a 25 minutos, hacia la Laguna Grande, desviándose 300 m del camino hacia el lado Norte del Prado de Las Pozas. Otra forma de llegar es directamente desde la plataforma a 20 minutos, con dirección Oeste por una cuesta inclina" ;
+	cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.237305211377826 40.27621114140689)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "2"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/89306> a cjcyl:Refugio ;
+	cjcyl:nombre "Refugio de Paz" ;
+	cjcyl:observaciones "Edificio grande con tejado a dos aguas en el lado sur del Prado Pozas" ;
+	cjcyl:estado "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesoModo "Desde la plataforma de Gredos a 25 minutos hacia la Laguna Grande, desviado 300 m del camino en el lado norte del Prado de Las Pozas. También se puede llegar directamente desde la plataforma, a 20 minutos, con dirección Oeste por una cuesta inclinada." ;
+	cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.237113285120031 40.275932195375923)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "2"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/89307> a cjcyl:Refugio ;
+	cjcyl:nombre "Victory" ;
+	cjcyl:observaciones "Edificio austero de dos plantas y cubierta de hormigón con aislante blanco, situado en la base de los Galayos con impresionantes vistas." ;
+	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesoModo "Andando desde la plataforma del Nogal del Barranco por el camino del Carril de los Galayos, a 2,3 h." ;
+	cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.173302170348208 40.2599125170766)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "2"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/89310> a cjcyl:Refugio ;
+	cjcyl:nombre "Ganadero" ;
+	cjcyl:observaciones "Refugio con tejado a un agua, mesas y bancos en el exterior." ;
+	cjcyl:estado "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesoModo "A 3,9 Km por pista de tierra desde el puerto de Umbrías (entre la Nava de barco y Umbrías)" ;
+	cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.58466849463304 40.279558758687479)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/89581> a cjcyl:Refugio ;
+	cjcyl:nombre "Cabeza la Parra" ;
+	cjcyl:observaciones "Zona de reserva" ;
+	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-4.540406516493905 40.391270601306132)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/89312> a cjcyl:Refugio ;
+	cjcyl:nombre "La Covacha" ;
+	cjcyl:observaciones "Caseta típica de ganaderos con tejado a dos aguas, dos dependencias y suelo de piedra. En la senda del Puerto de Peón." ;
+	cjcyl:estado "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesoModo "Senda del Puerto de Peón desde Hoyos del Espino a 30 minutos del inicio, pasada la segunda portera. Llega la pista forestal." ;
+	cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.177628627379899 40.300979513186597)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/89317> a cjcyl:Refugio ;
+	cjcyl:nombre "Laguna de Galin Gómez" ;
+	cjcyl:observaciones "En la orilla de la laguna de Galin Gomez o de Barco, con posiblidades de reformas" ;
+	cjcyl:estado "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesoModo "Senda de la laguna de Galin Gomez o de Barco, al final de la senda y a la orilla de la laguna." ;
+	cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.602069972430602 40.233902325710567)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/89318> a cjcyl:Refugio ;
+	cjcyl:nombre "Prado Puerto" ;
+	cjcyl:observaciones "Caseta típica de ganaderos en zona alta de pradera con cubierta baja a dos aguas y orientado al sur." ;
+	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesoModo "Desde la plataforma de Gredos a 25 minutos por el camino del Puerto de Candeleda, en la otra orilla derecha de la garganta. Desviado de la ruta 400 metros, en zona alta de una pradera. Poco visible." ;
+	cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.234172160220693 40.26399244637188)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/89319> a cjcyl:Refugio ;
+	cjcyl:nombre "Refugio del Rey" ;
+	cjcyl:observaciones "En ruinas. Bloques de las paredes de piedra derruidas, cubierta de hormigón caida. Sin uso." ;
+	cjcyl:estado "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesoModo "Desde la plataforma de Gredos dirección a Navasonera , a 1,30 h; o por la ruta del puerto de Candeleda desviandose por el camino del Rey, a 2 h." ;
+	cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.253074769229601 40.251222588990451)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/89320> a cjcyl:Refugio ;
+	cjcyl:nombre "Chozo de Laguna de los Caballeros" ;
+	cjcyl:observaciones "Refugio chozo de fortuna" ;
+	cjcyl:estado "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesoModo "Por la senda de Garganta de los Caballeros" ;
+	cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.541309241124331 40.219485562271792)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/89321> a cjcyl:Refugio ;
+	cjcyl:nombre "Majada de Anselmo" ;
+	cjcyl:observaciones "Caseta de planta rectangular con tejado de cemento a una agua, en la orilla de la laguna de Galín Goméz." ;
+	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesoModo "Desde en puerto de Umbrías por la pista de tierra andando durante 3 h, en la bajada a la garganta, a la orilla de la laguna." ;
+	cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.60481137031461 40.253770742270689)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/89324> a cjcyl:Refugio ;
+	cjcyl:nombre "Regajo de la Cruz" ;
+	cjcyl:estado "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesoModo "Desde Bohoyo, saliendo de las escuelas por el camino al pinar, hasta alcanzar Sierra Llana. Situado en un regajo o pradera, en la cuerda. También desde Navalonguilla por el camino de La Guía." ;
+	cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.443246678663198 40.270685045738347)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/89326> a cjcyl:Refugio ;
+	cjcyl:nombre "Navacasera" ;
+	cjcyl:observaciones "Cabaña pequeña de piedra con tejado a dos aguas, y banco exterior de piedra. En la senda de la Laguna de la Nava." ;
+	cjcyl:estado "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesoModo "Senda de la Garganta de la Nava, en zona de pradera, a media hora del inicio en la portera de la sierra." ;
+	cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.565184572799794 40.263484299536643)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/89327> a cjcyl:Refugio ;
+	cjcyl:nombre "La Losa" ;
+	cjcyl:observaciones "Refugio de fortuna de piedra, con tejado a un agua. En la senda de la Laguna de la Nava." ;
+	cjcyl:estado "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesoModo "Senda de la Garganta de la Nava, en una zona de pradera, a 45 minutos del inicio en la portera de la sierra." ;
+	cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.567203122565528 40.255162067928374)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/89329> a cjcyl:Refugio ;
+	cjcyl:nombre "Elola" ;
+	cjcyl:observaciones "Edificio moderno sobre la cabezera de la Laguna Grande de Gredos de forma rectangular y dos plantas." ;
+	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesoModo "Desde la plataforma de Gredos por el camino de la Laguna Grande de Gredos 2,3 h." ;
+	cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.279883110053654 40.250607255524358)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "2"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/89330> a cjcyl:Refugio ;
+	cjcyl:nombre "FALTA NOMBRE" ;
+	cjcyl:estado "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.153220345655541 40.307527568442694)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "3"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Refugio/89277> a cjcyl:Refugio ;
+	cjcyl:nombre "La Albarea" ;
+	cjcyl:observaciones "Refugio de dos plantas, tejado a dos aguas con cubierta de teja. Piso de cemento, escalera de madera y chapado exterior en parte con piedra. Cuarto exterior adosado con puerta exterior." ;
+	cjcyl:estado "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesoModo "Pista forestal de la Garganta Blanca" ;
+	cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.247632094585389 40.215602401117806)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:capacidadPernoctar "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:servicioComida "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:usoRefugio "1"^^<http://www.w3.org/2001/XMLSchema#int> .

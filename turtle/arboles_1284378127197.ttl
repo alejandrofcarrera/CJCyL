@@ -1,0 +1,661 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix cjcyl: <http://geo.linkeddata.es/cjcyl#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+
+<http://geo.linkeddata.es/cjcyl/resource/arbolSingular/76222> a cjcyl:ArbolSingular ;
+	cjcyl:nombre "Eucalipto de Cepeda" ;
+	cjcyl:codigo "BSFAS00001" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-6.036913260553563 40.456971411628913)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "1" .
+
+<http://geo.linkeddata.es/cjcyl/resource/arbolSingular/76223> a cjcyl:ArbolSingular ;
+	cjcyl:nombre "Eucalipto del Convento" ;
+	cjcyl:codigo "BSFAS00002" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-6.143152776542797 40.461539650618889)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "1" .
+
+<http://geo.linkeddata.es/cjcyl/resource/arbolSingular/76224> a cjcyl:ArbolSingular ;
+	cjcyl:nombre "Roble de Nava de Francia" ;
+	cjcyl:codigo "BSFAS00003" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-6.113439980352983 40.540400420808737)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "1" .
+
+<http://geo.linkeddata.es/cjcyl/resource/arbolSingular/76225> a cjcyl:ArbolSingular ;
+	cjcyl:nombre "Haya de Herguijuela" ;
+	cjcyl:codigo "BSFAS00011" ;
+	cjcyl:observaciones "Adscrito al Catálogo de Árboles Singulares de Castilla y León" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-6.078148911457459 40.453115254402825)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "1" .
+
+<http://geo.linkeddata.es/cjcyl/resource/arbolSingular/76226> a cjcyl:ArbolSingular ;
+	cjcyl:nombre "Pino de la Alberca" ;
+	cjcyl:codigo "BSFAS00007" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-6.13625086426164 40.459442337484063)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "1" .
+
+<http://geo.linkeddata.es/cjcyl/resource/arbolSingular/76227> a cjcyl:ArbolSingular ;
+	cjcyl:nombre "Tejo del Convento" ;
+	cjcyl:codigo "BSFAS00006" ;
+	cjcyl:observaciones "Adscrito al Catálogo de Árboles Singulares de Castilla y León" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-6.146571332699964 40.462986913643334)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "1" .
+
+<http://geo.linkeddata.es/cjcyl/resource/arbolSingular/76228> a cjcyl:ArbolSingular ;
+	cjcyl:nombre "Roble de la Alberca" ;
+	cjcyl:codigo "BSFAS00012" ;
+	cjcyl:observaciones "Adscrito al Catálogo de Árboles Singulares de Castilla y León" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-6.085237974123345 40.48613252485513)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "1" .
+
+<http://geo.linkeddata.es/cjcyl/resource/arbolSingular/76229> a cjcyl:ArbolSingular ;
+	cjcyl:nombre "Castaño de la Alberca" ;
+	cjcyl:codigo "BSFAS00013" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-6.084992771124018 40.486082062256799)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "1" .
+
+<http://geo.linkeddata.es/cjcyl/resource/arbolSingular/76230> a cjcyl:ArbolSingular ;
+	cjcyl:nombre "Roble de la Pradera" ;
+	cjcyl:codigo "BSFAS00009" ;
+	cjcyl:observaciones "Adscrito al Catálogo de Árboles Singulares de Castilla y León" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-6.053874419731486 40.477887215394837)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "1" .
+
+<http://geo.linkeddata.es/cjcyl/resource/arbolSingular/76232> a cjcyl:ArbolSingular ;
+	cjcyl:nombre "Castaño de Monsagro" ;
+	cjcyl:codigo "BSFAS00008" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-6.28475862571549 40.502028591464708)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "1" .
+
+<http://geo.linkeddata.es/cjcyl/resource/arbolSingular/76231> a cjcyl:ArbolSingular ;
+	cjcyl:nombre "Roble del puente de la Dehesa" ;
+	cjcyl:codigo "BSFAS00010" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-6.044029536747618 40.459448527757552)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "1" .
+
+<http://geo.linkeddata.es/cjcyl/resource/arbolSingular/76233> a cjcyl:ArbolSingular ;
+	cjcyl:nombre "Roble Centenario" ;
+	cjcyl:codigo "BSFAS00004" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-6.114931855815914 40.534990631782854)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "1" .
+
+<http://geo.linkeddata.es/cjcyl/resource/arbolSingular/76234> a cjcyl:ArbolSingular ;
+	cjcyl:nombre "Castaño Centenario" ;
+	cjcyl:codigo "BSFAS00005" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-6.139744558938115 40.521420311382059)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "2" .
+
+<http://geo.linkeddata.es/cjcyl/resource/arbolSingular/76235> a cjcyl:ArbolSingular ;
+	cjcyl:nombre "Madroñera de Miranda" ;
+	cjcyl:codigo "BSFAS00014" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.983687773651079 40.490809802345446)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "1" .
+
+<http://geo.linkeddata.es/cjcyl/resource/arbolSingular/76236> a cjcyl:ArbolSingular ;
+	cjcyl:nombre "Roble de El Cabaco" ;
+	cjcyl:codigo "BSFAS00015" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-6.130641794322992 40.567754761017753)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "1" .
+
+<http://geo.linkeddata.es/cjcyl/resource/arbolSingular/76237> a cjcyl:ArbolSingular ;
+	cjcyl:nombre "Roble de Fuente Castaño" ;
+	cjcyl:codigo "BSFAS00016" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-6.09682083433627 40.491442249450337)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "1" .
+
+<http://geo.linkeddata.es/cjcyl/resource/arbolSingular/78533> a cjcyl:ArbolSingular ;
+	cjcyl:nombre "La Olma" ;
+	cjcyl:codigo "FCCAS00001" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-4.745722752824927 42.895079336069472)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "4" .
+
+<http://geo.linkeddata.es/cjcyl/resource/arbolSingular/79181> a cjcyl:ArbolSingular ;
+	cjcyl:nombre "Haya de Ailanes" ;
+	cjcyl:codigo "HERAS00001" ;
+	cjcyl:accesoModo "Camino Ailanes a Gallejones a pie a 10m del camino." ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.744561664385015 42.867320367710931)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "4" .
+
+<http://geo.linkeddata.es/cjcyl/resource/arbolSingular/79182> a cjcyl:ArbolSingular ;
+	cjcyl:nombre "Fresno del mirador" ;
+	cjcyl:codigo "HERAS00002" ;
+	cjcyl:accesoModo "Al Oeste del mirador de Vallejo" ;
+	cjcyl:observaciones "Fresno sin señalizar. Convendría ponerle un panel pequeño con sus datos." ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.726535778875296 42.884599962762145)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "4" .
+
+<http://geo.linkeddata.es/cjcyl/resource/arbolSingular/79183> a cjcyl:ArbolSingular ;
+	cjcyl:nombre "Roble en San Miguel de Cornezuelo" ;
+	cjcyl:codigo "HERAS00003" ;
+	cjcyl:accesoModo "En San Miguel de Cornezuelo, por el camino al Castro, a la izq., frente a un escombro de teja, hay un roto en un muro de piedra, ladereando a esa misma altura, se llega al roble." ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.723336530030712 42.89900138011869)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "1" .
+
+<http://geo.linkeddata.es/cjcyl/resource/arbolSingular/79184> a cjcyl:ArbolSingular ;
+	cjcyl:nombre "Roble berrugoso en San Miguel de Cornezuelo" ;
+	cjcyl:codigo "HERAS00004" ;
+	cjcyl:accesoModo "A unos 200m. Del anterior hacia el Oeste y un poquito más alto. Se levanta el roble sobre una berruga grande." ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.723904312904967 42.900420596366715)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "1" .
+
+<http://geo.linkeddata.es/cjcyl/resource/arbolSingular/79185> a cjcyl:ArbolSingular ;
+	cjcyl:nombre "Roble" ;
+	cjcyl:codigo "HERAS00005" ;
+	cjcyl:accesoModo "Por la ruta del gr-99, entre Cidad y Manzanedillo" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.706602685206631 42.896638493097726)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "1" .
+
+<http://geo.linkeddata.es/cjcyl/resource/arbolSingular/79186> a cjcyl:ArbolSingular ;
+	cjcyl:nombre "Quejigo" ;
+	cjcyl:codigo "HERAS00006" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.918450781397751 42.702044951676683)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "4" .
+
+<http://geo.linkeddata.es/cjcyl/resource/arbolSingular/79187> a cjcyl:ArbolSingular ;
+	cjcyl:nombre "Quejigo" ;
+	cjcyl:codigo "HERAS00007" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.917741515227895 42.701969588898514)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "4" .
+
+<http://geo.linkeddata.es/cjcyl/resource/arbolSingular/79188> a cjcyl:ArbolSingular ;
+	cjcyl:nombre "Quejigo" ;
+	cjcyl:codigo "HERAS00008" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.916958356104692 42.701021292634834)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "4" .
+
+<http://geo.linkeddata.es/cjcyl/resource/arbolSingular/79189> a cjcyl:ArbolSingular ;
+	cjcyl:nombre "Quejigo" ;
+	cjcyl:codigo "HERAS00009" ;
+	cjcyl:accesoModo "Senda del Rudrón." ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.91676821518641 42.7005455301979)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "1" .
+
+<http://geo.linkeddata.es/cjcyl/resource/arbolSingular/79190> a cjcyl:ArbolSingular ;
+	cjcyl:nombre "Quejigo" ;
+	cjcyl:codigo "HERAS00010" ;
+	cjcyl:accesoModo "Senda del Rudrón." ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.916754702260699 42.69962709059147)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "1" .
+
+<http://geo.linkeddata.es/cjcyl/resource/arbolSingular/79191> a cjcyl:ArbolSingular ;
+	cjcyl:nombre "Quejigo" ;
+	cjcyl:codigo "HERAS00011" ;
+	cjcyl:accesoModo "Senda del Rudrón." ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.916500904113546 42.69814323537765)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "1" .
+
+<http://geo.linkeddata.es/cjcyl/resource/arbolSingular/79192> a cjcyl:ArbolSingular ;
+	cjcyl:nombre "Quejigo" ;
+	cjcyl:codigo "HERAS00012" ;
+	cjcyl:accesoModo "Senda del Rudrón." ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.911360232202841 42.697256702297551)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "1" .
+
+<http://geo.linkeddata.es/cjcyl/resource/arbolSingular/79193> a cjcyl:ArbolSingular ;
+	cjcyl:nombre "Quejigo" ;
+	cjcyl:codigo "HERAS00013" ;
+	cjcyl:accesoModo "Senda del Rudrón." ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.909011722326626 42.697788672065393)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "1" .
+
+<http://geo.linkeddata.es/cjcyl/resource/arbolSingular/79194> a cjcyl:ArbolSingular ;
+	cjcyl:nombre "Quejigo" ;
+	cjcyl:codigo "HERAS00014" ;
+	cjcyl:accesoModo "Del camino de La Rad al molino El Zurdo. Track-25-Abril-10" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.89725314495456 42.693441739182013)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "1" .
+
+<http://geo.linkeddata.es/cjcyl/resource/arbolSingular/79195> a cjcyl:ArbolSingular ;
+	cjcyl:nombre "Carrellano" ;
+	cjcyl:codigo "HERAS00015" ;
+	cjcyl:accesoModo "Páramo de Moradillo por el camaino de Cuerda del Monte" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.883582055822054 42.704759716881377)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "1" .
+
+<http://geo.linkeddata.es/cjcyl/resource/arbolSingular/79196> a cjcyl:ArbolSingular ;
+	cjcyl:nombre "Haya" ;
+	cjcyl:codigo "HERAS00016" ;
+	cjcyl:accesoModo "Carretera de Sargentes a San Felices." ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.843311182865047 42.757816576100105)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "1" .
+
+<http://geo.linkeddata.es/cjcyl/resource/arbolSingular/79197> a cjcyl:ArbolSingular ;
+	cjcyl:nombre "Encina" ;
+	cjcyl:codigo "HERAS00017" ;
+	cjcyl:accesoModo "Carretera de Sargentes a San Felices." ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.847922352063033 42.757215192534588)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "1" .
+
+<http://geo.linkeddata.es/cjcyl/resource/arbolSingular/79198> a cjcyl:ArbolSingular ;
+	cjcyl:nombre "Encina" ;
+	cjcyl:codigo "HERAS00018" ;
+	cjcyl:accesoModo "Carretera de Sargentes a San Felices." ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.846649470724254 42.757071520292008)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "1" .
+
+<http://geo.linkeddata.es/cjcyl/resource/arbolSingular/79199> a cjcyl:ArbolSingular ;
+	cjcyl:nombre "Tilo de San Andrés" ;
+	cjcyl:codigo "HERAS00019" ;
+	cjcyl:accesoModo "En San Andrés de Montearados" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.911247569309415 42.71292693161071)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "1" .
+
+<http://geo.linkeddata.es/cjcyl/resource/arbolSingular/79200> a cjcyl:ArbolSingular ;
+	cjcyl:nombre "Ontileña" ;
+	cjcyl:codigo "HERAS00020" ;
+	cjcyl:accesoModo "Desde trashaedo a Pradanos" ;
+	cjcyl:observaciones "Grupo de robles que se encuentran en linderas de fincas y que sería necesario conserbar por ser los mejores pies de la zona." ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.951770296192214 42.688426950408285)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "1" .
+
+<http://geo.linkeddata.es/cjcyl/resource/arbolSingular/79201> a cjcyl:ArbolSingular ;
+	cjcyl:codigo "HERAS00021" ;
+	cjcyl:observaciones "A pie" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.747848248530389 42.782374725428753)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "4" .
+
+<http://geo.linkeddata.es/cjcyl/resource/arbolSingular/79202> a cjcyl:ArbolSingular ;
+	cjcyl:nombre "El Moral" ;
+	cjcyl:codigo "HERAS00022" ;
+	cjcyl:observaciones "Camino. 2 robles en un descansadero del camino" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.791805213839315 42.726227668375962)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "4" .
+
+<http://geo.linkeddata.es/cjcyl/resource/arbolSingular/79203> a cjcyl:ArbolSingular ;
+	cjcyl:nombre "Encina de Quintanilla" ;
+	cjcyl:codigo "HERAS00023" ;
+	cjcyl:observaciones "A pie" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.800085902447591 42.787911169122438)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "4" .
+
+<http://geo.linkeddata.es/cjcyl/resource/arbolSingular/79204> a cjcyl:ArbolSingular ;
+	cjcyl:nombre "Haya Cantiza" ;
+	cjcyl:codigo "HERAS00024" ;
+	cjcyl:observaciones "A pie. No es muy grande pero es conocida." ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.777594720695924 42.7619955308475)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "4" .
+
+<http://geo.linkeddata.es/cjcyl/resource/arbolSingular/79205> a cjcyl:ArbolSingular ;
+	cjcyl:nombre "Encina Gorda" ;
+	cjcyl:codigo "HERAS00025" ;
+	cjcyl:observaciones "A pie. En la pared del sendero" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.773604564748501 42.777232656809581)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "4" .
+
+<http://geo.linkeddata.es/cjcyl/resource/arbolSingular/79206> a cjcyl:ArbolSingular ;
+	cjcyl:nombre "Tejera" ;
+	cjcyl:codigo "HERAS00026" ;
+	cjcyl:observaciones "Camino. 2 robles" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.787596135716549 42.810547126757186)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "4" .
+
+<http://geo.linkeddata.es/cjcyl/resource/arbolSingular/79207> a cjcyl:ArbolSingular ;
+	cjcyl:codigo "HERAS00027" ;
+	cjcyl:observaciones "A pie" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.790748794804044 42.809354706341637)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "4" .
+
+<http://geo.linkeddata.es/cjcyl/resource/arbolSingular/79208> a cjcyl:ArbolSingular ;
+	cjcyl:nombre "Jerbo" ;
+	cjcyl:codigo "HERAS00028" ;
+	cjcyl:accesoModo "Senda" ;
+	cjcyl:observaciones "No es singular por grande pero es poco frecuente en la zona. Foto 28" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.781731943350819 42.810110029312753)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "4" .
+
+<http://geo.linkeddata.es/cjcyl/resource/arbolSingular/79209> a cjcyl:ArbolSingular ;
+	cjcyl:nombre "Roble Gordo" ;
+	cjcyl:codigo "HERAS00029" ;
+	cjcyl:accesoModo "A pie" ;
+	cjcyl:observaciones "Fotos 119 y 120" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.667882823764677 42.825752513154313)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "4" .
+
+<http://geo.linkeddata.es/cjcyl/resource/arbolSingular/81540> a cjcyl:ArbolSingular ;
+	cjcyl:nombre "Haya" ;
+	cjcyl:codigo "LGNAS00006" ;
+	cjcyl:accesoModo "Pista forestal de las Hazas, junto a la Cerrada, lado izquierdo" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-2.987229229061654 42.081151269245439)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "1" .
+
+<http://geo.linkeddata.es/cjcyl/resource/arbolSingular/81541> a cjcyl:ArbolSingular ;
+	cjcyl:nombre "Haya" ;
+	cjcyl:codigo "LGNAS00007" ;
+	cjcyl:accesoModo "Pista forestal de las Hazas, junto a la Cerrada, lado izquierdo" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-2.987253414665606 42.081124252314424)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "1" .
+
+<http://geo.linkeddata.es/cjcyl/resource/arbolSingular/81542> a cjcyl:ArbolSingular ;
+	cjcyl:nombre "Haya" ;
+	cjcyl:codigo "LGNAS00008" ;
+	cjcyl:accesoModo "Pista forestal de las Hazas, junto a la Cerrada, lado izquierdo, avanzado el camino" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-2.984424440861298 42.080682582760744)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "1" .
+
+<http://geo.linkeddata.es/cjcyl/resource/arbolSingular/81543> a cjcyl:ArbolSingular ;
+	cjcyl:nombre "Acebos" ;
+	cjcyl:codigo "LGNAS00010" ;
+	cjcyl:accesoModo "Collado de Ríofrio hacia Sobralejos dejando esta pista y siguiendo dirección el Pinarcito, a la altura de un paraja llamado Las Losedas" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-2.95496222811585 42.044864685598647)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "1" .
+
+<http://geo.linkeddata.es/cjcyl/resource/arbolSingular/81544> a cjcyl:ArbolSingular ;
+	cjcyl:nombre "Pinos centenarios" ;
+	cjcyl:codigo "LGNAS00001" ;
+	cjcyl:accesoModo "Camino Laguna La Cascada" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.036250674924365 42.053045781367693)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "1" .
+
+<http://geo.linkeddata.es/cjcyl/resource/arbolSingular/81545> a cjcyl:ArbolSingular ;
+	cjcyl:nombre "Pinos centenarios" ;
+	cjcyl:codigo "LGNAS00002" ;
+	cjcyl:accesoModo "Camino Laguna La Cascada" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.050241778345258 42.049167677228134)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "1" .
+
+<http://geo.linkeddata.es/cjcyl/resource/arbolSingular/81546> a cjcyl:ArbolSingular ;
+	cjcyl:nombre "Pinos centenarios" ;
+	cjcyl:codigo "LGNAS00003" ;
+	cjcyl:accesoModo "Refugio-cascada hacia cueva potros" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.052249498203816 42.051328361983998)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "1" .
+
+<http://geo.linkeddata.es/cjcyl/resource/arbolSingular/81547> a cjcyl:ArbolSingular ;
+	cjcyl:nombre "Pino centenario" ;
+	cjcyl:codigo "LGNAS00004" ;
+	cjcyl:accesoModo "Subida La Cascada por Corral de Perros" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.033123252621709 42.057919286431385)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "1" .
+
+<http://geo.linkeddata.es/cjcyl/resource/arbolSingular/81548> a cjcyl:ArbolSingular ;
+	cjcyl:nombre "Pino" ;
+	cjcyl:codigo "LGNAS00009" ;
+	cjcyl:accesoModo "Collado de Ríofrio hacia Sobralejos dejando esta pista y siguiendo dirección el Pinarcito, a la altura de un paraja llamado Las Losedas" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-2.956411616486934 42.045738885001334)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "1" .
+
+<http://geo.linkeddata.es/cjcyl/resource/arbolSingular/81549> a cjcyl:ArbolSingular ;
+	cjcyl:nombre "Pino" ;
+	cjcyl:codigo "LGNAS00011" ;
+	cjcyl:accesoModo "Collado de Ríofrio hacia Sobralejos dejando esta pista y siguiendo dirección el Pinarcito, a la altura de un paraja llamado Peña Vicente." ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-2.954950119452393 42.044900707233843)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "1" .
+
+<http://geo.linkeddata.es/cjcyl/resource/arbolSingular/81550> a cjcyl:ArbolSingular ;
+	cjcyl:nombre "Pinos" ;
+	cjcyl:codigo "LGNAS00012" ;
+	cjcyl:accesoModo "De la Caseta del Dólar en dirección al Pinarcito." ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-2.946542139827623 42.042582403352625)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "1" .
+
+<http://geo.linkeddata.es/cjcyl/resource/arbolSingular/81551> a cjcyl:ArbolSingular ;
+	cjcyl:nombre "Roble centenario" ;
+	cjcyl:codigo "LGNAS00005" ;
+	cjcyl:accesoModo "Al otro lado de la carretera,frente al area recreativa-refugio La cerrada" ;
+	cjcyl:observaciones "Roble de más diámetro de todo el parque" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-2.980579559900712 42.081528611285798)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "1" .
+
+<http://geo.linkeddata.es/cjcyl/resource/arbolSingular/81660> a cjcyl:ArbolSingular ;
+	cjcyl:nombre "Pino Rey" ;
+	cjcyl:codigo "LNUAS00001" ;
+	cjcyl:accesoModo "Pista forestal Monte Público Nº 125" ;
+	cjcyl:observaciones "Árbol incluido en el Catalogo de Arboles Singulares de Castilla y Léon con el código AS.SO-6. ORDEN MAM/1156/2006, de 6 de junio, por la que se acuerda la inclusión de determinados ejemplares de especímenes vegetales en el «Catálogo de especímenes vegetales de singular relevancia de Castilla y León»." ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-2.827608188901005 41.970678566773174)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "1" .
+
+<http://geo.linkeddata.es/cjcyl/resource/arbolSingular/81661> a cjcyl:ArbolSingular ;
+	cjcyl:nombre "Tiemblos de la Laguna" ;
+	cjcyl:codigo "LNUAS00002" ;
+	cjcyl:accesoModo "Sendero de la Laguna" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-2.845975224426724 42.00157924958468)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "1" .
+
+<http://geo.linkeddata.es/cjcyl/resource/arbolSingular/81662> a cjcyl:ArbolSingular ;
+	cjcyl:nombre "Cerezo de Santa Inés" ;
+	cjcyl:codigo "LNUAS00003" ;
+	cjcyl:accesoModo "Pista forestal a Santa Inés" ;
+	cjcyl:observaciones "Fuera del Parque Natural." ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-2.802428707267016 42.006934505767603)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "1" .
+
+<http://geo.linkeddata.es/cjcyl/resource/arbolSingular/81663> a cjcyl:ArbolSingular ;
+	cjcyl:nombre "Pino Zamplón" ;
+	cjcyl:codigo "LNUAS00004" ;
+	cjcyl:accesoModo "Pista forestal Monte Público Nº 125" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-2.86818470949903 41.976343441306803)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "1" .
+
+<http://geo.linkeddata.es/cjcyl/resource/arbolSingular/81664> a cjcyl:ArbolSingular ;
+	cjcyl:nombre "Pino de la Laguna Negra" ;
+	cjcyl:codigo "LNUAS00005" ;
+	cjcyl:accesoModo "Sendero de la Laguna" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-2.846647969494449 41.997986531575258)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "1" .
+
+<http://geo.linkeddata.es/cjcyl/resource/arbolSingular/81665> a cjcyl:ArbolSingular ;
+	cjcyl:nombre "Pino Negro" ;
+	cjcyl:codigo "LNUAS00006" ;
+	cjcyl:accesoModo "Pista forestal" ;
+	cjcyl:observaciones "Fuera del Parque Natural. Arbol incluido en el Catalogo de Arboles Singulares de Castilla y Léon con el código AS.SO-11. ORDEN MAM/1156/2006, de 6 de junio, por la que se acuerda la inclusión de determinados ejemplares de especímenes vegetales en el «Catálogo de especímenes vegetal" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-2.750371274645541 42.009580098433148)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "1" .
+
+<http://geo.linkeddata.es/cjcyl/resource/arbolSingular/83688> a cjcyl:ArbolSingular ;
+	cjcyl:nombre "Los Zufreiros del Frade" ;
+	cjcyl:codigo "MDLAS00001" ;
+	cjcyl:observaciones "Se accede con vehículo todoterreno o a pie." ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-6.809756777048428 42.483340870723424)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "4" .
+
+<http://geo.linkeddata.es/cjcyl/resource/arbolSingular/83689> a cjcyl:ArbolSingular ;
+	cjcyl:nombre "Castaño del Rey" ;
+	cjcyl:codigo "MDLAS00002" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-6.757877411464388 42.460737509272725)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "4" .
+
+<http://geo.linkeddata.es/cjcyl/resource/arbolSingular/84179> a cjcyl:ArbolSingular ;
+	cjcyl:nombre "Pinsapo" ;
+	cjcyl:codigo "MOBAS00001" ;
+	cjcyl:accesoModo "En el sendero PR101" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.41043442765928 42.729650700738816)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "1" .
+
+<http://geo.linkeddata.es/cjcyl/resource/arbolSingular/84180> a cjcyl:ArbolSingular ;
+	cjcyl:nombre "Alcornoque" ;
+	cjcyl:codigo "MOBAS00002" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.111121595143724 42.736624726820565)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "1" .
+
+<http://geo.linkeddata.es/cjcyl/resource/arbolSingular/84181> a cjcyl:ArbolSingular ;
+	cjcyl:nombre "Castaño" ;
+	cjcyl:codigo "MOBAS00003" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.163580373183205 42.836188224311989)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "1" .
+
+<http://geo.linkeddata.es/cjcyl/resource/arbolSingular/84471> a cjcyl:ArbolSingular ;
+	cjcyl:nombre "Roble Ochala" ;
+	cjcyl:codigo "MSTAS00001" ;
+	cjcyl:accesoModo "A pie, por el camino de Mijala a Zaballa, a unos 500 metros de Mijala." ;
+	cjcyl:observaciones "Las raíces están expuestas a erosión por el ganado, que asesta bajo su sombra. En esta zona a los quejigos se les llama robles o robres." ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.08355474257591 42.958430721508051)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "4" .
+
+<http://geo.linkeddata.es/cjcyl/resource/arbolSingular/84472> a cjcyl:ArbolSingular ;
+	cjcyl:nombre "Tejo" ;
+	cjcyl:codigo "MSTAS00002" ;
+	cjcyl:accesoModo "A pie, a unos 100 metros al norte del camino de la nevara al pozo Ongño, junto al tendido electrico" ;
+	cjcyl:observaciones "Es el único tejo que conocemos dentro del Monumento Natural, corre peligro, ya que esta muy cerca del tendido eléctrico y poden cortarlo al desbrozar la línea." ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.043943869249559 42.962000811531993)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "4" .
+
+<http://geo.linkeddata.es/cjcyl/resource/arbolSingular/84473> a cjcyl:ArbolSingular ;
+	cjcyl:nombre "Arce Mompelier, escarrio, iscarrio." ;
+	cjcyl:codigo "MSTAS00003" ;
+	cjcyl:accesoModo "En Valle los Alces" ;
+	cjcyl:observaciones "Hay que proponerlo para el catálogo. Forma parte de un bosquete en el que hay 5 quejigos y 8 arces de gran tamaño. A los Arces en esta zona, se les denomina Escarrios ó Iscarrios, es el más grueso de un bosquete singular." ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.066013753612874 42.961864139388098)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "4" .
+
+<http://geo.linkeddata.es/cjcyl/resource/arbolSingular/84474> a cjcyl:ArbolSingular ;
+	cjcyl:nombre "Arce campestre, escarrio, iscarrio." ;
+	cjcyl:codigo "MSTAS00004" ;
+	cjcyl:accesoModo "En Valle los Alces" ;
+	cjcyl:observaciones "Hay que proponerlo para el catálogo. Forma parte de un bosquete en el que hay 5 quejigos y 8 arces de gran tamaño. A los Arces en esta zona, se les denomina Escarrios ó Iscarrios, es el más grueso de un bosquete singular." ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.065927945190599 42.961882199142138)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "4" .
+
+<http://geo.linkeddata.es/cjcyl/resource/arbolSingular/84475> a cjcyl:ArbolSingular ;
+	cjcyl:nombre "Roble" ;
+	cjcyl:codigo "MSTAS00005" ;
+	cjcyl:accesoModo "A pie 650 metros al este de la caseta de los Camineros en el valle de Molocoalaña" ;
+	cjcyl:observaciones "Roble de 3,78m de perímetro normal. Tiene una hueca al sur hasta 3m de altura. Junto a el hay un pie gruoso de otro roble que ha sido cortado" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.033674180422303 42.926442843855995)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "1" .
+
+<http://geo.linkeddata.es/cjcyl/resource/arbolSingular/84476> a cjcyl:ArbolSingular ;
+	cjcyl:nombre "Roble" ;
+	cjcyl:codigo "MSTAS00006" ;
+	cjcyl:accesoModo "A pie 700 metros al este de la caseta de los Camineros en el valle de Molocoalaña" ;
+	cjcyl:observaciones "Roble de 3,47m de perímetro normal. Tiene una hueca al oeste hasta 2m de altura." ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.033000201657298 42.926434034917463)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "1" .
+
+<http://geo.linkeddata.es/cjcyl/resource/arbolSingular/84477> a cjcyl:ArbolSingular ;
+	cjcyl:nombre "Roble" ;
+	cjcyl:codigo "MSTAS00007" ;
+	cjcyl:accesoModo "A pie 800 metros al este de la caseta de los Camineros en el valle de Molocoalaña" ;
+	cjcyl:observaciones "Roble de 4,70m de perímetro normal. Tiene una hueca al norte hasta 2m de altura y un contrafuerte al suroeste parece híbrido. Junto a el hay otro de 3,40m de perímetro que no inventariamos." ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.031535253012594 42.926038516261244)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "1" .
+
+<http://geo.linkeddata.es/cjcyl/resource/arbolSingular/84478> a cjcyl:ArbolSingular ;
+	cjcyl:nombre "Roble" ;
+	cjcyl:codigo "MSTAS00008" ;
+	cjcyl:accesoModo "A pie 850 metros al este de la caseta de los Camineros en el valle de Molocoalaña" ;
+	cjcyl:observaciones "Roble de 5,38m de perímetro normal, 9,55m de perímetro basal, 3,20m de altura del fuste, 10m de altura total y 12,34m x 10,21m de diámetro de la copa.  Debe proponerse para el catálogo. Tiene una hueca grande al norte  de 3,20m de altura y 1m de ancho. Junto a el hay una cista funeraria." ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.031651709893906 42.925371801205976)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "1" .
+
+<http://geo.linkeddata.es/cjcyl/resource/arbolSingular/84479> a cjcyl:ArbolSingular ;
+	cjcyl:nombre "Roble" ;
+	cjcyl:codigo "MSTAS00009" ;
+	cjcyl:accesoModo "A pie 1000 metros al este de la caseta de los Camineros en el valle de Molocoalaña" ;
+	cjcyl:observaciones "Roble de 3,72m de perímetro normal. Tiene berrugas y una hueca que lo atraviesa" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.029457895656519 42.924588933555846)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "1" .
+
+<http://geo.linkeddata.es/cjcyl/resource/arbolSingular/84480> a cjcyl:ArbolSingular ;
+	cjcyl:nombre "Roble" ;
+	cjcyl:codigo "MSTAS00010" ;
+	cjcyl:accesoModo "A pie 1200 metros al este de la caseta de los Camineros en el valle de Molocoalaña" ;
+	cjcyl:observaciones "Roble de 4,50m de perímetro normal Parece híbrido, en muy buen estado" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.027472495324923 42.923914036459742)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "1" .
+
+<http://geo.linkeddata.es/cjcyl/resource/arbolSingular/84481> a cjcyl:ArbolSingular ;
+	cjcyl:nombre "Roble" ;
+	cjcyl:codigo "MSTAS00011" ;
+	cjcyl:accesoModo "A pie 1250 metros al este de la caseta de los Camineros en el valle de Molocoalaña" ;
+	cjcyl:observaciones "Roble de 4,42m de perímetro normal. Fuste muy alto, está cerca de un calero" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.027166108558928 42.92380604704578)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "1" .
+
+<http://geo.linkeddata.es/cjcyl/resource/arbolSingular/84482> a cjcyl:ArbolSingular ;
+	cjcyl:nombre "Roble" ;
+	cjcyl:codigo "MSTAS00012" ;
+	cjcyl:accesoModo "A pie 1350 metros al este de la caseta de los Camineros en el valle de Molocoalaña" ;
+	cjcyl:observaciones "Roble de 4,25m de perímetro normal" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.026553384645676 42.923698128274253)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "1" .
+
+<http://geo.linkeddata.es/cjcyl/resource/arbolSingular/84483> a cjcyl:ArbolSingular ;
+	cjcyl:nombre "Roble" ;
+	cjcyl:codigo "MSTAS00013" ;
+	cjcyl:accesoModo "A pie 1500 metros al este de la caseta de los Camineros en el valle de Molocoalaña" ;
+	cjcyl:observaciones "Roble de 5,50m de perímetro normal, 9,35m de perímetro basal, 4,46m de altura del fuste, 9.50m de altura total y 11,95m x 10m de diámetro de la copa. Debe proponerse para el catálogo. Tiene una hueca grande en lo alto del fuste y otra pequeña en la base al sur, en todo el perímetro tiene grandes contrafuertes y una rama cortada. Es el roble mas grueso que conocemos en el municipio de Berberana. Parece híbrido." ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.023527037135081 42.924419207070763)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "1" .
+
+<http://geo.linkeddata.es/cjcyl/resource/arbolSingular/84484> a cjcyl:ArbolSingular ;
+	cjcyl:nombre "Nogal" ;
+	cjcyl:codigo "MSTAS00014" ;
+	cjcyl:accesoModo "Al norte de la iglesia a 200m" ;
+	cjcyl:observaciones "Es grueso, no medimos su perímetro" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.059790385654129 42.929295823504376)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "3" .
+
+<http://geo.linkeddata.es/cjcyl/resource/arbolSingular/84485> a cjcyl:ArbolSingular ;
+	cjcyl:nombre "Morera" ;
+	cjcyl:codigo "MSTAS00015" ;
+	cjcyl:accesoModo "100 Metros al sur de la iglesia" ;
+	cjcyl:observaciones "Es grueso, no medimos su perímetro" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.061037850786721 42.92675569766309)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "3" .
+
+<http://geo.linkeddata.es/cjcyl/resource/arbolSingular/85798> a cjcyl:ArbolSingular ;
+	cjcyl:nombre "Abeto de Boñar" ;
+	cjcyl:codigo "PEUAS00003" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.32369170258196 42.864749834811271)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "4" .
+
+<http://geo.linkeddata.es/cjcyl/resource/arbolSingular/85799> a cjcyl:ArbolSingular ;
+	cjcyl:nombre "Espino Maetero de Villardefrancos" ;
+	cjcyl:codigo "PEUAS00002" ;
+	cjcyl:observaciones "Villardefrancos" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.255800405739943 43.031080922116999)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "4" .
+
+<http://geo.linkeddata.es/cjcyl/resource/arbolSingular/85800> a cjcyl:ArbolSingular ;
+	cjcyl:nombre "Hayona de Valdosín" ;
+	cjcyl:codigo "PEUAS00004" ;
+	cjcyl:observaciones "Valle de Valdosín" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.159524791655136 43.084660571827918)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "4" .
+
+<http://geo.linkeddata.es/cjcyl/resource/arbolSingular/85801> a cjcyl:ArbolSingular ;
+	cjcyl:nombre "Mostagera de la Iglesia" ;
+	cjcyl:codigo "PEUAS00006" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.233791282640014 42.983145805494871)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "4" .
+
+<http://geo.linkeddata.es/cjcyl/resource/arbolSingular/85802> a cjcyl:ArbolSingular ;
+	cjcyl:nombre "Olma de la Iglesia" ;
+	cjcyl:codigo "PEUAS00005" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-4.840829143508333 42.929953280760422)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "4" .
+
+<http://geo.linkeddata.es/cjcyl/resource/arbolSingular/85803> a cjcyl:ArbolSingular ;
+	cjcyl:nombre "Plágano de la Iglesia" ;
+	cjcyl:codigo "PEUAS00007" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.17551782953411 43.048677335489046)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "4" .
+
+<http://geo.linkeddata.es/cjcyl/resource/arbolSingular/85804> a cjcyl:ArbolSingular ;
+	cjcyl:nombre "Roble del Sestil de la Mata" ;
+	cjcyl:codigo "PEUAS00001" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-4.926552001373475 42.990851961195531)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "4" .
+
+<http://geo.linkeddata.es/cjcyl/resource/arbolSingular/85805> a cjcyl:ArbolSingular ;
+	cjcyl:nombre "Tejo de la Iglesia" ;
+	cjcyl:codigo "PEUAS00008" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.049437328713341 43.123275171639946)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "4" .
+
+<http://geo.linkeddata.es/cjcyl/resource/arbolSingular/88954> a cjcyl:ArbolSingular ;
+	cjcyl:nombre "Sabina albar" ;
+	cjcyl:codigo "SCLAS00001" ;
+	cjcyl:accesoModo "Carretera vecinal SO-P-5026" ;
+	cjcyl:observaciones "Incluido en el Decreto 63/2003, de 22 de mayo, por el que se regula el Catálogo de Especímenes Vegetales de singular relevancia de Castilla y León y se establece su régimen de protección. Codigo AS-SO-22" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-2.843521547290566 41.715952784575094)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "3" .
+
+<http://geo.linkeddata.es/cjcyl/resource/arbolSingular/89554> a cjcyl:ArbolSingular ;
+	cjcyl:nombre "Castaño monumental \"El Abuelo\"" ;
+	cjcyl:codigo "IRLAS00001" ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-4.517470592498901 40.353271714470125)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:cerramiento "3" .

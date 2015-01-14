@@ -1,0 +1,67 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix cjcyl: <http://geo.linkeddata.es/cjcyl#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+
+<http://geo.linkeddata.es/cjcyl/resource/quiosco/79851> a cjcyl:Quiosco ;
+	cjcyl:nombre "Bar a la orilla del río Ebro" ;
+	cjcyl:codigo "HERQC00001" ;
+	cjcyl:cerramiento "4"^^xsd:int ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.714890189367477 42.89095884824274)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://geo.linkeddata.es/cjcyl/resource/quiosco/81789> a cjcyl:Quiosco ;
+	cjcyl:nombre "Quiosco-aparcamiento Paso de la Serrá" ;
+	cjcyl:codigo "LNUQC00001" ;
+	cjcyl:cerramiento "4"^^xsd:int ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-2.827147172488869 41.998271324993766)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://geo.linkeddata.es/cjcyl/resource/quiosco/81790> a cjcyl:Quiosco ;
+	cjcyl:nombre "Bar Paso de la Serrá" ;
+	cjcyl:codigo "LNUQC00002" ;
+	cjcyl:cerramiento "4"^^xsd:int ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-2.824511636878558 41.999557993747857)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://geo.linkeddata.es/cjcyl/resource/quiosco/89250> a cjcyl:Quiosco ;
+	cjcyl:nombre "La Carrera" ;
+	cjcyl:codigo "SGRQC00001" ;
+	cjcyl:cerramiento "1"^^xsd:int ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.546953794629817 40.341626322963229)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://geo.linkeddata.es/cjcyl/resource/quiosco/89251> a cjcyl:Quiosco ;
+	cjcyl:nombre "El Berrocal" ;
+	cjcyl:codigo "SGRQC00002" ;
+	cjcyl:cerramiento "1"^^xsd:int ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.516363760001726 40.268145860821363)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://geo.linkeddata.es/cjcyl/resource/quiosco/89252> a cjcyl:Quiosco ;
+	cjcyl:nombre "El Vergel de Gredos" ;
+	cjcyl:codigo "SGRQC00003" ;
+	cjcyl:cerramiento "1"^^xsd:int ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.43469873870172 40.314052727078824)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://geo.linkeddata.es/cjcyl/resource/quiosco/89253> a cjcyl:Quiosco ;
+	cjcyl:nombre "Pozo de las Paredes" ;
+	cjcyl:codigo "SGRQC00004" ;
+	cjcyl:cerramiento "3"^^xsd:int ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.250023869540838 40.345482381100574)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://geo.linkeddata.es/cjcyl/resource/quiosco/89254> a cjcyl:Quiosco ;
+	cjcyl:nombre "La Puente" ;
+	cjcyl:codigo "SGRQC00005" ;
+	cjcyl:cerramiento "1"^^xsd:int ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.32498018247474 40.342004206025258)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://geo.linkeddata.es/cjcyl/resource/quiosco/89255> a cjcyl:Quiosco ;
+	cjcyl:nombre "Plataforma de Gredos" ;
+	cjcyl:codigo "SGRQC00006" ;
+	cjcyl:cerramiento "4"^^xsd:int ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.232488002097597 40.274907027459683)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://geo.linkeddata.es/cjcyl/resource/quiosco/89578> a cjcyl:Quiosco ;
+	cjcyl:nombre "Las Cruceras" ;
+	cjcyl:codigo "VLIQC00001" ;
+	cjcyl:cerramiento "1"^^xsd:int ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-4.561179537785208 40.421160397472867)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .

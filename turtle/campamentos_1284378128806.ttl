@@ -1,0 +1,581 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix cjcyl: <http://geo.linkeddata.es/cjcyl#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+
+<http://geo.linkeddata.es/cjcyl/resource/Campamento/85862> a cjcyl:Campamento ;
+	cjcyl:estado "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:nombre "C. El Urogallo (Cofiñal)" ;
+	cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:numeroCabanas "8"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:numeroParcelas "0" ;
+	cjcyl:juevenil "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.269204638737614 43.028845180140543)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:servicioInformativo "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:categoria "2"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Campamento/85863> a cjcyl:Campamento ;
+	cjcyl:estado "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:nombre "C. Las Nieves (Puebla de Lillo)" ;
+	cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:numeroCabanas "6"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:numeroParcelas "0" ;
+	cjcyl:juevenil "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.26641004894597 43.00391286199617)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:servicioInformativo "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:categoria "2"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Campamento/76263> a cjcyl:Campamento ;
+	cjcyl:obseravaciones "Cuenta con punto de información turística y estrecha colaboración con la Administración del Parque Natural" ;
+	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesoModo "Situado en la carretera SA-201 en el km 73 a la salida de la población de El Casarito (Nava de Francia)" ;
+	cjcyl:nombre "Sierra de Francia" ;
+	cjcyl:cerramiento "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:emailOWeb "info@campingsierradefrancia.es" ;
+	cjcyl:numeroCabanas "10"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:numeroParcelas "50" ;
+	cjcyl:juevenil "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-6.138906281142317 40.521392489164811)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:servicioInformativo "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:categoria "2"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Campamento/72461> a cjcyl:Campamento ;
+	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesoModo "Carretera" ;
+	cjcyl:nombre "Albergue municipal La Noria" ;
+	cjcyl:cerramiento "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:numeroCabanas "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:numeroParcelas "0" ;
+	cjcyl:juevenil "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-6.614748083069702 41.218518368336845)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:categoria "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Campamento/72462> a cjcyl:Campamento ;
+	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesoModo "Carretera" ;
+	cjcyl:nombre "Albergue municipal Aires del Duero" ;
+	cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:numeroCabanas "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:numeroParcelas "0" ;
+	cjcyl:juevenil "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-6.460382374736628 41.265687841655442)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:categoria "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Campamento/76260> a cjcyl:Campamento ;
+	cjcyl:estado "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:nombre "Campamento Juvenil La Legoriza" ;
+	cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:numeroCabanas "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:numeroParcelas "0" ;
+	cjcyl:juevenil "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-6.101505092911141 40.51767221396738)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:servicioInformativo "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:categoria "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Campamento/76261> a cjcyl:Campamento ;
+	cjcyl:obseravaciones "Este camping además cuenta con 17 apartamentos" ;
+	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesoModo "Situado en la carretera SA-201 en el km 76,4 a unos 2,5 km de la población de La Alberca, antes de llegar a ésta." ;
+	cjcyl:nombre "Al-bereka" ;
+	cjcyl:cerramiento "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:emailOWeb "turismo@albereka.com" ;
+	cjcyl:numeroCabanas "5"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:numeroParcelas "74" ;
+	cjcyl:juevenil "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-6.122211251893474 40.508771813033839)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:servicioInformativo "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:categoria "2"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Campamento/76262> a cjcyl:Campamento ;
+	cjcyl:obseravaciones "Camping integrado en la naturaleza. Está ubicado dentro del recorrido del sendero PRCSA-16" ;
+	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesoModo "Situado en la población de Miranda del Castañar en el llamado camino de la Noria , al cual se accede por la pista que sale enfrente del Centro de Salud. El camping está a unos 900 m. de dicho Centro." ;
+	cjcyl:nombre "El Burro Blanco" ;
+	cjcyl:cerramiento "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:emailOWeb "el.burro.blanco@hotmail.com" ;
+	cjcyl:numeroCabanas "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:numeroParcelas "31" ;
+	cjcyl:juevenil "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.998825869441568 40.474767984789558)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:servicioInformativo "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:categoria "2"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Campamento/76264> a cjcyl:Campamento ;
+	cjcyl:obseravaciones "En las cercanías de este camping hay una piscina natural en el río Francia. También parten algunas rutas de senderismo, zona deportiva: pista fútbol, tenis, boley playa, pesca." ;
+	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesoModo "Situado en el paraje denominado Vega de Francia, a unos 3 km de la población de Sotoserrano, al que se accede desde esta población por la carretera que va a Béjar, cogiendo un camino que sale a la izquierda antes de cruzar el puente del río Alagón." ;
+	cjcyl:nombre "Vega de Francia" ;
+	cjcyl:cerramiento "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:emailOWeb "info@vegadefrancia.com" ;
+	cjcyl:numeroCabanas "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:numeroParcelas "40" ;
+	cjcyl:juevenil "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-6.010776440545313 40.430481242441132)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:servicioInformativo "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:categoria "2"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Campamento/76265> a cjcyl:Campamento ;
+	cjcyl:obseravaciones "En las cercanías de este camping hay un área recreativa (La Dehesa), zona deportiva (pistas de fútbol, frontón), centro de interpretación de la minería romana \"Las Cávenes\", y rutas de senderismo a la Peña de Francia" ;
+	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesoModo "Situado en la carretera SA-220 (El Cabaco-Ciudad Rodrigo), a unos 500 m. de la población de El Cabaco" ;
+	cjcyl:nombre "Las Cávenes" ;
+	cjcyl:cerramiento "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:emailOWeb "campinglascavenes@yahoo.es" ;
+	cjcyl:numeroCabanas "6"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:numeroParcelas "60" ;
+	cjcyl:juevenil "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-6.134930391786048 40.567121957956566)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:servicioInformativo "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:categoria "2"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Campamento/78536> a cjcyl:Campamento ;
+	cjcyl:obseravaciones "Conjunto de edificios en una extensión de 28000 m2. Cuenta con piscina y pista polideportiva." ;
+	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:nombre "Colonia Virgen del Brezo" ;
+	cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:numeroCabanas "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:numeroParcelas "0" ;
+	cjcyl:juevenil "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-4.835095761523644 42.849161554590495)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:servicioInformativo "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:categoria "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Campamento/78537> a cjcyl:Campamento ;
+	cjcyl:estado "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:nombre "Camping de Cervera de Pisuerga" ;
+	cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:numeroCabanas "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:numeroParcelas "0" ;
+	cjcyl:juevenil "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-4.505730923379547 42.872949805443248)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:categoria "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Campamento/79244> a cjcyl:Campamento ;
+	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesoModo "En el pueblo de Sargentes de la Lora" ;
+	cjcyl:nombre "Albergue juvenil Padre Manjón" ;
+	cjcyl:cerramiento "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:numeroCabanas "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:numeroParcelas "0" ;
+	cjcyl:juevenil "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.873699616397285 42.767962845644412)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:servicioInformativo "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:categoria "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Campamento/82507> a cjcyl:Campamento ;
+	cjcyl:estado "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesoModo "Carretera de Ridadelago" ;
+	cjcyl:nombre "Camping Los Robles" ;
+	cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:numeroCabanas "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:numeroParcelas "0" ;
+	cjcyl:juevenil "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-6.713119642958294 42.119381319221532)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:servicioInformativo "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:categoria "3"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Campamento/82508> a cjcyl:Campamento ;
+	cjcyl:estado "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesoModo "Carretera de Ridadelago" ;
+	cjcyl:nombre "Camping Peña Gullón" ;
+	cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:numeroCabanas "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:numeroParcelas "0" ;
+	cjcyl:juevenil "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-6.688890857849693 42.120108732222974)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:servicioInformativo "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:categoria "2"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Campamento/82509> a cjcyl:Campamento ;
+	cjcyl:estado "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesoModo "Carretera de S.M. de Castañeda" ;
+	cjcyl:nombre "Camping El Folgoso" ;
+	cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:numeroCabanas "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:numeroParcelas "0" ;
+	cjcyl:juevenil "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-6.698850304872718 42.131136045095815)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:servicioInformativo "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:categoria "2"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Campamento/84197> a cjcyl:Campamento ;
+	cjcyl:obseravaciones "Tiene una superficie de 32000m2. Bar/cafetería, restaurante, supermecado, lavadoras automáticas." ;
+	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:nombre "Camping Río Neila" ;
+	cjcyl:cerramiento "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:numeroCabanas "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:numeroParcelas "0" ;
+	cjcyl:juevenil "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.396857224336879 42.803733292572296)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:categoria "2"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Campamento/84198> a cjcyl:Campamento ;
+	cjcyl:obseravaciones "Tiene una superficie de 30000m2. Bar/cafetería, restaurante, supermecado, lavandería" ;
+	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:nombre "Camping Frías" ;
+	cjcyl:cerramiento "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:numeroCabanas "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:numeroParcelas "215" ;
+	cjcyl:juevenil "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.296934227931198 42.770913891386648)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:categoria "2"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Campamento/84199> a cjcyl:Campamento ;
+	cjcyl:obseravaciones "Superficie de 2500m2.Pista polideportiva, campo de futbol" ;
+	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:nombre "Camping Puerta de los Montes Obarenes" ;
+	cjcyl:cerramiento "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:numeroCabanas "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:numeroParcelas "25" ;
+	cjcyl:juevenil "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.265734609566147 42.66351296451775)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:categoria "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Campamento/84200> a cjcyl:Campamento ;
+	cjcyl:obseravaciones "Superficie de 13000m2. No dispone de contenedores porque no hay servicio de recogida de basura." ;
+	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesoModo "Acceso por la autopista A-1, salida 4, dirección Vitoria-Gasteiz." ;
+	cjcyl:nombre "Camping El Desfiladero" ;
+	cjcyl:cerramiento "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:numeroCabanas "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:numeroParcelas "0" ;
+	cjcyl:juevenil "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.092142143179679 42.646829792758432)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:categoria "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Campamento/84489> a cjcyl:Campamento ;
+	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesoModo "Rodado y peatonal" ;
+	cjcyl:nombre "Albergue de Villalba de Losa" ;
+	cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:numeroCabanas "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:numeroParcelas "0" ;
+	cjcyl:juevenil "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.087653362641423 42.935820041753992)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:servicioInformativo "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:categoria "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Campamento/85859> a cjcyl:Campamento ;
+	cjcyl:estado "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:nombre "C. Riaño" ;
+	cjcyl:cerramiento "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:numeroCabanas "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:numeroParcelas "100" ;
+	cjcyl:juevenil "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-4.998095582747725 42.976393506010318)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:servicioInformativo "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:categoria "3"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Campamento/85860> a cjcyl:Campamento ;
+	cjcyl:estado "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:nombre "C. Alto Esla (Boca de Huérgano)" ;
+	cjcyl:cerramiento "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:numeroCabanas "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:numeroParcelas "40" ;
+	cjcyl:juevenil "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-4.929352475258378 42.972234016649821)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:servicioInformativo "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:categoria "2"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Campamento/85861> a cjcyl:Campamento ;
+	cjcyl:estado "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:nombre "C. El Cares (Sta. Marina de V)" ;
+	cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:numeroCabanas "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:numeroParcelas "0" ;
+	cjcyl:juevenil "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-4.882503400876142 43.128334162254589)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:servicioInformativo "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:categoria "2"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Campamento/85864> a cjcyl:Campamento ;
+	cjcyl:estado "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:nombre "C. El Soto (Boñar)" ;
+	cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:numeroCabanas "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:numeroParcelas "0" ;
+	cjcyl:juevenil "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.327978918866372 42.869668114841012)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:servicioInformativo "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:categoria "2"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Campamento/89118> a cjcyl:Campamento ;
+	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:nombre "Luis Miguel Lopez Martinez" ;
+	cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:numeroCabanas "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:numeroParcelas "0" ;
+	cjcyl:juevenil "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.160231209423793 40.230544014342144)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:servicioInformativo "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:categoria "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Campamento/89119> a cjcyl:Campamento ;
+	cjcyl:estado "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesoModo "Por la carretera AV-P-711 que une El Hornillo con Arenas de San Pedro, próximo a el río." ;
+	cjcyl:nombre "El Tejar" ;
+	cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:numeroCabanas "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:numeroParcelas "0" ;
+	cjcyl:juevenil "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.091795382150123 40.237776832197945)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:servicioInformativo "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:categoria "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Campamento/89120> a cjcyl:Campamento ;
+	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:nombre "Huerta del Rey" ;
+	cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:numeroCabanas "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:numeroParcelas "0" ;
+	cjcyl:juevenil "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.164273132380353 40.341103214556973)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:servicioInformativo "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:categoria "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Campamento/89121> a cjcyl:Campamento ;
+	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:nombre "Valdeascas" ;
+	cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:numeroCabanas "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:numeroParcelas "0" ;
+	cjcyl:juevenil "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.128420726176262 40.333255145456526)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:servicioInformativo "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:categoria "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Campamento/89122> a cjcyl:Campamento ;
+	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:nombre "Hoyos del Collado" ;
+	cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:numeroCabanas "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:numeroParcelas "0" ;
+	cjcyl:juevenil "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.214000669295682 40.361209932949457)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:servicioInformativo "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:categoria "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Campamento/89123> a cjcyl:Campamento ;
+	cjcyl:obseravaciones "Camping en construcción. Para acceder al campamento El Tejar nº 30 hay que atravesar el camping. Junto a la carretera hay una antigua casa forestal donde pretende ponerse el bar. LIC y ZEPA Sierra de Gredos." ;
+	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesoModo "Por la carretera AV-P-711 que une El Hornillo con Arenas de San Pedro, a mano izquierda junto a la carretera." ;
+	cjcyl:nombre "El Tejar" ;
+	cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:numeroCabanas "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:numeroParcelas "0" ;
+	cjcyl:juevenil "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.092436879668081 40.237493634812694)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:servicioInformativo "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:categoria "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Campamento/89124> a cjcyl:Campamento ;
+	cjcyl:obseravaciones "Camping propiedad del Ayuntamiento, adjudicado a una cooperativa del pueblo. No es aprovechamiento del monte. Los paneles informativos no son de JCYL." ;
+	cjcyl:estado "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesoModo "Por la carretera AV-931 de Hoyos del Espino a la plataforma de Gredos, a 1,6 km a la altura del puente del Duque sobre el río Tormes parte una pista a mano derecha que tras 0,3 km conduce al camping." ;
+	cjcyl:nombre "Gredos" ;
+	cjcyl:cerramiento "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:emailOWeb "http://www.campingredos.com/" ;
+	cjcyl:numeroCabanas "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:numeroParcelas "0" ;
+	cjcyl:juevenil "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.174995664946939 40.340420616223206)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:servicioInformativo "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:categoria "2"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Campamento/81554> a cjcyl:Campamento ;
+	cjcyl:estado "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesoModo "Dirección Lagunas" ;
+	cjcyl:nombre "Refugio de Neila" ;
+	cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:emailOWeb "http://www.refugiodeneila.com" ;
+	cjcyl:numeroCabanas "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:numeroParcelas "0" ;
+	cjcyl:juevenil "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.035002097221208 42.046039042261945)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:categoria "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Campamento/89125> a cjcyl:Campamento ;
+	cjcyl:obseravaciones "Aprovechamiento del monte. 6 de las papeleras son contenedores de basura. Próximo al Aula de la Naturaleza Cepeda el Pelar nº 70." ;
+	cjcyl:estado "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesoModo "Acceso por la ctra. N-502, tomando la C-500, dirección a El Barco de Avila" ;
+	cjcyl:nombre "Navagredos" ;
+	cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:numeroCabanas "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:numeroParcelas "0" ;
+	cjcyl:juevenil "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.132699501135258 40.34234360851115)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:servicioInformativo "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:categoria "2"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Campamento/89126> a cjcyl:Campamento ;
+	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:nombre "Los Galayos" ;
+	cjcyl:cerramiento "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:emailOWeb "http://www.campinglosgalayos.com/Camping_los_galayos/Camping_los_galayos.html" ;
+	cjcyl:numeroCabanas "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:numeroParcelas "0" ;
+	cjcyl:juevenil "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.152425944865344 40.223730695634153)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:servicioInformativo "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:categoria "2"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Campamento/89127> a cjcyl:Campamento ;
+	cjcyl:estado "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesoModo "Carretera de Bohoyo a Navamediana" ;
+	cjcyl:nombre "Peña Gorda-Los Chozos" ;
+	cjcyl:cerramiento "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:numeroCabanas "6"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:numeroParcelas "0" ;
+	cjcyl:juevenil "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.43018630535505 40.312131602294137)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:servicioInformativo "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:categoria "2"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Campamento/89128> a cjcyl:Campamento ;
+	cjcyl:obseravaciones "Cerrado en el 2007" ;
+	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesoModo "Ctra.C-500-Barco-Hoyos" ;
+	cjcyl:nombre "Hermosillo" ;
+	cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:numeroCabanas "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:numeroParcelas "75" ;
+	cjcyl:juevenil "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.484398650471524 40.327669704927281)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:servicioInformativo "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:categoria "2"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Campamento/89129> a cjcyl:Campamento ;
+	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:nombre "Prados Abiertos" ;
+	cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:numeroCabanas "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:numeroParcelas "100" ;
+	cjcyl:juevenil "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.034381143509505 40.231091811290383)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:servicioInformativo "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:categoria "2"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Campamento/89559> a cjcyl:Campamento ;
+	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:nombre "Valle de Iruelas" ;
+	cjcyl:cerramiento "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:numeroCabanas "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:numeroParcelas "0" ;
+	cjcyl:juevenil "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-4.573536248508576 40.408050989650171)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:servicioInformativo "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:categoria "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Campamento/89560> a cjcyl:Campamento ;
+	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:nombre "Valle de Iruelas" ;
+	cjcyl:cerramiento "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:numeroCabanas "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:numeroParcelas "0" ;
+	cjcyl:juevenil "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-4.564366325916429 40.417724859453088)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:servicioInformativo "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:categoria "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://geo.linkeddata.es/cjcyl/resource/Campamento/85858> a cjcyl:Campamento ;
+	cjcyl:estado "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:nombre "Puente Viejo" ;
+	cjcyl:cerramiento "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:numeroCabanas "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	cjcyl:numeroParcelas "0" ;
+	cjcyl:juevenil "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.324438272803456 42.872691302275761)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
+	cjcyl:servicioInformativo "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	cjcyl:categoria "1"^^<http://www.w3.org/2001/XMLSchema#int> .
