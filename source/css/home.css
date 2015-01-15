@@ -41,3 +41,25 @@ body {
   border-radius: 25px;
   position: absolute;
 }
+
+#leftPanelContent {
+  left: 20px;
+  width: 210px;
+  height: calc(100% - 190px);
+  top: 170px;
+  position: relative;
+}
+
+#facets {
+  left: 0px;
+  position: relative;
+  height: calc(100% - 80px);
+  width: 100%;
+}
+
+#footer {
+  left: 0px;
+  position: relative;
+  height: 80px;
+  width: 100%;
+}
