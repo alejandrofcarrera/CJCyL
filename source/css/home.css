@@ -12,7 +12,7 @@ body {
 #leftPanel {
   height: 100%;
   width: 250px;
-  background-color: rgba(176, 42, 70, 0.8);
+  background-color: #A22B49;
   position: fixed;
   -webkit-box-shadow: 3px 0px 3px 0px rgba(50, 50, 50, 0.5);
   -moz-box-shadow: 3px 0px 3px 0px rgba(50, 50, 50, 0.5);
@@ -23,10 +23,10 @@ body {
 #logo {
   background-image: url("../../resources/logo.png");
   background-repeat: no-repeat;
-  background-size: 180px 180px;
-  margin: 0px 0px 0px 37.5px;
-  height: 180px;
-  width: 180px;
+  background-size: 170px 170px;
+  margin: 0px 0px 0px 40px;
+  height: 170px;
+  width: 170px;
   position: absolute;
 }
 
@@ -43,23 +43,82 @@ body {
 }
 
 #leftPanelContent {
-  left: 20px;
-  width: 210px;
+  left: 10px;
+  width: 230px;
   height: calc(100% - 190px);
   top: 170px;
   position: relative;
 }
 
 #facets {
+  margin-top: -10px;
   left: 0px;
   position: relative;
   height: calc(100% - 80px);
   width: 100%;
 }
 
-#footer {
+#facets p {
+  left: 5px;
+  position: relative;
+  padding-left: 10px;
+  border-bottom: 1.5px #FFFFFF solid;
+  padding-bottom: 5px;
+  margin-top: 10px;
+  font-size: 17px;
+  color: #FFFFFF;
+  width: calc(100% - 30px);
+}
+
+#facets .facetLabel {
+  display: inline-block;
+  width: calc(100% - 70px);
+  height: 100%;
+  margin-left: 5px;
+}
+
+#facets .facetIcon {
+  background-color: #FFFFFF;
+  display: inline-block;
+  margin-left: 30px;
+  height: 13px;
+  width: 13px;
+  border-style: solid;
+  border-radius: 8px;
+  border-color: lightgray;
+  border-width: 1px;
+}
+
+#facets .facet {
+  cursor: pointer;
+  position: relative;
+  width: 100%;
+  font-size: 16px;
+  color: #FFFFFF;
+  margin-top: 15px;
+}
+
+footer {
+  border-style: dashed;
+  border-width: 1.5px;
+  border-radius: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: #FFFFFF;
+  text-align: center; 
+  font-size: 15px;
   left: 0px;
   position: relative;
   height: 80px;
   width: 100%;
+}
+
+footer p{
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+footer a{
+  text-decoration: none;
+  color: lightblue;
 }
