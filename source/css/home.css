@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 14px;
+  background: #F4F4F4 url(../../resources/bg.gif) repeat top left;
+  overflow: hidden;
+}
+
+#leftPanel {
+  height: 100%;
+  width: 250px;
+  background-color: rgba(176, 42, 70, 0.8);
+  position: fixed;
+  -webkit-box-shadow: 3px 0px 3px 0px rgba(50, 50, 50, 0.5);
+  -moz-box-shadow: 3px 0px 3px 0px rgba(50, 50, 50, 0.5);
+  box-shadow: 3px 0px 3px 0px rgba(50, 50, 50, 0.5);
+  z-index: 999;
+}
+
+#logo {
+  background-image: url("../../resources/logo.png");
+  background-repeat: no-repeat;
+  background-size: 180px 180px;
+  margin: 0px 0px 0px 37.5px;
+  height: 180px;
+  width: 180px;
+  position: absolute;
+}
+
+#rightPanel {
+  left: 270px;
+  height: calc(100% - 20px);
+  width: calc(100% - 290px);
+  margin-top: 10px;
+  -webkit-box-shadow: inset 0px 2px 20px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow: inset 0px 2px 20px 0px rgba(50, 50, 50, 0.75);
+  box-shadow: inset 0px 2px 20px 0px rgba(50, 50, 50, 0.75);
+  border-radius: 25px;
+  position: absolute;
+}
