@@ -122,3 +122,11 @@ footer a{
   text-decoration: none;
   color: lightblue;
 }
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and ( min-resolution: 192dpi),
+only screen and ( min-resolution: 2dppx) {
+  #logo {
+    background-image: url("../../resources/logo@2x.png");
+  }
+}
