@@ -1,0 +1,158 @@
+#weatherButton {
+  bottom: 10%;
+  background-image: url(../../resources/tiempo.png);
+  background-repeat: no-repeat;
+  background-size: 26px 90px;
+  background-position: left center;
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-right-color: #A0A0A0;
+}
+
+#weatherView {
+  width: calc(100% - 28px);
+  height: 100%;
+  left: 27px;
+  top: 0;
+  position: relative;
+  background-color: #F4F4F4;
+}
+
+#weatherViewClose {
+  width: 19px;
+  height: 19px;
+  right: 10px;
+  top: 10px;
+  position: absolute;
+  color: #A22B49;
+  cursor: pointer;
+  font-size: 20px;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#weatherInputLabel {
+  color: #A22B49;
+  left: 15px;
+  top: 11px;
+  position: absolute;
+  cursor: default;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-weight: bold;
+}
+
+#weatherInput {
+  position: absolute;
+  width: 120px;
+  top: 13px;
+  left: 80px;
+  padding-left: 10px;
+  border: 1px solid #A22B49;
+  border-radius: 8px;
+}
+
+.autocomplete-suggestions {
+  border: 1px solid #A22B49;
+  background: #F4F4F4;
+  overflow: auto;
+  border-radius: 10px;
+  margin-top: 5px;
+  height: 80px;
+}
+
+.autocomplete-suggestion {
+  padding: 2px 5px;
+  white-space: nowrap;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.autocomplete-suggestions strong {
+  font-weight: normal; color: #A22B49;
+}
+
+#weatherViewContainer {
+  width: 100%;
+  height: calc(100% - 40px);
+  position: absolute;
+  top: 40px;
+}
+
+.today {
+  font-weight: bold;
+}
+
+#weatherDayOne {
+  left: 0px;
+}
+
+#weatherDayTwo {
+  left: 20%;
+}
+
+#weatherDayThree {
+  left: 40%;
+}
+
+#weatherDayFour {
+  left: 60%;
+}
+
+#weatherDayFive {
+  left: 80%;
+}
+
+.weatherDay {
+  width: 20%;
+  height: 100%;
+  top: 0px;
+  position: absolute;
+}
+
+#weatherDayIcon {
+  font-size: 20px;
+  text-align: center;
+  width: 100%;
+  color: #4F4F4F;
+}
+
+#weatherDayState {
+  margin-top: 3px;
+  width: 100%;
+  text-align: center;
+  font-size: 10px;
+  color: #4F4F4F;
+}
+
+#weatherDayTemp {
+  margin-top: 3px;
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
+  color: #4F4F4F;
+}
+
+#weatherDayInfo {
+  margin-top: 3px;
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
+  color: #4F4F4F;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and ( min-resolution: 192dpi),
+only screen and ( min-resolution: 2dppx) {
+  #weatherButton {
+    background-image: url("../../resources/tiempo@2x.png");
+  }
+}

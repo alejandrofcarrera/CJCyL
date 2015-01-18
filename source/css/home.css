@@ -59,24 +59,13 @@ body {
   background-color: #F4F4F4;
   -moz-border-radius-topleft: 15px;
   -webkit-border-top-left-radius: 15px;
- border-top-left-radius: 15px;
+  border-top-left-radius: 15px;
   -moz-border-radius-bottomleft: 15px;
   -webkit-border-bottom-left-radius: 15px;
   border-bottom-left-radius: 15px;
   -webkit-box-shadow: -8px 0px 13px 1px rgba(50, 50, 50, 0.5);
   -moz-box-shadow: -8px 0px 13px 1px rgba(50, 50, 50, 0.5);
   box-shadow: -8px 0px 13px 1px rgba(50, 50, 50, 0.5);
-}
-
-#weatherButton {
-  bottom: 10%;
-  background-image: url(../../resources/tiempo.png);
-  background-repeat: no-repeat;
-  background-size: 26px 90px;
-  background-position: center;
-  border-right-style: solid;
-  border-right-width: 1px;
-  border-right-color: #A0A0A0;
 }
 
 #leftPanelContent {
@@ -180,8 +169,5 @@ only screen and ( min-resolution: 192dpi),
 only screen and ( min-resolution: 2dppx) {
   #logo {
     background-image: url("../../resources/logo@2x.png");
-  }
-  #weatherButton {
-    background-image: url("../../resources/tiempo@2x.png");
   }
 }
