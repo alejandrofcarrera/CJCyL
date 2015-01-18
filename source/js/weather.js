@@ -1,3 +1,18 @@
+
+'use strict';
+
+var provinceList = [
+  { value: 'Ávila', data: {"lon":-4.69228,"lat":40.6579} },
+  { value: 'Burgos', data: {"lon":-3.7,"lat":42.349998} },
+  { value: 'León', data: {"lon":-5.56667,"lat":42.599998} },
+  { value: 'Palencia', data: {"lon":-4.53333,"lat":42.01667} },
+  { value: 'Salamanca', data: {"lon":-5.65,"lat":40.966671} },
+  { value: 'Segovia', data: {"lon":-4.11667,"lat":40.950001} },
+  { value: 'Soria', data: {"lon":-2.46883,"lat":41.764011} },
+  { value: 'Valladolid', data: {"lon":-4.72372,"lat":41.655182} },
+  { value: 'Zamora', data: {"lon":-5.75,"lat":41.5} }
+];
+
 // Remove all SubViews and WeatherView
 var removeWeatherInfo = function removeWeatherInfo(e) {  
   var buttonView = $('#weatherButton');
@@ -205,18 +220,6 @@ var showWeatherInfo = function showWeatherInfo(e) {
   loadWeatherValues(provinceList[0].data);
   
 };
-
-var provinceList = [
-  { value: 'Ávila', data: {"lon":-4.69228,"lat":40.6579} },
-  { value: 'Burgos', data: {"lon":-3.7,"lat":42.349998} },
-  { value: 'León', data: {"lon":-5.56667,"lat":42.599998} },
-  { value: 'Palencia', data: {"lon":-4.53333,"lat":42.01667} },
-  { value: 'Salamanca', data: {"lon":-5.65,"lat":40.966671} },
-  { value: 'Segovia', data: {"lon":-4.11667,"lat":40.950001} },
-  { value: 'Soria', data: {"lon":-2.46883,"lat":41.764011} },
-  { value: 'Valladolid', data: {"lon":-4.72372,"lat":41.655182} },
-  { value: 'Zamora', data: {"lon":-5.75,"lat":41.5} }
-];
 
 var toogleWeather = function toogleWeather(e) {
   if (!$(e.currentTarget).hasClass('on')) {
