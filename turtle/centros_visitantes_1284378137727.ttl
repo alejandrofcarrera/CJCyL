@@ -5,651 +5,105 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 
 
-<http://geo.linkeddata.es/cjcyl/resource/CentroVisitantes/72321> a cjcyl:CentroVisitantes ;
-	cjcyl:observaciones "Para visitar el centro hay que ponerse previamente en contacto con El Acebarillo S.L.. Sala de interpretación" ;
-	cjcyl:estado "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesoModo "Calle urbana de Torrearevalo" ;
-	cjcyl:nombre "Casa del Acebo" ;
-	cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "1" ;
-	cjcyl:accesibilidadDiscapacitados "2" ;
-	cjcyl:centroVisitantesTipo "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-2.388404831455712 41.959298706444969)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:nochesPernoctar "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:centroAtendido "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://geo.linkeddata.es/cjcyl/resource/CentroVisitantes/72321> a cjcyl:CentroVisitantes ; cjcyl:observaciones "Para visitar el centro hay que ponerse previamente en contacto con El Acebarillo S.L.. Sala de interpretación" ; cjcyl:estado "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesoModo "Calle urbana de Torrearevalo" ; cjcyl:nombre "Casa del Acebo" ; cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "1" ; cjcyl:accesibilidadDiscapacitados "2" ; cjcyl:centroVisitantesTipo "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ; cjcyl:geometria "POINT (-2.388404831455712 41.959298706444969)" ; cjcyl:nochesPernoctar "0"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:centroAtendido "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 
-<http://geo.linkeddata.es/cjcyl/resource/CentroVisitantes/76267> a cjcyl:CentroVisitantes ;
-	cjcyl:estado "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:nombre "Centro de Interpretación de los grabados rupestres y el Convento de San José de Batuecas" ;
-	cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "3" ;
-	cjcyl:accesibilidadDiscapacitados "2" ;
-	cjcyl:centroVisitantesTipo "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:servicioInformativo "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-6.115664422699778 40.48859672383054)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:nochesPernoctar "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:centroAtendido "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://geo.linkeddata.es/cjcyl/resource/CentroVisitantes/76267> a cjcyl:CentroVisitantes ; cjcyl:estado "2"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:nombre "Centro de Interpretación de los grabados rupestres y el Convento de San José de Batuecas" ; cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "3" ; cjcyl:accesibilidadDiscapacitados "2" ; cjcyl:centroVisitantesTipo "2"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:servicioInformativo "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ; cjcyl:geometria "POINT (-6.115664422699778 40.48859672383054)" ; cjcyl:nochesPernoctar "0"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:centroAtendido "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 
-<http://geo.linkeddata.es/cjcyl/resource/CentroVisitantes/76268> a cjcyl:CentroVisitantes ;
-	cjcyl:estado "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:nombre "Centro interpretación Minería Romana las Cávenes" ;
-	cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "3" ;
-	cjcyl:accesibilidadDiscapacitados "2" ;
-	cjcyl:centroVisitantesTipo "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:servicioInformativo "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-6.134903331375071 40.567728471685164)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:nochesPernoctar "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:centroAtendido "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://geo.linkeddata.es/cjcyl/resource/CentroVisitantes/76268> a cjcyl:CentroVisitantes ; cjcyl:estado "2"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:nombre "Centro interpretación Minería Romana las Cávenes" ; cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "3" ; cjcyl:accesibilidadDiscapacitados "2" ; cjcyl:centroVisitantesTipo "2"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:servicioInformativo "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ; cjcyl:geometria "POINT (-6.134903331375071 40.567728471685164)" ; cjcyl:nochesPernoctar "0"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:centroAtendido "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 
-<http://geo.linkeddata.es/cjcyl/resource/CentroVisitantes/76269> a cjcyl:CentroVisitantes ;
-	cjcyl:estado "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:nombre "Museo etnográfico de Mogarraz" ;
-	cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "3" ;
-	cjcyl:accesibilidadDiscapacitados "2" ;
-	cjcyl:centroVisitantesTipo "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:servicioInformativo "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-6.052561162532022 40.492094003092106)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:nochesPernoctar "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:centroAtendido "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://geo.linkeddata.es/cjcyl/resource/CentroVisitantes/76269> a cjcyl:CentroVisitantes ; cjcyl:estado "2"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:nombre "Museo etnográfico de Mogarraz" ; cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "3" ; cjcyl:accesibilidadDiscapacitados "2" ; cjcyl:centroVisitantesTipo "2"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:servicioInformativo "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ; cjcyl:geometria "POINT (-6.052561162532022 40.492094003092106)" ; cjcyl:nochesPernoctar "0"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:centroAtendido "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 
-<http://geo.linkeddata.es/cjcyl/resource/CentroVisitantes/76270> a cjcyl:CentroVisitantes ;
-	cjcyl:estado "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:nombre "Casa Museo Satur Juanela" ;
-	cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "3" ;
-	cjcyl:accesibilidadDiscapacitados "2" ;
-	cjcyl:centroVisitantesTipo "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:servicioInformativo "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-6.109700996108431 40.488975443547098)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:nochesPernoctar "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:centroAtendido "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://geo.linkeddata.es/cjcyl/resource/CentroVisitantes/76270> a cjcyl:CentroVisitantes ; cjcyl:estado "2"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:nombre "Casa Museo Satur Juanela" ; cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "3" ; cjcyl:accesibilidadDiscapacitados "2" ; cjcyl:centroVisitantesTipo "2"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:servicioInformativo "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ; cjcyl:geometria "POINT (-6.109700996108431 40.488975443547098)" ; cjcyl:nochesPernoctar "0"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:centroAtendido "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 
-<http://geo.linkeddata.es/cjcyl/resource/CentroVisitantes/76271> a cjcyl:CentroVisitantes ;
-	cjcyl:estado "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:nombre "Casa del Traje" ;
-	cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "3" ;
-	cjcyl:accesibilidadDiscapacitados "2" ;
-	cjcyl:centroVisitantesTipo "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:servicioInformativo "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-6.111042883361692 40.488760291684123)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:nochesPernoctar "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:centroAtendido "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://geo.linkeddata.es/cjcyl/resource/CentroVisitantes/76271> a cjcyl:CentroVisitantes ; cjcyl:estado "2"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:nombre "Casa del Traje" ; cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "3" ; cjcyl:accesibilidadDiscapacitados "2" ; cjcyl:centroVisitantesTipo "2"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:servicioInformativo "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ; cjcyl:geometria "POINT (-6.111042883361692 40.488760291684123)" ; cjcyl:nochesPernoctar "0"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:centroAtendido "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 
-<http://geo.linkeddata.es/cjcyl/resource/CentroVisitantes/77565> a cjcyl:CentroVisitantes ;
-	cjcyl:observaciones "Dispone de estufa de leña" ;
-	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesoModo "Pista forestal de entrada al cañón desde El Nacedero" ;
-	cjcyl:nombre "Cueva Fría" ;
-	cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "1" ;
-	cjcyl:accesibilidadDiscapacitados "3" ;
-	cjcyl:centroVisitantesTipo "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.055476156328454 41.738680507741179)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:nochesPernoctar "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:centroAtendido "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://geo.linkeddata.es/cjcyl/resource/CentroVisitantes/77565> a cjcyl:CentroVisitantes ; cjcyl:observaciones "Dispone de estufa de leña" ; cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesoModo "Pista forestal de entrada al cañón desde El Nacedero" ; cjcyl:nombre "Cueva Fría" ; cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "1" ; cjcyl:accesibilidadDiscapacitados "3" ; cjcyl:centroVisitantesTipo "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ; cjcyl:geometria "POINT (-3.055476156328454 41.738680507741179)" ; cjcyl:nochesPernoctar "0"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:centroAtendido "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 
-<http://geo.linkeddata.es/cjcyl/resource/CentroVisitantes/77566> a cjcyl:CentroVisitantes ;
-	cjcyl:observaciones "Dispone de estufa de leña" ;
-	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesoModo "Carretera S0-960 PK 5" ;
-	cjcyl:nombre "Siete Ojos" ;
-	cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "1" ;
-	cjcyl:accesibilidadDiscapacitados "3" ;
-	cjcyl:centroVisitantesTipo "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.107053555582026 41.794565165352509)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:nochesPernoctar "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:centroAtendido "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://geo.linkeddata.es/cjcyl/resource/CentroVisitantes/77566> a cjcyl:CentroVisitantes ; cjcyl:observaciones "Dispone de estufa de leña" ; cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesoModo "Carretera S0-960 PK 5" ; cjcyl:nombre "Siete Ojos" ; cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "1" ; cjcyl:accesibilidadDiscapacitados "3" ; cjcyl:centroVisitantesTipo "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ; cjcyl:geometria "POINT (-3.107053555582026 41.794565165352509)" ; cjcyl:nochesPernoctar "0"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:centroAtendido "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 
-<http://geo.linkeddata.es/cjcyl/resource/CentroVisitantes/77567> a cjcyl:CentroVisitantes ;
-	cjcyl:observaciones "Recientemente se ha modificado su ubicación. Pendiente la dotación de energía electrica desde red municipal" ;
-	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesoModo "En el núcleo de población de Hontoria" ;
-	cjcyl:nombre "Hontoria del Pinar" ;
-	cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "1" ;
-	cjcyl:accesibilidadDiscapacitados "3" ;
-	cjcyl:centroVisitantesTipo "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.164851719843967 41.84809938609834)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:nochesPernoctar "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:centroAtendido "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://geo.linkeddata.es/cjcyl/resource/CentroVisitantes/77567> a cjcyl:CentroVisitantes ; cjcyl:observaciones "Recientemente se ha modificado su ubicación. Pendiente la dotación de energía electrica desde red municipal" ; cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesoModo "En el núcleo de población de Hontoria" ; cjcyl:nombre "Hontoria del Pinar" ; cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "1" ; cjcyl:accesibilidadDiscapacitados "3" ; cjcyl:centroVisitantesTipo "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ; cjcyl:geometria "POINT (-3.164851719843967 41.84809938609834)" ; cjcyl:nochesPernoctar "0"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:centroAtendido "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 
-<http://geo.linkeddata.es/cjcyl/resource/CentroVisitantes/78539> a cjcyl:CentroVisitantes ;
-	cjcyl:observaciones "Arboreto interpretativo junto aparcamiento.Rectangular: 40x26m. Bordeado por talanquera de madera (66 tramos de 2m y 1,2alt) Parterres delimitados con rollizos de madera y caminos de zahorra. Parterre central d 0,6alt, 0,45anch y 14m de circunferencia." ;
-	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:nombre "Jardín interpretativo de la Tejeda de Tosande" ;
-	cjcyl:cerramiento "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "1" ;
-	cjcyl:accesibilidadDiscapacitados "1" ;
-	cjcyl:centroVisitantesTipo "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:servicioInformativo "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-4.518277130060877 42.824085710073334)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:nochesPernoctar "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:centroAtendido "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://geo.linkeddata.es/cjcyl/resource/CentroVisitantes/78539> a cjcyl:CentroVisitantes ; cjcyl:observaciones "Arboreto interpretativo junto aparcamiento.Rectangular: 40x26m. Bordeado por talanquera de madera (66 tramos de 2m y 1,2alt) Parterres delimitados con rollizos de madera y caminos de zahorra. Parterre central d 0,6alt, 0,45anch y 14m de circunferencia." ; cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:nombre "Jardín interpretativo de la Tejeda de Tosande" ; cjcyl:cerramiento "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "1" ; cjcyl:accesibilidadDiscapacitados "1" ; cjcyl:centroVisitantesTipo "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:servicioInformativo "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ; cjcyl:geometria "POINT (-4.518277130060877 42.824085710073334)" ; cjcyl:nochesPernoctar "0"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:centroAtendido "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 
-<http://geo.linkeddata.es/cjcyl/resource/CentroVisitantes/78540> a cjcyl:CentroVisitantes ;
-	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:nombre "Centro de interpretación de las Truchas" ;
-	cjcyl:cerramiento "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "1" ;
-	cjcyl:accesibilidadDiscapacitados "1" ;
-	cjcyl:centroVisitantesTipo "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-4.848460713289114 42.826063855117255)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:nochesPernoctar "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:centroAtendido "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://geo.linkeddata.es/cjcyl/resource/CentroVisitantes/78540> a cjcyl:CentroVisitantes ; cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:nombre "Centro de interpretación de las Truchas" ; cjcyl:cerramiento "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "1" ; cjcyl:accesibilidadDiscapacitados "1" ; cjcyl:centroVisitantesTipo "2"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ; cjcyl:geometria "POINT (-4.848460713289114 42.826063855117255)" ; cjcyl:nochesPernoctar "0"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:centroAtendido "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 
-<http://geo.linkeddata.es/cjcyl/resource/CentroVisitantes/78541> a cjcyl:CentroVisitantes ;
-	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:nombre "Museo etnográfico de Piedad Isla-Juan Torres" ;
-	cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "1" ;
-	cjcyl:accesibilidadDiscapacitados "2" ;
-	cjcyl:centroVisitantesTipo "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-4.497059476893752 42.862843486923374)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:nochesPernoctar "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:centroAtendido "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://geo.linkeddata.es/cjcyl/resource/CentroVisitantes/78541> a cjcyl:CentroVisitantes ; cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:nombre "Museo etnográfico de Piedad Isla-Juan Torres" ; cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "1" ; cjcyl:accesibilidadDiscapacitados "2" ; cjcyl:centroVisitantesTipo "2"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ; cjcyl:geometria "POINT (-4.497059476893752 42.862843486923374)" ; cjcyl:nochesPernoctar "0"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:centroAtendido "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 
-<http://geo.linkeddata.es/cjcyl/resource/CentroVisitantes/78542> a cjcyl:CentroVisitantes ;
-	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:nombre "Museo etnográfico Cantarranas" ;
-	cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "1" ;
-	cjcyl:accesibilidadDiscapacitados "2" ;
-	cjcyl:centroVisitantesTipo "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-4.497149422247131 42.863555486556194)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:nochesPernoctar "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:centroAtendido "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://geo.linkeddata.es/cjcyl/resource/CentroVisitantes/78542> a cjcyl:CentroVisitantes ; cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:nombre "Museo etnográfico Cantarranas" ; cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "1" ; cjcyl:accesibilidadDiscapacitados "2" ; cjcyl:centroVisitantesTipo "2"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ; cjcyl:geometria "POINT (-4.497149422247131 42.863555486556194)" ; cjcyl:nochesPernoctar "0"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:centroAtendido "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 
-<http://geo.linkeddata.es/cjcyl/resource/CentroVisitantes/78543> a cjcyl:CentroVisitantes ;
-	cjcyl:observaciones "Fachada monumental" ;
-	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:nombre "Casa de los Leones" ;
-	cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "1" ;
-	cjcyl:accesibilidadDiscapacitados "2" ;
-	cjcyl:centroVisitantesTipo "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-4.498241179565943 42.86271933651156)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:nochesPernoctar "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:centroAtendido "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://geo.linkeddata.es/cjcyl/resource/CentroVisitantes/78543> a cjcyl:CentroVisitantes ; cjcyl:observaciones "Fachada monumental" ; cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:nombre "Casa de los Leones" ; cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "1" ; cjcyl:accesibilidadDiscapacitados "2" ; cjcyl:centroVisitantesTipo "2"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ; cjcyl:geometria "POINT (-4.498241179565943 42.86271933651156)" ; cjcyl:nochesPernoctar "0"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:centroAtendido "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 
-<http://geo.linkeddata.es/cjcyl/resource/CentroVisitantes/78544> a cjcyl:CentroVisitantes ;
-	cjcyl:observaciones "Fachada monumental" ;
-	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:nombre "Casa de Cultura" ;
-	cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "1" ;
-	cjcyl:accesibilidadDiscapacitados "2" ;
-	cjcyl:centroVisitantesTipo "5"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-4.498780747321985 42.864620626498628)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:nochesPernoctar "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:centroAtendido "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://geo.linkeddata.es/cjcyl/resource/CentroVisitantes/78544> a cjcyl:CentroVisitantes ; cjcyl:observaciones "Fachada monumental" ; cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:nombre "Casa de Cultura" ; cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "1" ; cjcyl:accesibilidadDiscapacitados "2" ; cjcyl:centroVisitantesTipo "5"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ; cjcyl:geometria "POINT (-4.498780747321985 42.864620626498628)" ; cjcyl:nochesPernoctar "0"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:centroAtendido "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 
-<http://geo.linkeddata.es/cjcyl/resource/CentroVisitantes/79245> a cjcyl:CentroVisitantes ;
-	cjcyl:observaciones "3euros adultos y 2euros niños entre 6 y 14 años. Es punto de información y centro temático. Está fuera de los límites del Parque Natural." ;
-	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesoModo "Carretera" ;
-	cjcyl:nombre "Centro de Interpretación del Valle de Sedano Miguel Delives WP 390" ;
-	cjcyl:cerramiento "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "1" ;
-	cjcyl:accesibilidadDiscapacitados "1" ;
-	cjcyl:centroVisitantesTipo "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.743732054122096 42.71264685360704)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:nochesPernoctar "30"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:centroAtendido "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://geo.linkeddata.es/cjcyl/resource/CentroVisitantes/79245> a cjcyl:CentroVisitantes ; cjcyl:observaciones "3euros adultos y 2euros niños entre 6 y 14 años. Es punto de información y centro temático. Está fuera de los límites del Parque Natural." ; cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesoModo "Carretera" ; cjcyl:nombre "Centro de Interpretación del Valle de Sedano Miguel Delives WP 390" ; cjcyl:cerramiento "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "1" ; cjcyl:accesibilidadDiscapacitados "1" ; cjcyl:centroVisitantesTipo "2"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ; cjcyl:geometria "POINT (-3.743732054122096 42.71264685360704)" ; cjcyl:nochesPernoctar "30"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:centroAtendido "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 
-<http://geo.linkeddata.es/cjcyl/resource/CentroVisitantes/84206> a cjcyl:CentroVisitantes ;
-	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:nombre "Centro de Interpretación Arqueológica Desfiladero de la Horadada" ;
-	cjcyl:cerramiento "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "1" ;
-	cjcyl:accesibilidadDiscapacitados "2" ;
-	cjcyl:centroVisitantesTipo "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.399995400866881 42.800369795226196)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:nochesPernoctar "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:centroAtendido "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://geo.linkeddata.es/cjcyl/resource/CentroVisitantes/84206> a cjcyl:CentroVisitantes ; cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:nombre "Centro de Interpretación Arqueológica Desfiladero de la Horadada" ; cjcyl:cerramiento "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "1" ; cjcyl:accesibilidadDiscapacitados "2" ; cjcyl:centroVisitantesTipo "2"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ; cjcyl:geometria "POINT (-3.399995400866881 42.800369795226196)" ; cjcyl:nochesPernoctar "0"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:centroAtendido "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 
-<http://geo.linkeddata.es/cjcyl/resource/CentroVisitantes/85056> a cjcyl:CentroVisitantes ;
-	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:nombre "Centro de Interpretación Iglesia de San Martín" ;
-	cjcyl:cerramiento "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "1" ;
-	cjcyl:accesibilidadDiscapacitados "2" ;
-	cjcyl:centroVisitantesTipo "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-4.694352586446472 42.154320720383176)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:nochesPernoctar "80"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:centroAtendido "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://geo.linkeddata.es/cjcyl/resource/CentroVisitantes/85056> a cjcyl:CentroVisitantes ; cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:nombre "Centro de Interpretación Iglesia de San Martín" ; cjcyl:cerramiento "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "1" ; cjcyl:accesibilidadDiscapacitados "2" ; cjcyl:centroVisitantesTipo "2"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ; cjcyl:geometria "POINT (-4.694352586446472 42.154320720383176)" ; cjcyl:nochesPernoctar "80"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:centroAtendido "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 
-<http://geo.linkeddata.es/cjcyl/resource/CentroVisitantes/81677> a cjcyl:CentroVisitantes ;
-	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:nombre "Punto de información Paso de la Serrá" ;
-	cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "3" ;
-	cjcyl:accesibilidadDiscapacitados "2" ;
-	cjcyl:centroVisitantesTipo "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:servicioInformativo "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-2.827166919871153 41.998293785541414)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:nochesPernoctar "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:centroAtendido "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://geo.linkeddata.es/cjcyl/resource/CentroVisitantes/81677> a cjcyl:CentroVisitantes ; cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:nombre "Punto de información Paso de la Serrá" ; cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "3" ; cjcyl:accesibilidadDiscapacitados "2" ; cjcyl:centroVisitantesTipo "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:servicioInformativo "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ; cjcyl:geometria "POINT (-2.827166919871153 41.998293785541414)" ; cjcyl:nochesPernoctar "0"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:centroAtendido "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 
-<http://geo.linkeddata.es/cjcyl/resource/CentroVisitantes/85057> a cjcyl:CentroVisitantes ;
-	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:nombre "Casa Museo de la Laguna de Boada" ;
-	cjcyl:cerramiento "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "1" ;
-	cjcyl:accesibilidadDiscapacitados "2" ;
-	cjcyl:centroVisitantesTipo "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-4.877926342787875 41.989367650315167)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:nochesPernoctar "40"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:centroAtendido "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://geo.linkeddata.es/cjcyl/resource/CentroVisitantes/85057> a cjcyl:CentroVisitantes ; cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:nombre "Casa Museo de la Laguna de Boada" ; cjcyl:cerramiento "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "1" ; cjcyl:accesibilidadDiscapacitados "2" ; cjcyl:centroVisitantesTipo "2"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ; cjcyl:geometria "POINT (-4.877926342787875 41.989367650315167)" ; cjcyl:nochesPernoctar "40"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:centroAtendido "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 
-<http://geo.linkeddata.es/cjcyl/resource/CentroVisitantes/85058> a cjcyl:CentroVisitantes ;
-	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:nombre "Museo Parroquial de San Pedro" ;
-	cjcyl:cerramiento "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "1" ;
-	cjcyl:accesibilidadDiscapacitados "2" ;
-	cjcyl:centroVisitantesTipo "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-4.85893697310161 42.221642280331714)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:nochesPernoctar "50"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:centroAtendido "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://geo.linkeddata.es/cjcyl/resource/CentroVisitantes/85058> a cjcyl:CentroVisitantes ; cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:nombre "Museo Parroquial de San Pedro" ; cjcyl:cerramiento "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "1" ; cjcyl:accesibilidadDiscapacitados "2" ; cjcyl:centroVisitantesTipo "2"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ; cjcyl:geometria "POINT (-4.85893697310161 42.221642280331714)" ; cjcyl:nochesPernoctar "50"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:centroAtendido "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 
-<http://geo.linkeddata.es/cjcyl/resource/CentroVisitantes/82514> a cjcyl:CentroVisitantes ;
-	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:nombre "Oficina Comarcal Alta Sanabria" ;
-	cjcyl:cerramiento "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "3" ;
-	cjcyl:accesibilidadDiscapacitados "1" ;
-	cjcyl:centroVisitantesTipo "7"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:servicioInformativo "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-6.646127471209914 42.092388047258865)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:nochesPernoctar "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:centroAtendido "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://geo.linkeddata.es/cjcyl/resource/CentroVisitantes/82514> a cjcyl:CentroVisitantes ; cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:nombre "Oficina Comarcal Alta Sanabria" ; cjcyl:cerramiento "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "3" ; cjcyl:accesibilidadDiscapacitados "1" ; cjcyl:centroVisitantesTipo "7"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:servicioInformativo "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ; cjcyl:geometria "POINT (-6.646127471209914 42.092388047258865)" ; cjcyl:nochesPernoctar "0"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:centroAtendido "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 
-<http://geo.linkeddata.es/cjcyl/resource/CentroVisitantes/82515> a cjcyl:CentroVisitantes ;
-	cjcyl:observaciones "LIM.01" ;
-	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:nombre "Laboratorio Limnológico" ;
-	cjcyl:cerramiento "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "3" ;
-	cjcyl:accesibilidadDiscapacitados "1" ;
-	cjcyl:centroVisitantesTipo "6"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:servicioInformativo "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-6.646129007884303 42.092062919259888)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:nochesPernoctar "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:centroAtendido "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://geo.linkeddata.es/cjcyl/resource/CentroVisitantes/82515> a cjcyl:CentroVisitantes ; cjcyl:observaciones "LIM.01" ; cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:nombre "Laboratorio Limnológico" ; cjcyl:cerramiento "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "3" ; cjcyl:accesibilidadDiscapacitados "1" ; cjcyl:centroVisitantesTipo "6"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:servicioInformativo "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ; cjcyl:geometria "POINT (-6.646129007884303 42.092062919259888)" ; cjcyl:nochesPernoctar "0"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:centroAtendido "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 
-<http://geo.linkeddata.es/cjcyl/resource/CentroVisitantes/83694> a cjcyl:CentroVisitantes ;
-	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:nombre "Aula arqueológica de Las Médulas" ;
-	cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "1" ;
-	cjcyl:accesibilidadDiscapacitados "1" ;
-	cjcyl:centroVisitantesTipo "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-6.768153552832066 42.460763853816282)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:nochesPernoctar "80"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:centroAtendido "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://geo.linkeddata.es/cjcyl/resource/CentroVisitantes/83694> a cjcyl:CentroVisitantes ; cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:nombre "Aula arqueológica de Las Médulas" ; cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "1" ; cjcyl:accesibilidadDiscapacitados "1" ; cjcyl:centroVisitantesTipo "2"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ; cjcyl:geometria "POINT (-6.768153552832066 42.460763853816282)" ; cjcyl:nochesPernoctar "80"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:centroAtendido "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 
-<http://geo.linkeddata.es/cjcyl/resource/CentroVisitantes/83695> a cjcyl:CentroVisitantes ;
-	cjcyl:estado "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:nombre "Centro Luis del Olmo" ;
-	cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "1" ;
-	cjcyl:accesibilidadDiscapacitados "1" ;
-	cjcyl:centroVisitantesTipo "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-6.821458648364872 42.414918785692628)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:nochesPernoctar "30"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:centroAtendido "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://geo.linkeddata.es/cjcyl/resource/CentroVisitantes/83695> a cjcyl:CentroVisitantes ; cjcyl:estado "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:nombre "Centro Luis del Olmo" ; cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "1" ; cjcyl:accesibilidadDiscapacitados "1" ; cjcyl:centroVisitantesTipo "2"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ; cjcyl:geometria "POINT (-6.821458648364872 42.414918785692628)" ; cjcyl:nochesPernoctar "30"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:centroAtendido "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 
-<http://geo.linkeddata.es/cjcyl/resource/CentroVisitantes/83696> a cjcyl:CentroVisitantes ;
-	cjcyl:estado "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:nombre "Aula del Castaño" ;
-	cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "1" ;
-	cjcyl:accesibilidadDiscapacitados "2" ;
-	cjcyl:centroVisitantesTipo "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:servicioInformativo "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-6.725499856176623 42.492593468957047)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:nochesPernoctar "30"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:centroAtendido "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://geo.linkeddata.es/cjcyl/resource/CentroVisitantes/83696> a cjcyl:CentroVisitantes ; cjcyl:estado "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:nombre "Aula del Castaño" ; cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "1" ; cjcyl:accesibilidadDiscapacitados "2" ; cjcyl:centroVisitantesTipo "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:servicioInformativo "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ; cjcyl:geometria "POINT (-6.725499856176623 42.492593468957047)" ; cjcyl:nochesPernoctar "30"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:centroAtendido "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 
-<http://geo.linkeddata.es/cjcyl/resource/CentroVisitantes/83697> a cjcyl:CentroVisitantes ;
-	cjcyl:estado "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesoModo "Situado en el pueblo de Las Médulas, en la calle General, después de la iglesia y a 400m aproximadamente del aparcamiento" ;
-	cjcyl:nombre "Centro de recepción de visitantes de Las Médulas" ;
-	cjcyl:cerramiento "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "1" ;
-	cjcyl:accesibilidadDiscapacitados "1" ;
-	cjcyl:centroVisitantesTipo "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-6.767518369955136 42.456456014967564)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:nochesPernoctar "30"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:centroAtendido "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://geo.linkeddata.es/cjcyl/resource/CentroVisitantes/83697> a cjcyl:CentroVisitantes ; cjcyl:estado "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesoModo "Situado en el pueblo de Las Médulas, en la calle General, después de la iglesia y a 400m aproximadamente del aparcamiento" ; cjcyl:nombre "Centro de recepción de visitantes de Las Médulas" ; cjcyl:cerramiento "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "1" ; cjcyl:accesibilidadDiscapacitados "1" ; cjcyl:centroVisitantesTipo "2"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ; cjcyl:geometria "POINT (-6.767518369955136 42.456456014967564)" ; cjcyl:nochesPernoctar "30"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:centroAtendido "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 
-<http://geo.linkeddata.es/cjcyl/resource/CentroVisitantes/83698> a cjcyl:CentroVisitantes ;
-	cjcyl:estado "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:nombre "Domus Romana" ;
-	cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "1" ;
-	cjcyl:accesibilidadDiscapacitados "2" ;
-	cjcyl:centroVisitantesTipo "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:servicioInformativo "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-6.761213616416708 42.486216881451043)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:nochesPernoctar "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:centroAtendido "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://geo.linkeddata.es/cjcyl/resource/CentroVisitantes/83698> a cjcyl:CentroVisitantes ; cjcyl:estado "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:nombre "Domus Romana" ; cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "1" ; cjcyl:accesibilidadDiscapacitados "2" ; cjcyl:centroVisitantesTipo "2"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:servicioInformativo "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ; cjcyl:geometria "POINT (-6.761213616416708 42.486216881451043)" ; cjcyl:nochesPernoctar "0"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:centroAtendido "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 
-<http://geo.linkeddata.es/cjcyl/resource/CentroVisitantes/84202> a cjcyl:CentroVisitantes ;
-	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:nombre "Oficina de turismo Oña" ;
-	cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "1" ;
-	cjcyl:accesibilidadDiscapacitados "2" ;
-	cjcyl:centroVisitantesTipo "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.413921305239593 42.734602052113196)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:nochesPernoctar "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:centroAtendido "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://geo.linkeddata.es/cjcyl/resource/CentroVisitantes/84202> a cjcyl:CentroVisitantes ; cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:nombre "Oficina de turismo Oña" ; cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "1" ; cjcyl:accesibilidadDiscapacitados "2" ; cjcyl:centroVisitantesTipo "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ; cjcyl:geometria "POINT (-3.413921305239593 42.734602052113196)" ; cjcyl:nochesPernoctar "0"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:centroAtendido "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 
-<http://geo.linkeddata.es/cjcyl/resource/CentroVisitantes/84203> a cjcyl:CentroVisitantes ;
-	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:nombre "Punto de información" ;
-	cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "1" ;
-	cjcyl:accesibilidadDiscapacitados "2" ;
-	cjcyl:centroVisitantesTipo "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.29476699047644 42.762566865647671)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:nochesPernoctar "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:centroAtendido "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://geo.linkeddata.es/cjcyl/resource/CentroVisitantes/84203> a cjcyl:CentroVisitantes ; cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:nombre "Punto de información" ; cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "1" ; cjcyl:accesibilidadDiscapacitados "2" ; cjcyl:centroVisitantesTipo "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ; cjcyl:geometria "POINT (-3.29476699047644 42.762566865647671)" ; cjcyl:nochesPernoctar "0"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:centroAtendido "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 
-<http://geo.linkeddata.es/cjcyl/resource/CentroVisitantes/84204> a cjcyl:CentroVisitantes ;
-	cjcyl:observaciones "Grupos más de 12 concertar visita a través de correo electrónico" ;
-	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:nombre "Museo etnográfico Montejo de San Miguel" ;
-	cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "1" ;
-	cjcyl:accesibilidadDiscapacitados "2" ;
-	cjcyl:centroVisitantesTipo "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.271818031928052 42.765318829149393)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:nochesPernoctar "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:centroAtendido "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://geo.linkeddata.es/cjcyl/resource/CentroVisitantes/84204> a cjcyl:CentroVisitantes ; cjcyl:observaciones "Grupos más de 12 concertar visita a través de correo electrónico" ; cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:nombre "Museo etnográfico Montejo de San Miguel" ; cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "1" ; cjcyl:accesibilidadDiscapacitados "2" ; cjcyl:centroVisitantesTipo "2"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ; cjcyl:geometria "POINT (-3.271818031928052 42.765318829149393)" ; cjcyl:nochesPernoctar "0"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:centroAtendido "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 
-<http://geo.linkeddata.es/cjcyl/resource/CentroVisitantes/84205> a cjcyl:CentroVisitantes ;
-	cjcyl:observaciones "Grupos concertados en invierno tienen que pagar una tarifa de visita" ;
-	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:nombre "Portal del Espacio Natural Montes Obarenes" ;
-	cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "1" ;
-	cjcyl:accesibilidadDiscapacitados "1" ;
-	cjcyl:centroVisitantesTipo "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.111014132612301 42.636068755678984)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:nochesPernoctar "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:centroAtendido "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://geo.linkeddata.es/cjcyl/resource/CentroVisitantes/84205> a cjcyl:CentroVisitantes ; cjcyl:observaciones "Grupos concertados en invierno tienen que pagar una tarifa de visita" ; cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:nombre "Portal del Espacio Natural Montes Obarenes" ; cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "1" ; cjcyl:accesibilidadDiscapacitados "1" ; cjcyl:centroVisitantesTipo "2"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ; cjcyl:geometria "POINT (-3.111014132612301 42.636068755678984)" ; cjcyl:nochesPernoctar "0"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:centroAtendido "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 
-<http://geo.linkeddata.es/cjcyl/resource/CentroVisitantes/85160> a cjcyl:CentroVisitantes ;
-	cjcyl:observaciones "Otras dotaciones:dos papeleras pequeñas, aparcabicicletas, en el exterior hay una mesa, un banco y bancos corridos de piedra, un panel interpretativo en mal estado. Falta accesibilidad en la Ermita." ;
-	cjcyl:estado "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesoModo "Peatonal con camino de tierra-grava ó camino enbaldosado con barandilla desde OJGAP0002 y OJGAP0003" ;
-	cjcyl:nombre "Cueva y Ermita San Bernabé" ;
-	cjcyl:cerramiento "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "1" ;
-	cjcyl:accesibilidadDiscapacitados "3" ;
-	cjcyl:centroVisitantesTipo "8"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.66343481607418 43.034181925348328)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:nochesPernoctar "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:centroAtendido "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://geo.linkeddata.es/cjcyl/resource/CentroVisitantes/85160> a cjcyl:CentroVisitantes ; cjcyl:observaciones "Otras dotaciones:dos papeleras pequeñas, aparcabicicletas, en el exterior hay una mesa, un banco y bancos corridos de piedra, un panel interpretativo en mal estado. Falta accesibilidad en la Ermita." ; cjcyl:estado "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesoModo "Peatonal con camino de tierra-grava ó camino enbaldosado con barandilla desde OJGAP0002 y OJGAP0003" ; cjcyl:nombre "Cueva y Ermita San Bernabé" ; cjcyl:cerramiento "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "1" ; cjcyl:accesibilidadDiscapacitados "3" ; cjcyl:centroVisitantesTipo "8"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ; cjcyl:geometria "POINT (-3.66343481607418 43.034181925348328)" ; cjcyl:nochesPernoctar "0"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:centroAtendido "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 
-<http://geo.linkeddata.es/cjcyl/resource/CentroVisitantes/85161> a cjcyl:CentroVisitantes ;
-	cjcyl:observaciones "Apertura verano 2010" ;
-	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesoModo "Senda peatonal desde la Casa del Parquea Quisicedo. En un futuro se accederá desde Villabáscones por pasarela peatonal sobre el FEVE" ;
-	cjcyl:nombre "Museo etnográfico" ;
-	cjcyl:cerramiento "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "1" ;
-	cjcyl:accesibilidadDiscapacitados "2" ;
-	cjcyl:centroVisitantesTipo "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.67669931704996 43.047111551275705)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:nochesPernoctar "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:centroAtendido "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://geo.linkeddata.es/cjcyl/resource/CentroVisitantes/85161> a cjcyl:CentroVisitantes ; cjcyl:observaciones "Apertura verano 2010" ; cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesoModo "Senda peatonal desde la Casa del Parquea Quisicedo. En un futuro se accederá desde Villabáscones por pasarela peatonal sobre el FEVE" ; cjcyl:nombre "Museo etnográfico" ; cjcyl:cerramiento "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "1" ; cjcyl:accesibilidadDiscapacitados "2" ; cjcyl:centroVisitantesTipo "2"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ; cjcyl:geometria "POINT (-3.67669931704996 43.047111551275705)" ; cjcyl:nochesPernoctar "0"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:centroAtendido "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 
-<http://geo.linkeddata.es/cjcyl/resource/CentroVisitantes/85868> a cjcyl:CentroVisitantes ;
-	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesoModo "Carretera" ;
-	cjcyl:nombre "Jardín Cañada Real Oriental leonesa" ;
-	cjcyl:cerramiento "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "1" ;
-	cjcyl:accesibilidadDiscapacitados "1" ;
-	cjcyl:centroVisitantesTipo "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.091078839542032 43.041196573428479)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:nochesPernoctar "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:centroAtendido "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://geo.linkeddata.es/cjcyl/resource/CentroVisitantes/85868> a cjcyl:CentroVisitantes ; cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesoModo "Carretera" ; cjcyl:nombre "Jardín Cañada Real Oriental leonesa" ; cjcyl:cerramiento "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "1" ; cjcyl:accesibilidadDiscapacitados "1" ; cjcyl:centroVisitantesTipo "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ; cjcyl:geometria "POINT (-5.091078839542032 43.041196573428479)" ; cjcyl:nochesPernoctar "0"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:centroAtendido "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 
-<http://geo.linkeddata.es/cjcyl/resource/CentroVisitantes/85869> a cjcyl:CentroVisitantes ;
-	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesoModo "Carretera" ;
-	cjcyl:nombre "Museo etnográfico Valdeburón" ;
-	cjcyl:cerramiento "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "1" ;
-	cjcyl:accesibilidadDiscapacitados "1" ;
-	cjcyl:centroVisitantesTipo "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.091474771860304 43.041704081015276)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:nochesPernoctar "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:centroAtendido "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://geo.linkeddata.es/cjcyl/resource/CentroVisitantes/85869> a cjcyl:CentroVisitantes ; cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesoModo "Carretera" ; cjcyl:nombre "Museo etnográfico Valdeburón" ; cjcyl:cerramiento "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "1" ; cjcyl:accesibilidadDiscapacitados "1" ; cjcyl:centroVisitantesTipo "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ; cjcyl:geometria "POINT (-5.091474771860304 43.041704081015276)" ; cjcyl:nochesPernoctar "0"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:centroAtendido "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 
-<http://geo.linkeddata.es/cjcyl/resource/CentroVisitantes/88836> a cjcyl:CentroVisitantes ;
-	cjcyl:observaciones "Estructura techada con un banco y una señal informactiva de la Reserva Natural Riberas de castronuño-Vega de Duero" ;
-	cjcyl:estado "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesoModo "En el casco urbano de Pollos en la avenida de España." ;
-	cjcyl:nombre "Punto de información de Pollos" ;
-	cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "1" ;
-	cjcyl:accesibilidadDiscapacitados "2" ;
-	cjcyl:centroVisitantesTipo "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:servicioInformativo "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.120566518779892 41.445168299869607)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:nochesPernoctar "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:centroAtendido "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://geo.linkeddata.es/cjcyl/resource/CentroVisitantes/88836> a cjcyl:CentroVisitantes ; cjcyl:observaciones "Estructura techada con un banco y una señal informactiva de la Reserva Natural Riberas de castronuño-Vega de Duero" ; cjcyl:estado "2"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesoModo "En el casco urbano de Pollos en la avenida de España." ; cjcyl:nombre "Punto de información de Pollos" ; cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "1" ; cjcyl:accesibilidadDiscapacitados "2" ; cjcyl:centroVisitantesTipo "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:servicioInformativo "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ; cjcyl:geometria "POINT (-5.120566518779892 41.445168299869607)" ; cjcyl:nochesPernoctar "0"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:centroAtendido "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 
-<http://geo.linkeddata.es/cjcyl/resource/CentroVisitantes/89132> a cjcyl:CentroVisitantes ;
-	cjcyl:observaciones "Almacén y casa forestal dentro del recinto vallado" ;
-	cjcyl:estado "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesoModo "Por el camino forestal asfaltado de Valdeascas que parte de Navarredonda de Gredos a la altura de la gasolinera." ;
-	cjcyl:nombre "Cepeda El Pelar" ;
-	cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "3" ;
-	cjcyl:accesibilidadDiscapacitados "2" ;
-	cjcyl:centroVisitantesTipo "9"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:servicioInformativo "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.131513567143299 40.340572858897382)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:nochesPernoctar "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:centroAtendido "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://geo.linkeddata.es/cjcyl/resource/CentroVisitantes/89132> a cjcyl:CentroVisitantes ; cjcyl:observaciones "Almacén y casa forestal dentro del recinto vallado" ; cjcyl:estado "2"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesoModo "Por el camino forestal asfaltado de Valdeascas que parte de Navarredonda de Gredos a la altura de la gasolinera." ; cjcyl:nombre "Cepeda El Pelar" ; cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "3" ; cjcyl:accesibilidadDiscapacitados "2" ; cjcyl:centroVisitantesTipo "9"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:servicioInformativo "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ; cjcyl:geometria "POINT (-5.131513567143299 40.340572858897382)" ; cjcyl:nochesPernoctar "0"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:centroAtendido "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 
-<http://geo.linkeddata.es/cjcyl/resource/CentroVisitantes/89133> a cjcyl:CentroVisitantes ;
-	cjcyl:estado "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:nombre "Punto Información Castro celta El Raso" ;
-	cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "1" ;
-	cjcyl:accesibilidadDiscapacitados "2" ;
-	cjcyl:centroVisitantesTipo "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.353259487303368 40.181269646048442)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:nochesPernoctar "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:centroAtendido "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://geo.linkeddata.es/cjcyl/resource/CentroVisitantes/89133> a cjcyl:CentroVisitantes ; cjcyl:estado "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:nombre "Punto Información Castro celta El Raso" ; cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "1" ; cjcyl:accesibilidadDiscapacitados "2" ; cjcyl:centroVisitantesTipo "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ; cjcyl:geometria "POINT (-5.353259487303368 40.181269646048442)" ; cjcyl:nochesPernoctar "0"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:centroAtendido "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 
-<http://geo.linkeddata.es/cjcyl/resource/CentroVisitantes/89134> a cjcyl:CentroVisitantes ;
-	cjcyl:observaciones "Castro celta con guía" ;
-	cjcyl:estado "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:nombre "Castro celta" ;
-	cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "1" ;
-	cjcyl:accesibilidadDiscapacitados "2" ;
-	cjcyl:centroVisitantesTipo "6"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.357818337181519 40.182149801974028)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:nochesPernoctar "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:centroAtendido "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://geo.linkeddata.es/cjcyl/resource/CentroVisitantes/89134> a cjcyl:CentroVisitantes ; cjcyl:observaciones "Castro celta con guía" ; cjcyl:estado "2"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:nombre "Castro celta" ; cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "1" ; cjcyl:accesibilidadDiscapacitados "2" ; cjcyl:centroVisitantesTipo "6"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ; cjcyl:geometria "POINT (-5.357818337181519 40.182149801974028)" ; cjcyl:nochesPernoctar "0"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:centroAtendido "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 
-<http://geo.linkeddata.es/cjcyl/resource/CentroVisitantes/89135> a cjcyl:CentroVisitantes ;
-	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:nombre "Casa micológica" ;
-	cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "1" ;
-	cjcyl:accesibilidadDiscapacitados "2" ;
-	cjcyl:centroVisitantesTipo "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.250596590867058 40.359966609576063)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:nochesPernoctar "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:centroAtendido "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://geo.linkeddata.es/cjcyl/resource/CentroVisitantes/89135> a cjcyl:CentroVisitantes ; cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:nombre "Casa micológica" ; cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "1" ; cjcyl:accesibilidadDiscapacitados "2" ; cjcyl:centroVisitantesTipo "2"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ; cjcyl:geometria "POINT (-5.250596590867058 40.359966609576063)" ; cjcyl:nochesPernoctar "0"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:centroAtendido "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 
-<http://geo.linkeddata.es/cjcyl/resource/CentroVisitantes/89136> a cjcyl:CentroVisitantes ;
-	cjcyl:observaciones "Museo cinegético y centro de gestión de caza" ;
-	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:nombre "Casa de la Reserva" ;
-	cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "1" ;
-	cjcyl:accesibilidadDiscapacitados "2" ;
-	cjcyl:centroVisitantesTipo "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.249974150823547 40.360637390027769)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:nochesPernoctar "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:centroAtendido "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://geo.linkeddata.es/cjcyl/resource/CentroVisitantes/89136> a cjcyl:CentroVisitantes ; cjcyl:observaciones "Museo cinegético y centro de gestión de caza" ; cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:nombre "Casa de la Reserva" ; cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "1" ; cjcyl:accesibilidadDiscapacitados "2" ; cjcyl:centroVisitantesTipo "2"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ; cjcyl:geometria "POINT (-5.249974150823547 40.360637390027769)" ; cjcyl:nochesPernoctar "0"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:centroAtendido "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 
-<http://geo.linkeddata.es/cjcyl/resource/CentroVisitantes/89137> a cjcyl:CentroVisitantes ;
-	cjcyl:observaciones "Museo de rocas y líquenes." ;
-	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:nombre "Casa de los Líquenes" ;
-	cjcyl:cerramiento "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "1" ;
-	cjcyl:accesibilidadDiscapacitados "2" ;
-	cjcyl:centroVisitantesTipo "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.305981516932062 40.350348180742451)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:nochesPernoctar "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:centroAtendido "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://geo.linkeddata.es/cjcyl/resource/CentroVisitantes/89137> a cjcyl:CentroVisitantes ; cjcyl:observaciones "Museo de rocas y líquenes." ; cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:nombre "Casa de los Líquenes" ; cjcyl:cerramiento "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "1" ; cjcyl:accesibilidadDiscapacitados "2" ; cjcyl:centroVisitantesTipo "2"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ; cjcyl:geometria "POINT (-5.305981516932062 40.350348180742451)" ; cjcyl:nochesPernoctar "0"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:centroAtendido "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 
-<http://geo.linkeddata.es/cjcyl/resource/CentroVisitantes/89138> a cjcyl:CentroVisitantes ;
-	cjcyl:observaciones "Antigua cárcel en el casco urbano de Barco de Ávila" ;
-	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:nombre "Centro de visitantes Cárcel" ;
-	cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "1" ;
-	cjcyl:accesibilidadDiscapacitados "2" ;
-	cjcyl:centroVisitantesTipo "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.524786390403337 40.357474861821132)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:nochesPernoctar "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:centroAtendido "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://geo.linkeddata.es/cjcyl/resource/CentroVisitantes/89138> a cjcyl:CentroVisitantes ; cjcyl:observaciones "Antigua cárcel en el casco urbano de Barco de Ávila" ; cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:nombre "Centro de visitantes Cárcel" ; cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "1" ; cjcyl:accesibilidadDiscapacitados "2" ; cjcyl:centroVisitantesTipo "2"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ; cjcyl:geometria "POINT (-5.524786390403337 40.357474861821132)" ; cjcyl:nochesPernoctar "0"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:centroAtendido "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 
-<http://geo.linkeddata.es/cjcyl/resource/CentroVisitantes/89139> a cjcyl:CentroVisitantes ;
-	cjcyl:estado "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:nombre "Oficina Comarcal de Medio Ambiente" ;
-	cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "3" ;
-	cjcyl:accesibilidadDiscapacitados "2" ;
-	cjcyl:centroVisitantesTipo "7"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:servicioInformativo "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.519764695276461 40.356494138633664)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:nochesPernoctar "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:centroAtendido "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://geo.linkeddata.es/cjcyl/resource/CentroVisitantes/89139> a cjcyl:CentroVisitantes ; cjcyl:estado "2"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:nombre "Oficina Comarcal de Medio Ambiente" ; cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "3" ; cjcyl:accesibilidadDiscapacitados "2" ; cjcyl:centroVisitantesTipo "7"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:servicioInformativo "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ; cjcyl:geometria "POINT (-5.519764695276461 40.356494138633664)" ; cjcyl:nochesPernoctar "0"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:centroAtendido "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 
-<http://geo.linkeddata.es/cjcyl/resource/CentroVisitantes/89140> a cjcyl:CentroVisitantes ;
-	cjcyl:observaciones "En obras" ;
-	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:nombre "Aula del río" ;
-	cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "3" ;
-	cjcyl:accesibilidadDiscapacitados "2" ;
-	cjcyl:centroVisitantesTipo "11"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:servicioInformativo "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.38599036237551 40.329748760194548)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:nochesPernoctar "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:centroAtendido "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://geo.linkeddata.es/cjcyl/resource/CentroVisitantes/89140> a cjcyl:CentroVisitantes ; cjcyl:observaciones "En obras" ; cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:nombre "Aula del río" ; cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "3" ; cjcyl:accesibilidadDiscapacitados "2" ; cjcyl:centroVisitantesTipo "11"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:servicioInformativo "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ; cjcyl:geometria "POINT (-5.38599036237551 40.329748760194548)" ; cjcyl:nochesPernoctar "0"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:centroAtendido "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 
-<http://geo.linkeddata.es/cjcyl/resource/CentroVisitantes/89141> a cjcyl:CentroVisitantes ;
-	cjcyl:estado "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:nombre "Aula del río de Barco de Ávila" ;
-	cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "3" ;
-	cjcyl:accesibilidadDiscapacitados "2" ;
-	cjcyl:centroVisitantesTipo "11"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:servicioInformativo "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.527429654762915 40.356850259279916)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:nochesPernoctar "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:centroAtendido "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://geo.linkeddata.es/cjcyl/resource/CentroVisitantes/89141> a cjcyl:CentroVisitantes ; cjcyl:estado "2"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:nombre "Aula del río de Barco de Ávila" ; cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "3" ; cjcyl:accesibilidadDiscapacitados "2" ; cjcyl:centroVisitantesTipo "11"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:servicioInformativo "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ; cjcyl:geometria "POINT (-5.527429654762915 40.356850259279916)" ; cjcyl:nochesPernoctar "0"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:centroAtendido "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 
-<http://geo.linkeddata.es/cjcyl/resource/CentroVisitantes/89142> a cjcyl:CentroVisitantes ;
-	cjcyl:estado "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:nombre "Punto de turismo Barco de Ávila" ;
-	cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "3" ;
-	cjcyl:accesibilidadDiscapacitados "2" ;
-	cjcyl:centroVisitantesTipo "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:servicioInformativo "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.525572515266128 40.356518288539434)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:nochesPernoctar "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:centroAtendido "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://geo.linkeddata.es/cjcyl/resource/CentroVisitantes/89142> a cjcyl:CentroVisitantes ; cjcyl:estado "2"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:nombre "Punto de turismo Barco de Ávila" ; cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "3" ; cjcyl:accesibilidadDiscapacitados "2" ; cjcyl:centroVisitantesTipo "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:servicioInformativo "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ; cjcyl:geometria "POINT (-5.525572515266128 40.356518288539434)" ; cjcyl:nochesPernoctar "0"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:centroAtendido "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 
-<http://geo.linkeddata.es/cjcyl/resource/CentroVisitantes/89143> a cjcyl:CentroVisitantes ;
-	cjcyl:observaciones "Almacén y casa forestal dentro del recinto vallado (no del aula) Requisitos: Responsable. Participantes. Programa. Seguros. Aceptación de condicionado. Fianza. Autorización S.T. Cultura.Programa de actividades" ;
-	cjcyl:estado "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesoModo "Por el camino forestal asfaltado de Valdeascas que parte de Navarredonda de Gredos a la altura de la gasolinera." ;
-	cjcyl:nombre "Cepeda el Pelar" ;
-	cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "3" ;
-	cjcyl:accesibilidadDiscapacitados "2" ;
-	cjcyl:centroVisitantesTipo "9"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:servicioInformativo "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.131513567143299 40.340572858897382)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:nochesPernoctar "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:centroAtendido "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://geo.linkeddata.es/cjcyl/resource/CentroVisitantes/89143> a cjcyl:CentroVisitantes ; cjcyl:observaciones "Almacén y casa forestal dentro del recinto vallado (no del aula) Requisitos: Responsable. Participantes. Programa. Seguros. Aceptación de condicionado. Fianza. Autorización S.T. Cultura.Programa de actividades" ; cjcyl:estado "2"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesoModo "Por el camino forestal asfaltado de Valdeascas que parte de Navarredonda de Gredos a la altura de la gasolinera." ; cjcyl:nombre "Cepeda el Pelar" ; cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "3" ; cjcyl:accesibilidadDiscapacitados "2" ; cjcyl:centroVisitantesTipo "9"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:servicioInformativo "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ; cjcyl:geometria "POINT (-5.131513567143299 40.340572858897382)" ; cjcyl:nochesPernoctar "0"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:centroAtendido "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 
-<http://geo.linkeddata.es/cjcyl/resource/CentroVisitantes/89144> a cjcyl:CentroVisitantes ;
-	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:nombre "Abejas del Valle" ;
-	cjcyl:cerramiento "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "1" ;
-	cjcyl:accesibilidadDiscapacitados "2" ;
-	cjcyl:centroVisitantesTipo "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:servicioInformativo "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.174255331393857 40.172081099368349)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:nochesPernoctar "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:centroAtendido "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://geo.linkeddata.es/cjcyl/resource/CentroVisitantes/89144> a cjcyl:CentroVisitantes ; cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:nombre "Abejas del Valle" ; cjcyl:cerramiento "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "1" ; cjcyl:accesibilidadDiscapacitados "2" ; cjcyl:centroVisitantesTipo "2"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:servicioInformativo "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ; cjcyl:geometria "POINT (-5.174255331393857 40.172081099368349)" ; cjcyl:nochesPernoctar "0"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:centroAtendido "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 
-<http://geo.linkeddata.es/cjcyl/resource/CentroVisitantes/80591> a cjcyl:CentroVisitantes ;
-	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesoModo """Desde Burgos, tomar la A-1 hasta la salida número 152 en la localidad de Fuentespina. Continuar por la N-1 hasta tomar la carretera C-114, en dirección a Ayllón. 
-Desde Madrid, tomar la A-1 hasta la salida número 115 en la localidad de Boceguillas, continuando por la vía de servicio hasta el desvío a Grajera y Maderuelo. Posteriormente tomar la carretera SG-V-9010 hasta la localidad de Maderuelo.""" ;
-	cjcyl:nombre "Punto de Información" ;
-	cjcyl:cerramiento "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "1" ;
-	cjcyl:accesibilidadDiscapacitados "2" ;
-	cjcyl:emailOWeb "http://www.maderuelo.com" ;
-	cjcyl:centroVisitantesTipo "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.521612797488239 41.486884545331016)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:nochesPernoctar "15"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:centroAtendido "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://geo.linkeddata.es/cjcyl/resource/CentroVisitantes/80591> a cjcyl:CentroVisitantes ; cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesoModo """Desde Burgos, tomar la A-1 hasta la salida número 152 en la localidad de Fuentespina. Continuar por la N-1 hasta tomar la carretera C-114, en dirección a Ayllón. 
+Desde Madrid, tomar la A-1 hasta la salida número 115 en la localidad de Boceguillas, continuando por la vía de servicio hasta el desvío a Grajera y Maderuelo. Posteriormente tomar la carretera SG-V-9010 hasta la localidad de Maderuelo.""" ; cjcyl:nombre "Punto de Información" ; cjcyl:cerramiento "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "1" ; cjcyl:accesibilidadDiscapacitados "2" ; cjcyl:emailOWeb "http://www.maderuelo.com" ; cjcyl:centroVisitantesTipo "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ; cjcyl:geometria "POINT (-3.521612797488239 41.486884545331016)" ; cjcyl:nochesPernoctar "15"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:centroAtendido "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .

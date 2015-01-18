@@ -5,604 +5,136 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 
 
-<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89347> a cjcyl:ZonaAcampada ;
-	cjcyl:estado "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.149055485371441 40.338484966585952)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:nombre "Las Maliciosas" .
-
-<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89348> a cjcyl:ZonaAcampada ;
-	cjcyl:observaciones "Campamento juvenil de Arbillas, con 5 cabañas octogonales para unos 12 niños, comedor cubierto con 15 mesas y bancos de madera para 6 personas cada una, pequeño almacén cubierto, 4 duchas y servicios separados. Instalación de luz, con farolas y bombillas" ;
-	cjcyl:estado "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.148942744749792 40.188479582175113)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:nombre "Arbillas" .
-
-<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89349> a cjcyl:ZonaAcampada ;
-	cjcyl:observaciones "Sin instalaciones. Próximo al camping de Bohoyo. Con robles y pradera. Camino de tierra y cerca de la Garganta. 1 hectárea" ;
-	cjcyl:estado "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.429818766151702 40.31133967275305)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:nombre "Pasarelas Del Prado" .
-
-<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89350> a cjcyl:ZonaAcampada ;
-	cjcyl:observaciones "Edificio grande, con cocina y almacén. De 2,58 hectáreas. Próximo a la carretera. Con sombra. Depósitos y fosa séptica. 1,8 hectáreas de pradera." ;
-	cjcyl:estado "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.430036746332008 40.314136540050981)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:nombre "Prado Las Piezas" .
-
-<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89351> a cjcyl:ZonaAcampada ;
-	cjcyl:observaciones "En mal estado. Cerca de la Garganta de Bohoyo. Con un servicio. 0,6 hectáreas. Pinar y pradera. Próximo a la carretera de Navamediana." ;
-	cjcyl:estado "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.432159412208338 40.31426305542022)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:nombre "Las Piezas" .
-
-<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89352> a cjcyl:ZonaAcampada ;
-	cjcyl:observaciones "Sin instalaciones. 0,2 hectáreas. Pradera. En mal estado y difícil de localizar. Próximo a 373 m." ;
-	cjcyl:estado "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.443040010559332 40.32817597385322)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:nombre "Las Vegas" .
-
-<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89353> a cjcyl:ZonaAcampada ;
-	cjcyl:observaciones "Sin instalaciones. Al norte del río Tormes. Próximo al puente y chiringuito. Visible desde la carretera. 1,8 hectáreas. Tiene un edificio de almacén." ;
-	cjcyl:estado "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.441747293738939 40.328230308465287)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:nombre "Prado De La Vega" .
-
-<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89354> a cjcyl:ZonaAcampada ;
-	cjcyl:observaciones "Comedor grande abierto. Cocina cerrada. Servicios, almacén, dependencias de monitores. Pradera. Arbolado (Chopos, sauces, olmos, seto arizónica). Junto Garganta Alardos. 1 hectárea. Cerca 395" ;
-	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.364726102616967 40.187495790409152)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:nombre "El Freillo (El Raso)" .
-
-<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89355> a cjcyl:ZonaAcampada ;
-	cjcyl:observaciones "Campamento juvenil de La Mata. Con 6 cabañas de madera y base de piedra, comedor abierto con 15 mesas y bancos de madera, fregaderos y edificio de servicios. Ocupa cerca de 1/2 Ha. Señal del Parque que indica campamento juvenil con 5 iconos en 2 postes d" ;
-	cjcyl:estado "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.10264224615019 40.27284258907094)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:nombre "La Mata" .
-
-<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89356> a cjcyl:ZonaAcampada ;
-	cjcyl:observaciones "Campamento con cabañas de madera, comedor cubierto con 15 mesas, zona de juegos, edificio con cocina y almacén. En construcción nuevos servicios conectados a la depuradora del camping. Instalaciones de Camping sin abrir." ;
-	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.091642232875693 40.23807264671359)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:nombre "El Tejar" .
-
-<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89357> a cjcyl:ZonaAcampada ;
-	cjcyl:observaciones "3 edificios. Zona llana de pradera. Aparcamiento con sombra, 0,75 hectáreas y muy próximo a la gravera de Gilgarcía" ;
-	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.600517257486887 40.307923394063124)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:nombre "Prado Juan Ramos" .
-
-<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89358> a cjcyl:ZonaAcampada ;
-	cjcyl:observaciones "Entrada en la subida al Nogal del Barranco. Aparcamiento en la entrada, en una zona ensanchada a la pista forestal de subida al Nogal del Barranco, para unos 12 coches. Campamento con 5 cabañas de madera octogonales para 12 niños, comedor cubierto con 1" ;
-	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.160322156466163 40.230922579391752)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:nombre "Vega Reina" .
-
-<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89359> a cjcyl:ZonaAcampada ;
-	cjcyl:observaciones "3 edificios. Agua de la regadera de los Llanos a 1,5 metros. Limita al sur del río Tormes. Servicios, Almacén, comedor, acceso por pista de tierra. Con portera. Mucho arbolado y prado" ;
-	cjcyl:estado "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.142162113771657 40.245252551696609)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:nombre "Prado La Roza" .
-
-<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89360> a cjcyl:ZonaAcampada ;
-	cjcyl:observaciones "Campamento juvenil en finca particular con instalaciones fijas en malas condiciones. Entrada desde la pista del Hoyuelo por camino. Portera con somier, sin valla salvo la cinta de obras que sitúan para limitar la entrada al resto de la finca. Edifico peq" ;
-	cjcyl:estado "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.142162113771657 40.245252551696609)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:nombre "El Hoyuelo" .
-
-<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89361> a cjcyl:ZonaAcampada ;
-	cjcyl:observaciones "Campamento juvenil de Daniel de Fernando, próximo al río Cuevas. Buenas instalaciones en finca de unos 12.000 m2. Con comedor cubierto, edificio de almacén y cocina, fuentes y zona para tiendas.Entrada de tierra y pista interior." ;
-	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.130952165684856 40.239212541057299)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:nombre "La Casilla" .
-
-<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89362> a cjcyl:ZonaAcampada ;
-	cjcyl:observaciones "Sin instalaciones. Pradera con pinos grandes en el lado izquierdo de la carretera de la plataforma. Se entra por una portera de hierro y está 200 metros." ;
-	cjcyl:estado "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.180576242328527 40.333127030818488)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:nombre "El Baldio" .
-
-<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89363> a cjcyl:ZonaAcampada ;
-	cjcyl:observaciones "Sin instalaciones. Pradera con pinos grandes en el lado izquierdo de la carretera de la plataforma. Se entra por una portera de hierro y a 200 metros se encuentra." ;
-	cjcyl:estado "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.180576242328527 40.333127030818488)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:nombre "La Solana" .
-
-<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89364> a cjcyl:ZonaAcampada ;
-	cjcyl:observaciones "Edificios mejorables. Entrada en tierra y de mal acceso, de longitud 80m. Demasiada concentración de campamentos juntos." ;
-	cjcyl:estado "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.191972317968966 40.342332463886365)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:nombre "Prado Molino" .
-
-<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89365> a cjcyl:ZonaAcampada ;
-	cjcyl:observaciones "Edificios mejorables. Entrada en tierra y de mal acceso, de longitud 80m. Demasiada concentración de campamentos juntos." ;
-	cjcyl:estado "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.192807003494151 40.341836538657006)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:nombre "Prado Molino3" .
-
-<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89366> a cjcyl:ZonaAcampada ;
-	cjcyl:observaciones "Campamento juvenil de aproximadamente 1 ha, con portera de entrada. Comedor bajo cubierta y abierto con 15 mesas y bancos para unas 70 personas. Fregaderos de piedra con 20 grifos. 2 edificios acondicionados de 12x3 m, a dos aguas con teja, de color nar" ;
-	cjcyl:estado "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.164512351809721 40.341102447783214)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:nombre "Huerta Del Rey" .
-
-<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89367> a cjcyl:ZonaAcampada ;
-	cjcyl:observaciones "Campamento juvenil que ocupa unas 2 Ha, en el camino de la Garganta de Abajo, en Monte Público de pinar y prados, en ladera. Tiene edificios recientes de almacén, cocinas y servicios." ;
-	cjcyl:estado "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.186412251088226 40.347092496244073)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:nombre "Las Cepedillas" .
-
-<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89368> a cjcyl:ZonaAcampada ;
-	cjcyl:observaciones "Próximo al cordel. Zona cercana al Tormes, cordel y pista forestal. Instalaciones de comedor y cocinas. Ocupa media hectárea." ;
-	cjcyl:estado "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.188114448039766 40.342380051741294)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:nombre "Prado Molino" .
-
-<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89369> a cjcyl:ZonaAcampada ;
-	cjcyl:observaciones "Con instalaciones muy antiguas de cocina, almacén, duchas, servicios, lavaderos. Muy cerca del Tormes en el margen izquierdo. Precisa fuerte remodelación." ;
-	cjcyl:estado "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.17834291019058 40.337249802154162)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:nombre "La Isleta" .
-
-<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89370> a cjcyl:ZonaAcampada ;
-	cjcyl:observaciones "Campamento juvenil a pié del río Tormes, que ocupa unas 2 ha, con 4 edificios grandes, uno blanco de 14x 5 a dos aguas, con contraventanas verdes a modo de enfermería y administración. Otro de 5x3 para lavabos y servicios, con cubierta de Uralita a dos a" ;
-	cjcyl:estado "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.179452277771556 40.337882432448083)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:nombre "Sanchivieco" .
-
-<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89371> a cjcyl:ZonaAcampada ;
-	cjcyl:observaciones "Con edificio de cocinas, comedor abierto fuera del cercado. Edificios de servicios, fuentes y zona de pradera cercana a la pista de Hoyos a Prado Molino.Ocupa 2.000 m2. Acceso desde la pista de tierra a unos 70m." ;
-	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.177359946521355 40.342556072880512)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:nombre "La Cerrada" .
-
-<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89372> a cjcyl:ZonaAcampada ;
-	cjcyl:observaciones "Pradera con edificios de cocinas, servicios, fregaderos, zona de juegos. Entrada por la carretera de la plataforma de Gredos en el Km 3,5 a la izquierda por pista de tierra a 300 de la carretera. Buenas instalaciones y zona apartada con amplia explanada" ;
-	cjcyl:estado "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.179548204034428 40.323129393578583)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:nombre "La Isla" .
-
-<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89373> a cjcyl:ZonaAcampada ;
-	cjcyl:observaciones "Sin instalaciones. Pradera grande. Encinas grandes en medio de dos campamentos y dos praderas colindantes. Pista de acceso de tierra. Portera de hierro. 3 hectáreas. Visible desde la carretera a Barco de Ávila. Al Norte el río Tormes." ;
-	cjcyl:estado "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.430714145791905 40.330390496063885)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:nombre "Las Alderetas" .
-
-<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89374> a cjcyl:ZonaAcampada ;
-	cjcyl:observaciones "Sin instalaciones. Pradera grande. Encinas grandes en medio de dos campamentos y dos praderas colindantes. Pista de acceso de tierra. Portera de hierro. 3 hectáreas. Visible desde la carretera a Barco de Ávila. Al sur el río Tormes." ;
-	cjcyl:estado "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.430714145791905 40.330390496063885)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:nombre "Prado Vegas" .
-
-<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89375> a cjcyl:ZonaAcampada ;
-	cjcyl:observaciones "Servicios, comedor, almacén, dos cabañas. 1,8 hectáreas. Alisos, entrada de tierra desde la carretera a Barco. Al sur del río Tormes y al norte regadera." ;
-	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.461621587768764 40.327772796321042)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:nombre "Prado Del Pilar" .
-
-<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89376> a cjcyl:ZonaAcampada ;
-	cjcyl:observaciones "Sin instalaciones. Encinar con calleja de paredes de piedra. Regadera para los Llanos y Hermosillo a 5 metros. Con alisos y robles. Pradera de 1,2 has. Camino de tierra. Limite po el sur al río Tormes. Límite Norte Regadera." ;
-	cjcyl:estado "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.468709793086076 40.328819685864687)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:nombre "La Lagartera" .
-
-<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89377> a cjcyl:ZonaAcampada ;
-	cjcyl:observaciones "Sin instalaciones. Al norte regadera, al sur río Tormes. Pradera. 0,5 hectáreas, pista de tierra, con sombra de alisos." ;
-	cjcyl:estado "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.449655197097353 40.330143821459124)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:nombre "Prado Nuevo" .
-
-<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89378> a cjcyl:ZonaAcampada ;
-	cjcyl:observaciones "Campamento vallado de 1 Ha, próximo al río, con valla de alambre y seto de ciprés. Comedor cubierto con 15 mesas y bancos. 6 cabañas de madera para 12 niños, edificio de cocina y almacén. Servicios a la entrada con duchas. Zona de pinar. En Monte Público" ;
-	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.033532273227042 40.22135264153053)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:nombre "Los Sauces" .
-
-<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89379> a cjcyl:ZonaAcampada ;
-	cjcyl:observaciones "Prado del río. Solamente está formado por una tenada de chapa galvanizada y dos mesas. Una barbacoa" ;
-	cjcyl:estado "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.513933054224314 40.265790361613433)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:nombre "Prado Del Rio" .
-
-<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89380> a cjcyl:ZonaAcampada ;
-	cjcyl:observaciones "Sin instalaciones. 1 hectárea.Robles en el perímetro" ;
-	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.513025770060114 40.270503164344724)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:nombre "Prado El Molino" .
-
-<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89381> a cjcyl:ZonaAcampada ;
-	cjcyl:observaciones "Sin instalaciones. 0,5 hectáreas. Junto al río con alisos." ;
-	cjcyl:estado "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.511999521102202 40.269147262864983)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:nombre "Prado Molino" .
-
-<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89382> a cjcyl:ZonaAcampada ;
-	cjcyl:observaciones "Excelentes instalaciones. Robledal, pradera. Luz eléctrica, servicios, cocina, agua corriente y horno de quemar basura. 4,5 hectáreas" ;
-	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.516945286800193 40.262355908722895)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:nombre "Refugio Las Pozas" .
-
-<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89383> a cjcyl:ZonaAcampada ;
-	cjcyl:observaciones "Sin instalaciones. Prado con robles y alisos. 0,7 hectáreas." ;
-	cjcyl:estado "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.513834138245349 40.265342119927226)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:nombre "La Aguilera" .
-
-<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89384> a cjcyl:ZonaAcampada ;
-	cjcyl:observaciones "Sin instalaciones. Robles en el prado. 2 hectáreas." ;
-	cjcyl:estado "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.513430611224345 40.270638491145249)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:nombre "La Aguilera" .
-
-<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89385> a cjcyl:ZonaAcampada ;
-	cjcyl:observaciones "Sin instalaciones. Alisos y árboles de ribera. 0,8 hectáreas. Junto al río hay una caja de camión abandonada dentro." ;
-	cjcyl:estado "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.513630339263627 40.268093940496321)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:nombre "Prado Molino" .
-
-<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89386> a cjcyl:ZonaAcampada ;
-	cjcyl:observaciones "Sin instalaciones. Pradera. Carretera a Navalguijo, pasado el puente a la izquierda con sombra, de 4.000 metros cuadrados, mal acceso, un regato por medio, cercano a garganta de los Caballeros y al área recreativa del Berrocal" ;
-	cjcyl:estado "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.515205153719616 40.211883199558009)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:nombre "Prado Puente" .
-
-<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89387> a cjcyl:ZonaAcampada ;
-	cjcyl:observaciones "Con instalaciones de comedor cubierto para 15 mesas, edificio con servicios y almacén, dependencia para monitores, cocina y enfermería. Fregaderos exteriores, campo de juego y casa forestal con 3 habitaciones, cocina, salón con chimenea y cuarto de baño." ;
-	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.132052331328917 40.340122516689732)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:nombre "Navatormes Aula Naturaleza" .
-
-<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89388> a cjcyl:ZonaAcampada ;
-	cjcyl:observaciones "Con instalaciones fijas de comedor, cubierto, con 15 mesas y bancos de madera. 3 edificios, 1 para almacén y servicios, otro para dependencias de monitores. Recinto vallado en monte público de pinos de 1,2 Ha. Señal antigua de Campamento Juvenil." ;
-	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.128432266416062 40.333072507751474)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:nombre "Valdeascas" .
-
-<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89389> a cjcyl:ZonaAcampada ;
-	cjcyl:observaciones "Letrinas. Muy visible, sin limites definidos ni valla. Situan las tiendas entre dos brazos del río Tormesr. Muy precario. Letrinas, sin valla de cierre," ;
-	cjcyl:estado "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.126302300956002 40.336502548441857)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:nombre "La Isleta" .
-
-<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89390> a cjcyl:ZonaAcampada ;
-	cjcyl:observaciones "Campamento juvenil del Parque Móvil. En mal estado, muy cercano al Tormes y pista asfaltada a Hoyos del Espino. Visible desde la pista. 2 edificios. 1 de servicios, con 2 duchas y 2 servicios." ;
-	cjcyl:estado "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.137132374006944 40.339852524875845)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:nombre "Navatormes" .
-
-<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89391> a cjcyl:ZonaAcampada ;
-	cjcyl:observaciones "Sin instalaciones de ningún tipo, muy próxima al área recreativa, a pie de pista forestal y río Tormes." ;
-	cjcyl:estado "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.128502293892176 40.336262537263565)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:nombre "Tamborrios" .
-
-<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89392> a cjcyl:ZonaAcampada ;
-	cjcyl:observaciones "Campamento juvenil en amplia explanada con orientación Norte, en la margen izquierda del Tormes. Con 2 edificios de 7x7, tejado a dos aguas, chapados de piedra: 1 de almacén, cocinas y dependencias, y el otro de servicios con duchas, alicatados y termin" ;
-	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.146902271495886 40.337332464637541)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:nombre "Las Maliciosas2" .
-
-<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89393> a cjcyl:ZonaAcampada ;
-	cjcyl:observaciones "Sin instalaciones, próximo a la garganta de Solana a 5 metros de la carretera. Valla de piedra con portera de hierro. Situado en el margen derecha arriba del puente." ;
-	cjcyl:estado "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.618879906239301 40.311165996899213)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:nombre "El Rollar" .
-
-<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89394> a cjcyl:ZonaAcampada ;
-	cjcyl:observaciones "Sin instalaciones. Carretera de Solana a Santiago. Con pradera, robles y fresnos. Próximo a las Frambuesas" ;
-	cjcyl:estado "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.619566887822216 40.309456992200836)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:nombre "La Lagunilla" .
-
-<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89395> a cjcyl:ZonaAcampada ;
-	cjcyl:observaciones "Sin instalaciones. Robledal. Camino Dehesa Pie de los Santos, pasado el río Aravalle. A 300 metros de la entrada de la Dehesa. Camino de tierra. Sombra completa de robles." ;
-	cjcyl:estado "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.639044912686328 40.28782799664728)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:nombre "Prado Del Monte" .
-
-<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89396> a cjcyl:ZonaAcampada ;
-	cjcyl:observaciones "Portera con candado. Acceso por pista de tierra desde el pueblo de Santiago de Aravalle a 500 metros, con campo de fútbol, 3 edificios grandes. Superficie aproximadamente 2 hectáreas, castaños muy grandes con sombra" ;
-	cjcyl:estado "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.628499673681256 40.302840786955905)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:nombre "Rondillos" .
-
-<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89397> a cjcyl:ZonaAcampada ;
-	cjcyl:observaciones "Sin instalaciones. Carretera de Solana. Próximo a la garganta de Solana. Por debajo del puente, margen derecha, con sombra, buen acceso, prado de 1,5 has." ;
-	cjcyl:estado "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.616104262076894 40.310589297212225)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:nombre "Prado Los Molinillos" .
-
-<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89398> a cjcyl:ZonaAcampada ;
-	cjcyl:observaciones "En casco urbano de Puerto Castilla. Con instalaciones. Rodeado de edificios, en el pueblo" ;
-	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.629416443778369 40.28977683940677)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:nombre "Pradera Parroquial" .
-
-<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89399> a cjcyl:ZonaAcampada ;
-	cjcyl:observaciones "Excelentes instalaciones. Servicio, comedor, 10 cabañas. 2 hectáreas, con prado, zona de sombra de robles y alisos, con varios edificios. A 200 metros de la carretera por pista de tierra." ;
-	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.016062419497525 40.367952568370256)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:nombre "Cerrada De La Puente" .
-
-<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89400> a cjcyl:ZonaAcampada ;
-	cjcyl:observaciones "Sin instalaciones. Dentro del casco urbano. Pradera de unas 6.000 m2." ;
-	cjcyl:estado "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.05772898072904 40.368222548236737)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:nombre "Prado La Mula" .
-
-<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89401> a cjcyl:ZonaAcampada ;
-	cjcyl:observaciones "Sin instalaciones. Pradera. Calleja de tierra cruzando el puente del Tormes. Colindante con el 339. 1 hectárea. Limita con el río. Acceso de tierra pasado el puente del Tormes." ;
-	cjcyl:estado "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.401385039365289 40.326139188723538)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:nombre "Prado Las Veguillas" .
-
-<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89402> a cjcyl:ZonaAcampada ;
-	cjcyl:observaciones "Con instalaciones fijas de comedor cubierto con 15 mesas y bancos de madera. 3 edificios, 1 para almacén y servicios, otro para dependencias de monitores." ;
-	cjcyl:estado "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.41087550015698 40.324275210212811)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:nombre "Prado Piorno" .
-
-<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89403> a cjcyl:ZonaAcampada ;
-	cjcyl:observaciones "Edificio de cocina y almacén con fregaderos. Limita con el río y otros campamentos. Nogales, frutales, bancales, entrada de tierra, pasado el puente del Tormes." ;
-	cjcyl:estado "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.401829715874651 40.326066896060368)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:nombre "La Veguilla" .
-
-<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89404> a cjcyl:ZonaAcampada ;
-	cjcyl:observaciones "Edificios grandes: 2 edificios de más de 1,7 hectáreas. Carretera de Solana a La Zarza. Buen acceso. Próximo a la ermita. Con instalaciones" ;
-	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.627686189304037 40.314326021514603)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:nombre "Albergue Virgen De La Nueva" .
-
-<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89405> a cjcyl:ZonaAcampada ;
-	cjcyl:observaciones "3 prados colindantes. Edificio de servicios nuevo. Aproximadamente 1 hectárea cada prado. Pradera consombra de alisos, a 200 metros de la carretera. Con entrada y portera. Hacen otros 3 campamentos colindantes, actualmente de ARAVALLE 2000." ;
-	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.598348922834512 40.31397126607871)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:nombre "Casas Del Rey" .
-
-<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89406> a cjcyl:ZonaAcampada ;
-	cjcyl:observaciones "Sin instalaciones. Muy próximo al río y al puente aguas arriba. En el margen izquierdo. Entrada por la carretera de Solana. Superificie de 1 hectárea (2 prados), calleja de piedras de entrada. Visible desde la carretera." ;
-	cjcyl:estado "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.617484734329643 40.311296678152374)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:nombre "El Rollar" .
-
-<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89407> a cjcyl:ZonaAcampada ;
-	cjcyl:observaciones "3 prados colindantes. Edificio de servicios nuevo. Aproximadamente 1 hectárea cada prado. Pradera con sombra de alisos, a 200 metros de la carretera. Con entrada y portera. Hacen otros 3 campamentos colindantes, actualmente de ARAVALLE 2000." ;
-	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.598348922834512 40.31397126607871)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:nombre "La Vega" .
-
-<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89408> a cjcyl:ZonaAcampada ;
-	cjcyl:observaciones "Sin instalaciones. 2 fincas a ambos lados de la carretera. Entradas desde la carretera. Portera con candado. Pared de piedra. 0,5 hectárea. Ocupan una zona para dormir y otra para actividades. Con fresnos. A 200 metros del pueblo, a 100 metros del puente" ;
-	cjcyl:estado "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.617817870499079 40.312000740236542)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:nombre "El Rollar" .
-
-<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89409> a cjcyl:ZonaAcampada ;
-	cjcyl:observaciones "Sin instalaciones. Pradera. Carretera Casas del Rey a Puerto Castilla. Con chopos. Sin pared. Garganta de Solana a 20 metros. Muy próximo a los otros de Casas del Rey y Puerto Castilla" ;
-	cjcyl:estado "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.598131283040967 40.315966854800834)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:nombre "Casas Del Rey" .
-
-<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89410> a cjcyl:ZonaAcampada ;
-	cjcyl:observaciones "Sin instalaciones. En pradera. Próximo a la carretera Casas del Rey 0,5 hectárea de alisos." ;
-	cjcyl:estado "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.598644769155584 40.316468751057641)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:nombre "Prado Nuevo" .
-
-<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89411> a cjcyl:ZonaAcampada ;
-	cjcyl:observaciones "3 edificios. Prado colindante con el campamento \"Isla de Gredos\" a 200 metros del puente de la Angostura. 2 hectáreas. Sin paredes ni cierre." ;
-	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.352828668440458 40.334064672402789)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:nombre "La Isla" .
-
-<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89412> a cjcyl:ZonaAcampada ;
-	cjcyl:observaciones "Sin instalaciones. Limita con la orilla del Tormes. Pradera pequeña. Muy cercano al molino de Zapardiel." ;
-	cjcyl:estado "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.329247559016434 40.341136004844138)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:nombre "Los Bierzos" .
-
-<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89413> a cjcyl:ZonaAcampada ;
-	cjcyl:observaciones "Sin instalaciones. A orilla del Tormes. Pradera. Continuación del 338. 0,75 hectáreas.Próximo al molino de Zapardiel restaurado como casa de turismo rural." ;
-	cjcyl:estado "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.331179943311287 40.340844831596293)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:nombre "Prado Los Molinos" .
+<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89347> a cjcyl:ZonaAcampada ; cjcyl:estado "2"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:geometria "POINT (-5.149055485371441 40.338484966585952)" ; cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:nombre "Las Maliciosas" .
+
+<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89348> a cjcyl:ZonaAcampada ; cjcyl:observaciones "Campamento juvenil de Arbillas, con 5 cabañas octogonales para unos 12 niños, comedor cubierto con 15 mesas y bancos de madera para 6 personas cada una, pequeño almacén cubierto, 4 duchas y servicios separados. Instalación de luz, con farolas y bombillas" ; cjcyl:estado "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:geometria "POINT (-5.148942744749792 40.188479582175113)" ; cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:nombre "Arbillas" .
+
+<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89349> a cjcyl:ZonaAcampada ; cjcyl:observaciones "Sin instalaciones. Próximo al camping de Bohoyo. Con robles y pradera. Camino de tierra y cerca de la Garganta. 1 hectárea" ; cjcyl:estado "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:geometria "POINT (-5.429818766151702 40.31133967275305)" ; cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:nombre "Pasarelas Del Prado" .
+
+<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89350> a cjcyl:ZonaAcampada ; cjcyl:observaciones "Edificio grande, con cocina y almacén. De 2,58 hectáreas. Próximo a la carretera. Con sombra. Depósitos y fosa séptica. 1,8 hectáreas de pradera." ; cjcyl:estado "2"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:geometria "POINT (-5.430036746332008 40.314136540050981)" ; cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:nombre "Prado Las Piezas" .
+
+<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89351> a cjcyl:ZonaAcampada ; cjcyl:observaciones "En mal estado. Cerca de la Garganta de Bohoyo. Con un servicio. 0,6 hectáreas. Pinar y pradera. Próximo a la carretera de Navamediana." ; cjcyl:estado "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:geometria "POINT (-5.432159412208338 40.31426305542022)" ; cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:nombre "Las Piezas" .
+
+<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89352> a cjcyl:ZonaAcampada ; cjcyl:observaciones "Sin instalaciones. 0,2 hectáreas. Pradera. En mal estado y difícil de localizar. Próximo a 373 m." ; cjcyl:estado "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:geometria "POINT (-5.443040010559332 40.32817597385322)" ; cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:nombre "Las Vegas" .
+
+<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89353> a cjcyl:ZonaAcampada ; cjcyl:observaciones "Sin instalaciones. Al norte del río Tormes. Próximo al puente y chiringuito. Visible desde la carretera. 1,8 hectáreas. Tiene un edificio de almacén." ; cjcyl:estado "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:geometria "POINT (-5.441747293738939 40.328230308465287)" ; cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:nombre "Prado De La Vega" .
+
+<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89354> a cjcyl:ZonaAcampada ; cjcyl:observaciones "Comedor grande abierto. Cocina cerrada. Servicios, almacén, dependencias de monitores. Pradera. Arbolado (Chopos, sauces, olmos, seto arizónica). Junto Garganta Alardos. 1 hectárea. Cerca 395" ; cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:geometria "POINT (-5.364726102616967 40.187495790409152)" ; cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:nombre "El Freillo (El Raso)" .
+
+<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89355> a cjcyl:ZonaAcampada ; cjcyl:observaciones "Campamento juvenil de La Mata. Con 6 cabañas de madera y base de piedra, comedor abierto con 15 mesas y bancos de madera, fregaderos y edificio de servicios. Ocupa cerca de 1/2 Ha. Señal del Parque que indica campamento juvenil con 5 iconos en 2 postes d" ; cjcyl:estado "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:geometria "POINT (-5.10264224615019 40.27284258907094)" ; cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:nombre "La Mata" .
+
+<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89356> a cjcyl:ZonaAcampada ; cjcyl:observaciones "Campamento con cabañas de madera, comedor cubierto con 15 mesas, zona de juegos, edificio con cocina y almacén. En construcción nuevos servicios conectados a la depuradora del camping. Instalaciones de Camping sin abrir." ; cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:geometria "POINT (-5.091642232875693 40.23807264671359)" ; cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:nombre "El Tejar" .
+
+<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89357> a cjcyl:ZonaAcampada ; cjcyl:observaciones "3 edificios. Zona llana de pradera. Aparcamiento con sombra, 0,75 hectáreas y muy próximo a la gravera de Gilgarcía" ; cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:geometria "POINT (-5.600517257486887 40.307923394063124)" ; cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:nombre "Prado Juan Ramos" .
+
+<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89358> a cjcyl:ZonaAcampada ; cjcyl:observaciones "Entrada en la subida al Nogal del Barranco. Aparcamiento en la entrada, en una zona ensanchada a la pista forestal de subida al Nogal del Barranco, para unos 12 coches. Campamento con 5 cabañas de madera octogonales para 12 niños, comedor cubierto con 1" ; cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:geometria "POINT (-5.160322156466163 40.230922579391752)" ; cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:nombre "Vega Reina" .
+
+<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89359> a cjcyl:ZonaAcampada ; cjcyl:observaciones "3 edificios. Agua de la regadera de los Llanos a 1,5 metros. Limita al sur del río Tormes. Servicios, Almacén, comedor, acceso por pista de tierra. Con portera. Mucho arbolado y prado" ; cjcyl:estado "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:geometria "POINT (-5.142162113771657 40.245252551696609)" ; cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:nombre "Prado La Roza" .
+
+<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89360> a cjcyl:ZonaAcampada ; cjcyl:observaciones "Campamento juvenil en finca particular con instalaciones fijas en malas condiciones. Entrada desde la pista del Hoyuelo por camino. Portera con somier, sin valla salvo la cinta de obras que sitúan para limitar la entrada al resto de la finca. Edifico peq" ; cjcyl:estado "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:geometria "POINT (-5.142162113771657 40.245252551696609)" ; cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:nombre "El Hoyuelo" .
+
+<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89361> a cjcyl:ZonaAcampada ; cjcyl:observaciones "Campamento juvenil de Daniel de Fernando, próximo al río Cuevas. Buenas instalaciones en finca de unos 12.000 m2. Con comedor cubierto, edificio de almacén y cocina, fuentes y zona para tiendas.Entrada de tierra y pista interior." ; cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:geometria "POINT (-5.130952165684856 40.239212541057299)" ; cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:nombre "La Casilla" .
+
+<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89362> a cjcyl:ZonaAcampada ; cjcyl:observaciones "Sin instalaciones. Pradera con pinos grandes en el lado izquierdo de la carretera de la plataforma. Se entra por una portera de hierro y está 200 metros." ; cjcyl:estado "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:geometria "POINT (-5.180576242328527 40.333127030818488)" ; cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:nombre "El Baldio" .
+
+<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89363> a cjcyl:ZonaAcampada ; cjcyl:observaciones "Sin instalaciones. Pradera con pinos grandes en el lado izquierdo de la carretera de la plataforma. Se entra por una portera de hierro y a 200 metros se encuentra." ; cjcyl:estado "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:geometria "POINT (-5.180576242328527 40.333127030818488)" ; cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:nombre "La Solana" .
+
+<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89364> a cjcyl:ZonaAcampada ; cjcyl:observaciones "Edificios mejorables. Entrada en tierra y de mal acceso, de longitud 80m. Demasiada concentración de campamentos juntos." ; cjcyl:estado "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:geometria "POINT (-5.191972317968966 40.342332463886365)" ; cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:nombre "Prado Molino" .
+
+<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89365> a cjcyl:ZonaAcampada ; cjcyl:observaciones "Edificios mejorables. Entrada en tierra y de mal acceso, de longitud 80m. Demasiada concentración de campamentos juntos." ; cjcyl:estado "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:geometria "POINT (-5.192807003494151 40.341836538657006)" ; cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:nombre "Prado Molino3" .
+
+<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89366> a cjcyl:ZonaAcampada ; cjcyl:observaciones "Campamento juvenil de aproximadamente 1 ha, con portera de entrada. Comedor bajo cubierta y abierto con 15 mesas y bancos para unas 70 personas. Fregaderos de piedra con 20 grifos. 2 edificios acondicionados de 12x3 m, a dos aguas con teja, de color nar" ; cjcyl:estado "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:geometria "POINT (-5.164512351809721 40.341102447783214)" ; cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:nombre "Huerta Del Rey" .
+
+<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89367> a cjcyl:ZonaAcampada ; cjcyl:observaciones "Campamento juvenil que ocupa unas 2 Ha, en el camino de la Garganta de Abajo, en Monte Público de pinar y prados, en ladera. Tiene edificios recientes de almacén, cocinas y servicios." ; cjcyl:estado "2"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:geometria "POINT (-5.186412251088226 40.347092496244073)" ; cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:nombre "Las Cepedillas" .
+
+<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89368> a cjcyl:ZonaAcampada ; cjcyl:observaciones "Próximo al cordel. Zona cercana al Tormes, cordel y pista forestal. Instalaciones de comedor y cocinas. Ocupa media hectárea." ; cjcyl:estado "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:geometria "POINT (-5.188114448039766 40.342380051741294)" ; cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:nombre "Prado Molino" .
+
+<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89369> a cjcyl:ZonaAcampada ; cjcyl:observaciones "Con instalaciones muy antiguas de cocina, almacén, duchas, servicios, lavaderos. Muy cerca del Tormes en el margen izquierdo. Precisa fuerte remodelación." ; cjcyl:estado "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:geometria "POINT (-5.17834291019058 40.337249802154162)" ; cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:nombre "La Isleta" .
+
+<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89370> a cjcyl:ZonaAcampada ; cjcyl:observaciones "Campamento juvenil a pié del río Tormes, que ocupa unas 2 ha, con 4 edificios grandes, uno blanco de 14x 5 a dos aguas, con contraventanas verdes a modo de enfermería y administración. Otro de 5x3 para lavabos y servicios, con cubierta de Uralita a dos a" ; cjcyl:estado "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:geometria "POINT (-5.179452277771556 40.337882432448083)" ; cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:nombre "Sanchivieco" .
+
+<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89371> a cjcyl:ZonaAcampada ; cjcyl:observaciones "Con edificio de cocinas, comedor abierto fuera del cercado. Edificios de servicios, fuentes y zona de pradera cercana a la pista de Hoyos a Prado Molino.Ocupa 2.000 m2. Acceso desde la pista de tierra a unos 70m." ; cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:geometria "POINT (-5.177359946521355 40.342556072880512)" ; cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:nombre "La Cerrada" .
+
+<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89372> a cjcyl:ZonaAcampada ; cjcyl:observaciones "Pradera con edificios de cocinas, servicios, fregaderos, zona de juegos. Entrada por la carretera de la plataforma de Gredos en el Km 3,5 a la izquierda por pista de tierra a 300 de la carretera. Buenas instalaciones y zona apartada con amplia explanada" ; cjcyl:estado "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:geometria "POINT (-5.179548204034428 40.323129393578583)" ; cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:nombre "La Isla" .
+
+<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89373> a cjcyl:ZonaAcampada ; cjcyl:observaciones "Sin instalaciones. Pradera grande. Encinas grandes en medio de dos campamentos y dos praderas colindantes. Pista de acceso de tierra. Portera de hierro. 3 hectáreas. Visible desde la carretera a Barco de Ávila. Al Norte el río Tormes." ; cjcyl:estado "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:geometria "POINT (-5.430714145791905 40.330390496063885)" ; cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:nombre "Las Alderetas" .
+
+<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89374> a cjcyl:ZonaAcampada ; cjcyl:observaciones "Sin instalaciones. Pradera grande. Encinas grandes en medio de dos campamentos y dos praderas colindantes. Pista de acceso de tierra. Portera de hierro. 3 hectáreas. Visible desde la carretera a Barco de Ávila. Al sur el río Tormes." ; cjcyl:estado "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:geometria "POINT (-5.430714145791905 40.330390496063885)" ; cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:nombre "Prado Vegas" .
+
+<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89375> a cjcyl:ZonaAcampada ; cjcyl:observaciones "Servicios, comedor, almacén, dos cabañas. 1,8 hectáreas. Alisos, entrada de tierra desde la carretera a Barco. Al sur del río Tormes y al norte regadera." ; cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:geometria "POINT (-5.461621587768764 40.327772796321042)" ; cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:nombre "Prado Del Pilar" .
+
+<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89376> a cjcyl:ZonaAcampada ; cjcyl:observaciones "Sin instalaciones. Encinar con calleja de paredes de piedra. Regadera para los Llanos y Hermosillo a 5 metros. Con alisos y robles. Pradera de 1,2 has. Camino de tierra. Limite po el sur al río Tormes. Límite Norte Regadera." ; cjcyl:estado "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:geometria "POINT (-5.468709793086076 40.328819685864687)" ; cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:nombre "La Lagartera" .
+
+<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89377> a cjcyl:ZonaAcampada ; cjcyl:observaciones "Sin instalaciones. Al norte regadera, al sur río Tormes. Pradera. 0,5 hectáreas, pista de tierra, con sombra de alisos." ; cjcyl:estado "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:geometria "POINT (-5.449655197097353 40.330143821459124)" ; cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:nombre "Prado Nuevo" .
+
+<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89378> a cjcyl:ZonaAcampada ; cjcyl:observaciones "Campamento vallado de 1 Ha, próximo al río, con valla de alambre y seto de ciprés. Comedor cubierto con 15 mesas y bancos. 6 cabañas de madera para 12 niños, edificio de cocina y almacén. Servicios a la entrada con duchas. Zona de pinar. En Monte Público" ; cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:geometria "POINT (-5.033532273227042 40.22135264153053)" ; cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:nombre "Los Sauces" .
+
+<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89379> a cjcyl:ZonaAcampada ; cjcyl:observaciones "Prado del río. Solamente está formado por una tenada de chapa galvanizada y dos mesas. Una barbacoa" ; cjcyl:estado "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:geometria "POINT (-5.513933054224314 40.265790361613433)" ; cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:nombre "Prado Del Rio" .
+
+<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89380> a cjcyl:ZonaAcampada ; cjcyl:observaciones "Sin instalaciones. 1 hectárea.Robles en el perímetro" ; cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:geometria "POINT (-5.513025770060114 40.270503164344724)" ; cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:nombre "Prado El Molino" .
+
+<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89381> a cjcyl:ZonaAcampada ; cjcyl:observaciones "Sin instalaciones. 0,5 hectáreas. Junto al río con alisos." ; cjcyl:estado "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:geometria "POINT (-5.511999521102202 40.269147262864983)" ; cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:nombre "Prado Molino" .
+
+<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89382> a cjcyl:ZonaAcampada ; cjcyl:observaciones "Excelentes instalaciones. Robledal, pradera. Luz eléctrica, servicios, cocina, agua corriente y horno de quemar basura. 4,5 hectáreas" ; cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:geometria "POINT (-5.516945286800193 40.262355908722895)" ; cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:nombre "Refugio Las Pozas" .
+
+<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89383> a cjcyl:ZonaAcampada ; cjcyl:observaciones "Sin instalaciones. Prado con robles y alisos. 0,7 hectáreas." ; cjcyl:estado "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:geometria "POINT (-5.513834138245349 40.265342119927226)" ; cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:nombre "La Aguilera" .
+
+<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89384> a cjcyl:ZonaAcampada ; cjcyl:observaciones "Sin instalaciones. Robles en el prado. 2 hectáreas." ; cjcyl:estado "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:geometria "POINT (-5.513430611224345 40.270638491145249)" ; cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:nombre "La Aguilera" .
+
+<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89385> a cjcyl:ZonaAcampada ; cjcyl:observaciones "Sin instalaciones. Alisos y árboles de ribera. 0,8 hectáreas. Junto al río hay una caja de camión abandonada dentro." ; cjcyl:estado "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:geometria "POINT (-5.513630339263627 40.268093940496321)" ; cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:nombre "Prado Molino" .
+
+<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89386> a cjcyl:ZonaAcampada ; cjcyl:observaciones "Sin instalaciones. Pradera. Carretera a Navalguijo, pasado el puente a la izquierda con sombra, de 4.000 metros cuadrados, mal acceso, un regato por medio, cercano a garganta de los Caballeros y al área recreativa del Berrocal" ; cjcyl:estado "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:geometria "POINT (-5.515205153719616 40.211883199558009)" ; cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:nombre "Prado Puente" .
+
+<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89387> a cjcyl:ZonaAcampada ; cjcyl:observaciones "Con instalaciones de comedor cubierto para 15 mesas, edificio con servicios y almacén, dependencia para monitores, cocina y enfermería. Fregaderos exteriores, campo de juego y casa forestal con 3 habitaciones, cocina, salón con chimenea y cuarto de baño." ; cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:geometria "POINT (-5.132052331328917 40.340122516689732)" ; cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:nombre "Navatormes Aula Naturaleza" .
+
+<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89388> a cjcyl:ZonaAcampada ; cjcyl:observaciones "Con instalaciones fijas de comedor, cubierto, con 15 mesas y bancos de madera. 3 edificios, 1 para almacén y servicios, otro para dependencias de monitores. Recinto vallado en monte público de pinos de 1,2 Ha. Señal antigua de Campamento Juvenil." ; cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:geometria "POINT (-5.128432266416062 40.333072507751474)" ; cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:nombre "Valdeascas" .
+
+<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89389> a cjcyl:ZonaAcampada ; cjcyl:observaciones "Letrinas. Muy visible, sin limites definidos ni valla. Situan las tiendas entre dos brazos del río Tormesr. Muy precario. Letrinas, sin valla de cierre," ; cjcyl:estado "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:geometria "POINT (-5.126302300956002 40.336502548441857)" ; cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:nombre "La Isleta" .
+
+<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89390> a cjcyl:ZonaAcampada ; cjcyl:observaciones "Campamento juvenil del Parque Móvil. En mal estado, muy cercano al Tormes y pista asfaltada a Hoyos del Espino. Visible desde la pista. 2 edificios. 1 de servicios, con 2 duchas y 2 servicios." ; cjcyl:estado "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:geometria "POINT (-5.137132374006944 40.339852524875845)" ; cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:nombre "Navatormes" .
+
+<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89391> a cjcyl:ZonaAcampada ; cjcyl:observaciones "Sin instalaciones de ningún tipo, muy próxima al área recreativa, a pie de pista forestal y río Tormes." ; cjcyl:estado "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:geometria "POINT (-5.128502293892176 40.336262537263565)" ; cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:nombre "Tamborrios" .
+
+<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89392> a cjcyl:ZonaAcampada ; cjcyl:observaciones "Campamento juvenil en amplia explanada con orientación Norte, en la margen izquierda del Tormes. Con 2 edificios de 7x7, tejado a dos aguas, chapados de piedra: 1 de almacén, cocinas y dependencias, y el otro de servicios con duchas, alicatados y termin" ; cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:geometria "POINT (-5.146902271495886 40.337332464637541)" ; cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:nombre "Las Maliciosas2" .
+
+<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89393> a cjcyl:ZonaAcampada ; cjcyl:observaciones "Sin instalaciones, próximo a la garganta de Solana a 5 metros de la carretera. Valla de piedra con portera de hierro. Situado en el margen derecha arriba del puente." ; cjcyl:estado "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:geometria "POINT (-5.618879906239301 40.311165996899213)" ; cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:nombre "El Rollar" .
+
+<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89394> a cjcyl:ZonaAcampada ; cjcyl:observaciones "Sin instalaciones. Carretera de Solana a Santiago. Con pradera, robles y fresnos. Próximo a las Frambuesas" ; cjcyl:estado "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:geometria "POINT (-5.619566887822216 40.309456992200836)" ; cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:nombre "La Lagunilla" .
+
+<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89395> a cjcyl:ZonaAcampada ; cjcyl:observaciones "Sin instalaciones. Robledal. Camino Dehesa Pie de los Santos, pasado el río Aravalle. A 300 metros de la entrada de la Dehesa. Camino de tierra. Sombra completa de robles." ; cjcyl:estado "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:geometria "POINT (-5.639044912686328 40.28782799664728)" ; cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:nombre "Prado Del Monte" .
+
+<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89396> a cjcyl:ZonaAcampada ; cjcyl:observaciones "Portera con candado. Acceso por pista de tierra desde el pueblo de Santiago de Aravalle a 500 metros, con campo de fútbol, 3 edificios grandes. Superficie aproximadamente 2 hectáreas, castaños muy grandes con sombra" ; cjcyl:estado "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:geometria "POINT (-5.628499673681256 40.302840786955905)" ; cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:nombre "Rondillos" .
+
+<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89397> a cjcyl:ZonaAcampada ; cjcyl:observaciones "Sin instalaciones. Carretera de Solana. Próximo a la garganta de Solana. Por debajo del puente, margen derecha, con sombra, buen acceso, prado de 1,5 has." ; cjcyl:estado "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:geometria "POINT (-5.616104262076894 40.310589297212225)" ; cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:nombre "Prado Los Molinillos" .
+
+<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89398> a cjcyl:ZonaAcampada ; cjcyl:observaciones "En casco urbano de Puerto Castilla. Con instalaciones. Rodeado de edificios, en el pueblo" ; cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:geometria "POINT (-5.629416443778369 40.28977683940677)" ; cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:nombre "Pradera Parroquial" .
+
+<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89399> a cjcyl:ZonaAcampada ; cjcyl:observaciones "Excelentes instalaciones. Servicio, comedor, 10 cabañas. 2 hectáreas, con prado, zona de sombra de robles y alisos, con varios edificios. A 200 metros de la carretera por pista de tierra." ; cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:geometria "POINT (-5.016062419497525 40.367952568370256)" ; cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:nombre "Cerrada De La Puente" .
+
+<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89400> a cjcyl:ZonaAcampada ; cjcyl:observaciones "Sin instalaciones. Dentro del casco urbano. Pradera de unas 6.000 m2." ; cjcyl:estado "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:geometria "POINT (-5.05772898072904 40.368222548236737)" ; cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:nombre "Prado La Mula" .
+
+<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89401> a cjcyl:ZonaAcampada ; cjcyl:observaciones "Sin instalaciones. Pradera. Calleja de tierra cruzando el puente del Tormes. Colindante con el 339. 1 hectárea. Limita con el río. Acceso de tierra pasado el puente del Tormes." ; cjcyl:estado "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:geometria "POINT (-5.401385039365289 40.326139188723538)" ; cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:nombre "Prado Las Veguillas" .
+
+<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89402> a cjcyl:ZonaAcampada ; cjcyl:observaciones "Con instalaciones fijas de comedor cubierto con 15 mesas y bancos de madera. 3 edificios, 1 para almacén y servicios, otro para dependencias de monitores." ; cjcyl:estado "2"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:geometria "POINT (-5.41087550015698 40.324275210212811)" ; cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:nombre "Prado Piorno" .
+
+<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89403> a cjcyl:ZonaAcampada ; cjcyl:observaciones "Edificio de cocina y almacén con fregaderos. Limita con el río y otros campamentos. Nogales, frutales, bancales, entrada de tierra, pasado el puente del Tormes." ; cjcyl:estado "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:geometria "POINT (-5.401829715874651 40.326066896060368)" ; cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:nombre "La Veguilla" .
+
+<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89404> a cjcyl:ZonaAcampada ; cjcyl:observaciones "Edificios grandes: 2 edificios de más de 1,7 hectáreas. Carretera de Solana a La Zarza. Buen acceso. Próximo a la ermita. Con instalaciones" ; cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:geometria "POINT (-5.627686189304037 40.314326021514603)" ; cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:nombre "Albergue Virgen De La Nueva" .
+
+<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89405> a cjcyl:ZonaAcampada ; cjcyl:observaciones "3 prados colindantes. Edificio de servicios nuevo. Aproximadamente 1 hectárea cada prado. Pradera consombra de alisos, a 200 metros de la carretera. Con entrada y portera. Hacen otros 3 campamentos colindantes, actualmente de ARAVALLE 2000." ; cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:geometria "POINT (-5.598348922834512 40.31397126607871)" ; cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:nombre "Casas Del Rey" .
+
+<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89406> a cjcyl:ZonaAcampada ; cjcyl:observaciones "Sin instalaciones. Muy próximo al río y al puente aguas arriba. En el margen izquierdo. Entrada por la carretera de Solana. Superificie de 1 hectárea (2 prados), calleja de piedras de entrada. Visible desde la carretera." ; cjcyl:estado "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:geometria "POINT (-5.617484734329643 40.311296678152374)" ; cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:nombre "El Rollar" .
+
+<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89407> a cjcyl:ZonaAcampada ; cjcyl:observaciones "3 prados colindantes. Edificio de servicios nuevo. Aproximadamente 1 hectárea cada prado. Pradera con sombra de alisos, a 200 metros de la carretera. Con entrada y portera. Hacen otros 3 campamentos colindantes, actualmente de ARAVALLE 2000." ; cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:geometria "POINT (-5.598348922834512 40.31397126607871)" ; cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:nombre "La Vega" .
+
+<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89408> a cjcyl:ZonaAcampada ; cjcyl:observaciones "Sin instalaciones. 2 fincas a ambos lados de la carretera. Entradas desde la carretera. Portera con candado. Pared de piedra. 0,5 hectárea. Ocupan una zona para dormir y otra para actividades. Con fresnos. A 200 metros del pueblo, a 100 metros del puente" ; cjcyl:estado "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:geometria "POINT (-5.617817870499079 40.312000740236542)" ; cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:nombre "El Rollar" .
+
+<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89409> a cjcyl:ZonaAcampada ; cjcyl:observaciones "Sin instalaciones. Pradera. Carretera Casas del Rey a Puerto Castilla. Con chopos. Sin pared. Garganta de Solana a 20 metros. Muy próximo a los otros de Casas del Rey y Puerto Castilla" ; cjcyl:estado "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:geometria "POINT (-5.598131283040967 40.315966854800834)" ; cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:nombre "Casas Del Rey" .
+
+<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89410> a cjcyl:ZonaAcampada ; cjcyl:observaciones "Sin instalaciones. En pradera. Próximo a la carretera Casas del Rey 0,5 hectárea de alisos." ; cjcyl:estado "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:geometria "POINT (-5.598644769155584 40.316468751057641)" ; cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:nombre "Prado Nuevo" .
+
+<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89411> a cjcyl:ZonaAcampada ; cjcyl:observaciones "3 edificios. Prado colindante con el campamento \"Isla de Gredos\" a 200 metros del puente de la Angostura. 2 hectáreas. Sin paredes ni cierre." ; cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:geometria "POINT (-5.352828668440458 40.334064672402789)" ; cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:nombre "La Isla" .
+
+<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89412> a cjcyl:ZonaAcampada ; cjcyl:observaciones "Sin instalaciones. Limita con la orilla del Tormes. Pradera pequeña. Muy cercano al molino de Zapardiel." ; cjcyl:estado "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:geometria "POINT (-5.329247559016434 40.341136004844138)" ; cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:nombre "Los Bierzos" .
+
+<http://geo.linkeddata.es/cjcyl/resource/ZonaAcampada/89413> a cjcyl:ZonaAcampada ; cjcyl:observaciones "Sin instalaciones. A orilla del Tormes. Pradera. Continuación del 338. 0,75 hectáreas.Próximo al molino de Zapardiel restaurado como casa de turismo rural." ; cjcyl:estado "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:geometria "POINT (-5.331179943311287 40.340844831596293)" ; cjcyl:cerramiento "4"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:nombre "Prado Los Molinos" .

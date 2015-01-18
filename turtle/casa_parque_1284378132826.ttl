@@ -5,379 +5,58 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 
 
-<http://geo.linkeddata.es/cjcyl/resource/CasaParque/72463> a cjcyl:CasaParque ;
-	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesoModo "En el núcleo urbano de Fermoselle." ;
-	cjcyl:nombre "Casa del Parque Convento de San Francisco" ;
-	cjcyl:cerramiento "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidadDiscapacitados "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:emailOWeb "http://www.miespacionatural.es" ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-6.398522756876999 41.315272358548867)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:cidaBiblio "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
-	cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
-	cjcyl:tiendaVerde "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://geo.linkeddata.es/cjcyl/resource/CasaParque/72463> a cjcyl:CasaParque ; cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesoModo "En el núcleo urbano de Fermoselle." ; cjcyl:nombre "Casa del Parque Convento de San Francisco" ; cjcyl:cerramiento "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidadDiscapacitados "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:emailOWeb "http://www.miespacionatural.es" ; cjcyl:geometria "POINT (-6.398522756876999 41.315272358548867)" ; cjcyl:cidaBiblio "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ; cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ; cjcyl:tiendaVerde "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 
-<http://geo.linkeddata.es/cjcyl/resource/CasaParque/72464> a cjcyl:CasaParque ;
-	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesoModo "Se sitúa en el núcleo urbano de Sobradillo, localidad del este salmantino. La mejor forma de llegar es desde Salamanca por la SA-300 dirigiéndose hacia Ledesma o hacia Vitigudino por la C-517 y desde Zamora por la C-527 en dirección a Fermoselle. Desde Portugal, por la N-620 en dirección a Salamanca y por la N-122 hacia Zamora.
-" ;
-	cjcyl:nombre "Casa del Parque El Torreón de Sobradillo" ;
-	cjcyl:cerramiento "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:emailOWeb "http://www.miespacionatural.es" ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-6.799337221642515 40.91767470698472)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:cidaBiblio "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
-	cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
-	cjcyl:tiendaVerde "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://geo.linkeddata.es/cjcyl/resource/CasaParque/72464> a cjcyl:CasaParque ; cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesoModo "Se sitúa en el núcleo urbano de Sobradillo, localidad del este salmantino. La mejor forma de llegar es desde Salamanca por la SA-300 dirigiéndose hacia Ledesma o hacia Vitigudino por la C-517 y desde Zamora por la C-527 en dirección a Fermoselle. Desde Portugal, por la N-620 en dirección a Salamanca y por la N-122 hacia Zamora." ; cjcyl:nombre "Casa del Parque El Torreón de Sobradillo" ; cjcyl:cerramiento "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:emailOWeb "http://www.miespacionatural.es" ; cjcyl:geometria "POINT (-6.799337221642515 40.91767470698472)" ; cjcyl:cidaBiblio "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ; cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ; cjcyl:tiendaVerde "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 
-<http://geo.linkeddata.es/cjcyl/resource/CasaParque/85866> a cjcyl:CasaParque ;
-	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesoModo "Se encuentra en el núcleo de Publa de Lillo. para acceder a esta localidad tomar la carretera de Puegbla de Lillo a Boñar LE-331." ;
-	cjcyl:nombre "Valle del Porma" ;
-	cjcyl:cerramiento "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidadDiscapacitados "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:emailOWeb "http://www.miespacionatural.es" ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.275512350966602 43.00667136941513)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:cidaBiblio "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
-	cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
-	cjcyl:tiendaVerde "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://geo.linkeddata.es/cjcyl/resource/CasaParque/85866> a cjcyl:CasaParque ; cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesoModo "Se encuentra en el núcleo de Publa de Lillo. para acceder a esta localidad tomar la carretera de Puegbla de Lillo a Boñar LE-331." ; cjcyl:nombre "Valle del Porma" ; cjcyl:cerramiento "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidadDiscapacitados "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:emailOWeb "http://www.miespacionatural.es" ; cjcyl:geometria "POINT (-5.275512350966602 43.00667136941513)" ; cjcyl:cidaBiblio "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ; cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ; cjcyl:tiendaVerde "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 
-<http://geo.linkeddata.es/cjcyl/resource/CasaParque/85867> a cjcyl:CasaParque ;
-	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesoModo "Esta casa se locliza en el núcleo de Lario, al noreste de la provincia de León. Pâra acceder a esta localidad hay que coger la Cl-625 en dirección al Puerto de Tarna y hasta Lario." ;
-	cjcyl:nombre "Picos de Europa (sector Oriental) Valdeburón" ;
-	cjcyl:cerramiento "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidadDiscapacitados "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:emailOWeb "http://www.miespacionatural.es/espaciospanel/2489?tab=casas#tab-casa-2977" ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.090582929845824 43.040861666597621)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:cidaBiblio "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
-	cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
-	cjcyl:tiendaVerde "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://geo.linkeddata.es/cjcyl/resource/CasaParque/85867> a cjcyl:CasaParque ; cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesoModo "Esta casa se locliza en el núcleo de Lario, al noreste de la provincia de León. Pâra acceder a esta localidad hay que coger la Cl-625 en dirección al Puerto de Tarna y hasta Lario." ; cjcyl:nombre "Picos de Europa (sector Oriental) Valdeburón" ; cjcyl:cerramiento "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidadDiscapacitados "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:emailOWeb "http://www.miespacionatural.es/espaciospanel/2489?tab=casas#tab-casa-2977" ; cjcyl:geometria "POINT (-5.090582929845824 43.040861666597621)" ; cjcyl:cidaBiblio "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ; cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ; cjcyl:tiendaVerde "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 
-<http://geo.linkeddata.es/cjcyl/resource/CasaParque/85055> a cjcyl:CasaParque ;
-	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesoModo "Se encuentra en el núcleo urbano de Fuentes de la Nava.  La carretera  que accede a Fuentes de Nava es P-920." ;
-	cjcyl:nombre "Casa del Parque del Espacio Natural de la Nava y Campos de Palencia" ;
-	cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:emailOWeb "http://www.miespacionatural.es/espaciospanel/2622?tab=casas#tab-casa-47338" ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-4.784455132367362 42.085018666786723)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:cidaBiblio "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
-	cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
-	cjcyl:tiendaVerde "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://geo.linkeddata.es/cjcyl/resource/CasaParque/85055> a cjcyl:CasaParque ; cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesoModo "Se encuentra en el núcleo urbano de Fuentes de la Nava.  La carretera  que accede a Fuentes de Nava es P-920." ; cjcyl:nombre "Casa del Parque del Espacio Natural de la Nava y Campos de Palencia" ; cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:emailOWeb "http://www.miespacionatural.es/espaciospanel/2622?tab=casas#tab-casa-47338" ; cjcyl:geometria "POINT (-4.784455132367362 42.085018666786723)" ; cjcyl:cidaBiblio "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ; cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ; cjcyl:tiendaVerde "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 
-<http://geo.linkeddata.es/cjcyl/resource/CasaParque/78538> a cjcyl:CasaParque ;
-	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesoModo "Se encuentra en el casco urbano de Cervera de Pisuerga. Se llega a esta localidad desde las carreteras N-625 al este y N-611 al oeste, y se accede desde CL-627 y CL-626." ;
-	cjcyl:nombre "Casa Parque Fuentes de Carrionas y Fuente Cobre-Montaña Palentina" ;
-	cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidadDiscapacitados "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:emailOWeb "http://www.miespacionatural.es/espaciospanel/2431?tab=casas#tab-casa-2468" ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-4.496172097519321 42.86279184761932)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:cidaBiblio "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
-	cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
-	cjcyl:tiendaVerde "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://geo.linkeddata.es/cjcyl/resource/CasaParque/78538> a cjcyl:CasaParque ; cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesoModo "Se encuentra en el casco urbano de Cervera de Pisuerga. Se llega a esta localidad desde las carreteras N-625 al este y N-611 al oeste, y se accede desde CL-627 y CL-626." ; cjcyl:nombre "Casa Parque Fuentes de Carrionas y Fuente Cobre-Montaña Palentina" ; cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidadDiscapacitados "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:emailOWeb "http://www.miespacionatural.es/espaciospanel/2431?tab=casas#tab-casa-2468" ; cjcyl:geometria "POINT (-4.496172097519321 42.86279184761932)" ; cjcyl:cidaBiblio "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ; cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ; cjcyl:tiendaVerde "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 
-<http://geo.linkeddata.es/cjcyl/resource/CasaParque/76266> a cjcyl:CasaParque ;
-	cjcyl:obseravaciones "CIF: S-4711001-J" ;
-	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesoModo "La Casa se sitúa en el núcleo urbano de La Alberca. Desde Salamanca por la carretera C-512 hasta el pueblo de Vecinos, desde ahí seguir por la carretera SA-210 que llega a La Aberca." ;
-	cjcyl:nombre "Casa del Parque Las Batuecas-Sierra de Francia" ;
-	cjcyl:cerramiento "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidadDiscapacitados "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:emailOWeb "http://www.miespacionatural.es/espaciospanel/2345?tab=casas#tab-casa-2346" ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-6.116091941481558 40.488067510328285)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:cidaBiblio "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
-	cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
-	cjcyl:tiendaVerde "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://geo.linkeddata.es/cjcyl/resource/CasaParque/76266> a cjcyl:CasaParque ; cjcyl:obseravaciones "CIF: S-4711001-J" ; cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesoModo "La Casa se sitúa en el núcleo urbano de La Alberca. Desde Salamanca por la carretera C-512 hasta el pueblo de Vecinos, desde ahí seguir por la carretera SA-210 que llega a La Aberca." ; cjcyl:nombre "Casa del Parque Las Batuecas-Sierra de Francia" ; cjcyl:cerramiento "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidadDiscapacitados "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:emailOWeb "http://www.miespacionatural.es/espaciospanel/2345?tab=casas#tab-casa-2346" ; cjcyl:geometria "POINT (-6.116091941481558 40.488067510328285)" ; cjcyl:cidaBiblio "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ; cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ; cjcyl:tiendaVerde "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 
-<http://geo.linkeddata.es/cjcyl/resource/CasaParque/80302> a cjcyl:CasaParque ;
-	cjcyl:obseravaciones "Hay un contenedor de pilas" ;
-	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesoModo "La Casa se localiza en el núcleo urbano de Sepúveda, al nordeste de Segovia." ;
-	cjcyl:nombre "Casa del Parque de las Hoces del Río Duratón" ;
-	cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:emailOWeb "http://www.miespacionatural.es/espaciospanel/2314?tab=casas#tab-casa-2318" ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.750086757898931 41.298729191783771)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:cidaBiblio "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
-	cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
-	cjcyl:tiendaVerde "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://geo.linkeddata.es/cjcyl/resource/CasaParque/80302> a cjcyl:CasaParque ; cjcyl:obseravaciones "Hay un contenedor de pilas" ; cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesoModo "La Casa se localiza en el núcleo urbano de Sepúveda, al nordeste de Segovia." ; cjcyl:nombre "Casa del Parque de las Hoces del Río Duratón" ; cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:emailOWeb "http://www.miespacionatural.es/espaciospanel/2314?tab=casas#tab-casa-2318" ; cjcyl:geometria "POINT (-3.750086757898931 41.298729191783771)" ; cjcyl:cidaBiblio "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ; cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ; cjcyl:tiendaVerde "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 
-<http://geo.linkeddata.es/cjcyl/resource/CasaParque/80590> a cjcyl:CasaParque ;
-	cjcyl:obseravaciones "CIF:G47549811" ;
-	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesoModo "La casa se slocaliza en el núcleo urbano de Montejo de la Vega de la Serrezuela. Desde la A-1, se toma la salida 146 en la localidad de Milagros y desde allí la carretera a Montejo de la Vega de la Serrezuela. Desde Aranda de Duero, se continúa por la N-1 hasta la localidad de Fuentespina. Allí seguiremos por la carretera la C-114 hasta la localidad de Fuentelcesped, donde tomaremos la carretera hasta Montejo de la Vega de la Serrezuela." ;
-	cjcyl:nombre "Casa del Parque Hoces del Río Riaza" ;
-	cjcyl:cerramiento "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidadDiscapacitados "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:emailOWeb "http://www.miespacionatural.es/espaciospanel/2310?tab=casas#tab-casa-2312" ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.654497215558467 41.548505039835149)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:cidaBiblio "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
-	cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
-	cjcyl:tiendaVerde "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://geo.linkeddata.es/cjcyl/resource/CasaParque/80590> a cjcyl:CasaParque ; cjcyl:obseravaciones "CIF:G47549811" ; cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesoModo "La casa se slocaliza en el núcleo urbano de Montejo de la Vega de la Serrezuela. Desde la A-1, se toma la salida 146 en la localidad de Milagros y desde allí la carretera a Montejo de la Vega de la Serrezuela. Desde Aranda de Duero, se continúa por la N-1 hasta la localidad de Fuentespina. Allí seguiremos por la carretera la C-114 hasta la localidad de Fuentelcesped, donde tomaremos la carretera hasta Montejo de la Vega de la Serrezuela." ; cjcyl:nombre "Casa del Parque Hoces del Río Riaza" ; cjcyl:cerramiento "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidadDiscapacitados "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:emailOWeb "http://www.miespacionatural.es/espaciospanel/2310?tab=casas#tab-casa-2312" ; cjcyl:geometria "POINT (-3.654497215558467 41.548505039835149)" ; cjcyl:cidaBiblio "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ; cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ; cjcyl:tiendaVerde "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 
-<http://geo.linkeddata.es/cjcyl/resource/CasaParque/88956> a cjcyl:CasaParque ;
-	cjcyl:obseravaciones "Limpieza: 12 horas a la semana (martes, miércoles, viernes y sábado, 3 horas cada día). Empresa de mantenimiento: SAGA, Electricidad Frentes, Seguritas, ThyssenKrupp, NISCAYAH, MIRAME de Madrid" ;
-	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesoModo "La Casa está en el núcleo urbano de Muriel de la Fuente. La mejor forma de llegar es por la carretera de Soria-Valladolid N-122 en la salida a Calatañazor, continuar por la Ctra Muriel de la Fuente/ SO-P-5026" ;
-	cjcyl:nombre "Casa del Parque del Sabinar" ;
-	cjcyl:cerramiento "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidadDiscapacitados "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:emailOWeb "http://www.miespacionatural.es/espaciospanel/2503?tab=casas#tab-casa-2504" ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-2.843521547290566 41.715952784575094)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:cidaBiblio "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
-	cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
-	cjcyl:tiendaVerde "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://geo.linkeddata.es/cjcyl/resource/CasaParque/88956> a cjcyl:CasaParque ; cjcyl:obseravaciones "Limpieza: 12 horas a la semana (martes, miércoles, viernes y sábado, 3 horas cada día). Empresa de mantenimiento: SAGA, Electricidad Frentes, Seguritas, ThyssenKrupp, NISCAYAH, MIRAME de Madrid" ; cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesoModo "La Casa está en el núcleo urbano de Muriel de la Fuente. La mejor forma de llegar es por la carretera de Soria-Valladolid N-122 en la salida a Calatañazor, continuar por la Ctra Muriel de la Fuente/ SO-P-5026" ; cjcyl:nombre "Casa del Parque del Sabinar" ; cjcyl:cerramiento "2"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidadDiscapacitados "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:emailOWeb "http://www.miespacionatural.es/espaciospanel/2503?tab=casas#tab-casa-2504" ; cjcyl:geometria "POINT (-2.843521547290566 41.715952784575094)" ; cjcyl:cidaBiblio "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ; cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ; cjcyl:tiendaVerde "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 
-<http://geo.linkeddata.es/cjcyl/resource/CasaParque/77563> a cjcyl:CasaParque ;
-	cjcyl:obseravaciones "Instalaciones en rehabilitación, instalación provisional de atención al público en la misma dirección y teléfonos de contacto. Consultar tarifas vigentes. Tiene contenedor de pilas." ;
-	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesoModo "Punto de información situado en la entrada de la Piscifactoría de Ucero, carretera SO-920 del Burgo de Osma a San leonardo de Yagüe pk16." ;
-	cjcyl:nombre "Casa del Parque del Cañón de Río Lobos" ;
-	cjcyl:cerramiento "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidadDiscapacitados "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:emailOWeb "http://www.miespacionatural.es/espaciospanel/2392?tab=casas#tab-casa-4277" ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.047414122086075 41.72185642688742)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:cidaBiblio "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
-	cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
-	cjcyl:tiendaVerde "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://geo.linkeddata.es/cjcyl/resource/CasaParque/77563> a cjcyl:CasaParque ; cjcyl:obseravaciones "Instalaciones en rehabilitación, instalación provisional de atención al público en la misma dirección y teléfonos de contacto. Consultar tarifas vigentes. Tiene contenedor de pilas." ; cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesoModo "Punto de información situado en la entrada de la Piscifactoría de Ucero, carretera SO-920 del Burgo de Osma a San leonardo de Yagüe pk16." ; cjcyl:nombre "Casa del Parque del Cañón de Río Lobos" ; cjcyl:cerramiento "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidadDiscapacitados "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:emailOWeb "http://www.miespacionatural.es/espaciospanel/2392?tab=casas#tab-casa-4277" ; cjcyl:geometria "POINT (-3.047414122086075 41.72185642688742)" ; cjcyl:cidaBiblio "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ; cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ; cjcyl:tiendaVerde "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 
-<http://geo.linkeddata.es/cjcyl/resource/CasaParque/81676> a cjcyl:CasaParque ;
-	cjcyl:obseravaciones "Centro de recepcion, salas de nterpretacion, Salas audiovisuales y parque infantil. Empresas de mantenimiento: EDUMAT, SAGA, CTELEC, IBERMUTUAMUR, FRENTES, MIRAME, GAS HOME" ;
-	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesoModo "Se ubica en la Pista a La Laguna Negra. Llegar a Vinuesa por la N-234, y en esta localidad coger la pista forestal asfaltada que lleva a la Laguna Negra (km3)." ;
-	cjcyl:nombre "Casa del Parque La Laguna Negra y Circos Glaciares de Urbión" ;
-	cjcyl:cerramiento "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidadDiscapacitados "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:emailOWeb "http://www.miespacionatural.es/espaciospanel/2368?tab=casas#tab-casa-2327" ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-2.775534346674825 41.931688903027286)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:cidaBiblio "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
-	cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
-	cjcyl:tiendaVerde "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://geo.linkeddata.es/cjcyl/resource/CasaParque/81676> a cjcyl:CasaParque ; cjcyl:obseravaciones "Centro de recepcion, salas de nterpretacion, Salas audiovisuales y parque infantil. Empresas de mantenimiento: EDUMAT, SAGA, CTELEC, IBERMUTUAMUR, FRENTES, MIRAME, GAS HOME" ; cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesoModo "Se ubica en la Pista a La Laguna Negra. Llegar a Vinuesa por la N-234, y en esta localidad coger la pista forestal asfaltada que lleva a la Laguna Negra (km3)." ; cjcyl:nombre "Casa del Parque La Laguna Negra y Circos Glaciares de Urbión" ; cjcyl:cerramiento "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidadDiscapacitados "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:emailOWeb "http://www.miespacionatural.es/espaciospanel/2368?tab=casas#tab-casa-2327" ; cjcyl:geometria "POINT (-2.775534346674825 41.931688903027286)" ; cjcyl:cidaBiblio "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ; cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ; cjcyl:tiendaVerde "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 
-<http://geo.linkeddata.es/cjcyl/resource/CasaParque/88835> a cjcyl:CasaParque ;
-	cjcyl:obseravaciones "No se necesita permiso, sin embargo hay servicios que se prestan previa cita, tales como las actividades guiadas para grupos" ;
-	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesoModo "En el casco urbano de Castronuño junto al Parque de La Muela y la iglesia de Santa María del Castillo" ;
-	cjcyl:nombre "Riberas de Castronuño-Vega del Duero" ;
-	cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidadDiscapacitados "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:emailOWeb "http://www.miespacionatural.es/espaciospanel/2532?tab=casas#tab-casa-2541" ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.263198473805974 41.390227975058167)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:cidaBiblio "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
-	cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
-	cjcyl:tiendaVerde "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://geo.linkeddata.es/cjcyl/resource/CasaParque/88835> a cjcyl:CasaParque ; cjcyl:obseravaciones "No se necesita permiso, sin embargo hay servicios que se prestan previa cita, tales como las actividades guiadas para grupos" ; cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesoModo "En el casco urbano de Castronuño junto al Parque de La Muela y la iglesia de Santa María del Castillo" ; cjcyl:nombre "Riberas de Castronuño-Vega del Duero" ; cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidadDiscapacitados "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:emailOWeb "http://www.miespacionatural.es/espaciospanel/2532?tab=casas#tab-casa-2541" ; cjcyl:geometria "POINT (-5.263198473805974 41.390227975058167)" ; cjcyl:cidaBiblio "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ; cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ; cjcyl:tiendaVerde "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 
-<http://geo.linkeddata.es/cjcyl/resource/CasaParque/83569> a cjcyl:CasaParque ;
-	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:nombre "Casa del Parque de las Lagunas de Villafáfila El Palomar" ;
-	cjcyl:cerramiento "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidadDiscapacitados "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:emailOWeb "http://www.miespacionatural.es/espaciospanel/2336?tab=casas#tab-casa-2340" ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.595443812366492 41.855677779348675)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:cidaBiblio "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
-	cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
-	cjcyl:tiendaVerde "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://geo.linkeddata.es/cjcyl/resource/CasaParque/83569> a cjcyl:CasaParque ; cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:nombre "Casa del Parque de las Lagunas de Villafáfila El Palomar" ; cjcyl:cerramiento "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidadDiscapacitados "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:emailOWeb "http://www.miespacionatural.es/espaciospanel/2336?tab=casas#tab-casa-2340" ; cjcyl:geometria "POINT (-5.595443812366492 41.855677779348675)" ; cjcyl:cidaBiblio "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ; cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ; cjcyl:tiendaVerde "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 
-<http://geo.linkeddata.es/cjcyl/resource/CasaParque/77564> a cjcyl:CasaParque ;
-	cjcyl:obseravaciones "Tiene contedor de pilas." ;
-	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesoModo "Punto de información situado en el núcleo urbanode San Leonardo de Yagüe." ;
-	cjcyl:nombre "Casa del Parque del Cañón de Río Lobos-Museo San Leonardo" ;
-	cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidadDiscapacitados "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:emailOWeb "http://www.miespacionatural.es" ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.067994080906728 41.829202183637499)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:cidaBiblio "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
-	cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
-	cjcyl:tiendaVerde "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://geo.linkeddata.es/cjcyl/resource/CasaParque/77564> a cjcyl:CasaParque ; cjcyl:obseravaciones "Tiene contedor de pilas." ; cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesoModo "Punto de información situado en el núcleo urbanode San Leonardo de Yagüe." ; cjcyl:nombre "Casa del Parque del Cañón de Río Lobos-Museo San Leonardo" ; cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidadDiscapacitados "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:emailOWeb "http://www.miespacionatural.es" ; cjcyl:geometria "POINT (-3.067994080906728 41.829202183637499)" ; cjcyl:cidaBiblio "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ; cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ; cjcyl:tiendaVerde "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 
-<http://geo.linkeddata.es/cjcyl/resource/CasaParque/82510> a cjcyl:CasaParque ;
-	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesoModo "En el núcleo urbano de San Martín de Castañeda, al noroeste de la provincia de Zamora. La mejor forma de llegar a esta localidad es desde Pebla de Sanabria, salidad N79 de A-52 madrid-Vigo, y seguir dirección Lago de Sanabria por la Za-104 y luego por la Za-103." ;
-	cjcyl:nombre "Casa del Parque San Martín de Castañeda" ;
-	cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:emailOWeb "http://www.miespacionatural.es" ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-6.720418191568117 42.135266668807546)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:cidaBiblio "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
-	cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
-	cjcyl:tiendaVerde "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://geo.linkeddata.es/cjcyl/resource/CasaParque/82510> a cjcyl:CasaParque ; cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesoModo "En el núcleo urbano de San Martín de Castañeda, al noroeste de la provincia de Zamora. La mejor forma de llegar a esta localidad es desde Pebla de Sanabria, salidad N79 de A-52 madrid-Vigo, y seguir dirección Lago de Sanabria por la Za-104 y luego por la Za-103." ; cjcyl:nombre "Casa del Parque San Martín de Castañeda" ; cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:emailOWeb "http://www.miespacionatural.es" ; cjcyl:geometria "POINT (-6.720418191568117 42.135266668807546)" ; cjcyl:cidaBiblio "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ; cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ; cjcyl:tiendaVerde "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 
-<http://geo.linkeddata.es/cjcyl/resource/CasaParque/82511> a cjcyl:CasaParque ;
-	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesoModo "Se encuentra situada en la carretera ZA-104, km.4,5 Rabanillo-Galende" ;
-	cjcyl:nombre "Casa del Parque Monte Gándara" ;
-	cjcyl:cerramiento "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidadDiscapacitados "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:emailOWeb "http://www.miespacionatural.es" ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-6.645952825414997 42.092510105893822)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:cidaBiblio "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
-	cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
-	cjcyl:tiendaVerde "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://geo.linkeddata.es/cjcyl/resource/CasaParque/82511> a cjcyl:CasaParque ; cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesoModo "Se encuentra situada en la carretera ZA-104, km.4,5 Rabanillo-Galende" ; cjcyl:nombre "Casa del Parque Monte Gándara" ; cjcyl:cerramiento "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidadDiscapacitados "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:emailOWeb "http://www.miespacionatural.es" ; cjcyl:geometria "POINT (-6.645952825414997 42.092510105893822)" ; cjcyl:cidaBiblio "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ; cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ; cjcyl:tiendaVerde "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 
-<http://geo.linkeddata.es/cjcyl/resource/CasaParque/72320> a cjcyl:CasaParque ;
-	cjcyl:obseravaciones "En construcción. Fecha prevista de funcionamiento: 2011" ;
-	cjcyl:estado "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesoModo "Calle urbana de Arévalo de la Sierra." ;
-	cjcyl:nombre "Casa del Parque del Acebal" ;
-	cjcyl:cerramiento "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:emailOWeb "http://www.miespacionatural.es" ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-2.400283822087258 41.94715744955586)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:cidaBiblio "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
-	cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
-	cjcyl:tiendaVerde "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://geo.linkeddata.es/cjcyl/resource/CasaParque/72320> a cjcyl:CasaParque ; cjcyl:obseravaciones "En construcción. Fecha prevista de funcionamiento: 2011" ; cjcyl:estado "2"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesoModo "Calle urbana de Arévalo de la Sierra." ; cjcyl:nombre "Casa del Parque del Acebal" ; cjcyl:cerramiento "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:emailOWeb "http://www.miespacionatural.es" ; cjcyl:geometria "POINT (-2.400283822087258 41.94715744955586)" ; cjcyl:cidaBiblio "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ; cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ; cjcyl:tiendaVerde "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 
-<http://geo.linkeddata.es/cjcyl/resource/CasaParque/89561> a cjcyl:CasaParque ;
-	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesoModo "Se encuentra en la loclidad El Barraco. Para llegar desde el núcleo de El Barraco tomar la carretera hacia Las Cruceras, pasando por el el puente que hay sobre el Pantano de Burguillo." ;
-	cjcyl:nombre "Casa de la Reserva Natural del Valle de Iruelas \"Las Cruceras\"" ;
-	cjcyl:cerramiento "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidadDiscapacitados "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:emailOWeb "http://www.miespacionatural.es/espaciospanel/3609?tab=casas#tab-casa-2313" ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-4.563378443413421 40.419063798445329)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:cidaBiblio "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
-	cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
-	cjcyl:tiendaVerde "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://geo.linkeddata.es/cjcyl/resource/CasaParque/89561> a cjcyl:CasaParque ; cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesoModo "Se encuentra en la loclidad El Barraco. Para llegar desde el núcleo de El Barraco tomar la carretera hacia Las Cruceras, pasando por el el puente que hay sobre el Pantano de Burguillo." ; cjcyl:nombre "Casa de la Reserva Natural del Valle de Iruelas \"Las Cruceras\"" ; cjcyl:cerramiento "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidadDiscapacitados "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:emailOWeb "http://www.miespacionatural.es/espaciospanel/3609?tab=casas#tab-casa-2313" ; cjcyl:geometria "POINT (-4.563378443413421 40.419063798445329)" ; cjcyl:cidaBiblio "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ; cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ; cjcyl:tiendaVerde "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 
-<http://geo.linkeddata.es/cjcyl/resource/CasaParque/81555> a cjcyl:CasaParque ;
-	cjcyl:obseravaciones "Los aseos son una instalación ubicada fuera de la casa del parque." ;
-	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesoModo "En la entrada del casco urbano de Neila. Se accede a esta localidad desde la localidad Quintanar de la Sierra por la carretera BU-822." ;
-	cjcyl:nombre "Casa del Parque de las Lagunas Glaciares de Neila" ;
-	cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:emailOWeb "http://www.miespacionatural.es/espaciospanel/3513?tab=casas#tab-casa-3514" ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-2.992916723955608 42.060376033223299)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:cidaBiblio "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
-	cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
-	cjcyl:tiendaVerde "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://geo.linkeddata.es/cjcyl/resource/CasaParque/81555> a cjcyl:CasaParque ; cjcyl:obseravaciones "Los aseos son una instalación ubicada fuera de la casa del parque." ; cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesoModo "En la entrada del casco urbano de Neila. Se accede a esta localidad desde la localidad Quintanar de la Sierra por la carretera BU-822." ; cjcyl:nombre "Casa del Parque de las Lagunas Glaciares de Neila" ; cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidadDiscapacitados "2"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:emailOWeb "http://www.miespacionatural.es/espaciospanel/3513?tab=casas#tab-casa-3514" ; cjcyl:geometria "POINT (-2.992916723955608 42.060376033223299)" ; cjcyl:cidaBiblio "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ; cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ; cjcyl:tiendaVerde "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 
-<http://geo.linkeddata.es/cjcyl/resource/CasaParque/84201> a cjcyl:CasaParque ;
-	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesoModo "La casa del parque se encuentra en el núcleo urbano de Oña. A Oña se accede por la N-232, con salidas desde la la carretera Bu-510 (desde Briviescas) , N-629 (desde mediana de Pomar y Trespademe) y CL-629." ;
-	cjcyl:nombre "Casa del Parque Montes Obarenes-San Zadornil" ;
-	cjcyl:cerramiento "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidadDiscapacitados "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:emailOWeb "http://www.miespacionatural.es/espaciospanel/4150?tab=casas#tab-casa-39002" ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.159417598719231 42.842609430632443)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:cidaBiblio "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
-	cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
-	cjcyl:tiendaVerde "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://geo.linkeddata.es/cjcyl/resource/CasaParque/84201> a cjcyl:CasaParque ; cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesoModo "La casa del parque se encuentra en el núcleo urbano de Oña. A Oña se accede por la N-232, con salidas desde la la carretera Bu-510 (desde Briviescas) , N-629 (desde mediana de Pomar y Trespademe) y CL-629." ; cjcyl:nombre "Casa del Parque Montes Obarenes-San Zadornil" ; cjcyl:cerramiento "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidadDiscapacitados "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:emailOWeb "http://www.miespacionatural.es/espaciospanel/4150?tab=casas#tab-casa-39002" ; cjcyl:geometria "POINT (-3.159417598719231 42.842609430632443)" ; cjcyl:cidaBiblio "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ; cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ; cjcyl:tiendaVerde "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 
-<http://geo.linkeddata.es/cjcyl/resource/CasaParque/85865> a cjcyl:CasaParque ;
-	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesoModo "La Casa del Parque se sitúa en el núcleo urbano de Puebla de Lillo, en la carretera de Puebla de Lillo a Boñar LE-331." ;
-	cjcyl:nombre "El Torreón de Puebla de Lillo" ;
-	cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:emailOWeb "http://www.miespacionatural.es/espaciospanel/2489?tab=casas#tab-casa-2484" ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.275586249062812 43.007484004860423)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:cidaBiblio "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
-	cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
-	cjcyl:tiendaVerde "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://geo.linkeddata.es/cjcyl/resource/CasaParque/85865> a cjcyl:CasaParque ; cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesoModo "La Casa del Parque se sitúa en el núcleo urbano de Puebla de Lillo, en la carretera de Puebla de Lillo a Boñar LE-331." ; cjcyl:nombre "El Torreón de Puebla de Lillo" ; cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidadDiscapacitados "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:emailOWeb "http://www.miespacionatural.es/espaciospanel/2489?tab=casas#tab-casa-2484" ; cjcyl:geometria "POINT (-5.275586249062812 43.007484004860423)" ; cjcyl:cidaBiblio "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ; cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ; cjcyl:tiendaVerde "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 
-<http://geo.linkeddata.es/cjcyl/resource/CasaParque/85159> a cjcyl:CasaParque ;
-	cjcyl:obseravaciones "Contenedor de pilas usadas. Dispone de aparcabicis y área recreativa anexa. desde la casa se inician varias sendas entre ellas  la  Senda del Vivero Forestal." ;
-	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesoModo "Carretera asfaltada BU-526 y peatonal desde núcleo urbano de Quintanilla del Rebollar" ;
-	cjcyl:nombre "Casa del Parque Ojo Guareña" ;
-	cjcyl:cerramiento "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidadDiscapacitados "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:emailOWeb "http://www.miespacionatural.es/espaciospanel/3881?tab=casas#tab-casa-2645" ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.627062905608765 43.056050234863356)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:cidaBiblio "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
-	cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
-	cjcyl:tiendaVerde "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://geo.linkeddata.es/cjcyl/resource/CasaParque/85159> a cjcyl:CasaParque ; cjcyl:obseravaciones "Contenedor de pilas usadas. Dispone de aparcabicis y área recreativa anexa. desde la casa se inician varias sendas entre ellas  la  Senda del Vivero Forestal." ; cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesoModo "Carretera asfaltada BU-526 y peatonal desde núcleo urbano de Quintanilla del Rebollar" ; cjcyl:nombre "Casa del Parque Ojo Guareña" ; cjcyl:cerramiento "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidadDiscapacitados "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:emailOWeb "http://www.miespacionatural.es/espaciospanel/3881?tab=casas#tab-casa-2645" ; cjcyl:geometria "POINT (-3.627062905608765 43.056050234863356)" ; cjcyl:cidaBiblio "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ; cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ; cjcyl:tiendaVerde "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 
-<http://geo.linkeddata.es/cjcyl/resource/CasaParque/89131> a cjcyl:CasaParque ;
-	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesoModo "En el pueblo de Guisando desde Arenas de San Pedro, cruzado el puente sobre el río Pelayos y el primer desvio a la derecha" ;
-	cjcyl:nombre "El Risquillo" ;
-	cjcyl:cerramiento "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidadDiscapacitados "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:emailOWeb "http://www.miespacionatural.es/espaciospanel/2359?tab=casas#tab-casa-2371" ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.14372194880043 40.220774618992088)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:cidaBiblio "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
-	cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
-	cjcyl:tiendaVerde "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://geo.linkeddata.es/cjcyl/resource/CasaParque/89131> a cjcyl:CasaParque ; cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesoModo "En el pueblo de Guisando desde Arenas de San Pedro, cruzado el puente sobre el río Pelayos y el primer desvio a la derecha" ; cjcyl:nombre "El Risquillo" ; cjcyl:cerramiento "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidadDiscapacitados "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:emailOWeb "http://www.miespacionatural.es/espaciospanel/2359?tab=casas#tab-casa-2371" ; cjcyl:geometria "POINT (-5.14372194880043 40.220774618992088)" ; cjcyl:cidaBiblio "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ; cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ; cjcyl:tiendaVerde "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 
-<http://geo.linkeddata.es/cjcyl/resource/CasaParque/84490> a cjcyl:CasaParque ;
-	cjcyl:obseravaciones "Punto de partida de la senda: PR-BU-42, 43 y 44 al mirador Salto del Nervión. Hay máquina expendedora de agua, baños ecológicos.Las visitas autoguiadas son gratuitas." ;
-	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesoModo "Ctra. BU-556 de Berberana al Puerto de Orduña, en PK. 341,6, a 3 km. por la pista forestal. Es el punto de partida de las sendas: PR BU41, PR BU42 Y PRBU43." ;
-	cjcyl:nombre "Casa del Parque Monte Santiago" ;
-	cjcyl:cerramiento "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidadDiscapacitados "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:emailOWeb "http://www.miespacionatural.es/espaciospanel/2635?tab=casas#tab-casa-2433" ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.000932498889665 42.940998289307814)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:cidaBiblio "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
-	cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
-	cjcyl:tiendaVerde "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://geo.linkeddata.es/cjcyl/resource/CasaParque/84490> a cjcyl:CasaParque ; cjcyl:obseravaciones "Punto de partida de la senda: PR-BU-42, 43 y 44 al mirador Salto del Nervión. Hay máquina expendedora de agua, baños ecológicos.Las visitas autoguiadas son gratuitas." ; cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesoModo "Ctra. BU-556 de Berberana al Puerto de Orduña, en PK. 341,6, a 3 km. por la pista forestal. Es el punto de partida de las sendas: PR BU41, PR BU42 Y PRBU43." ; cjcyl:nombre "Casa del Parque Monte Santiago" ; cjcyl:cerramiento "2"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidadDiscapacitados "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:emailOWeb "http://www.miespacionatural.es/espaciospanel/2635?tab=casas#tab-casa-2433" ; cjcyl:geometria "POINT (-3.000932498889665 42.940998289307814)" ; cjcyl:cidaBiblio "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ; cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ; cjcyl:tiendaVerde "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 
-<http://geo.linkeddata.es/cjcyl/resource/CasaParque/84491> a cjcyl:CasaParque ;
-	cjcyl:obseravaciones "De momento no tiene dotación propia. Lugar para realización de talleres y exposiciones temporales. Funciona como punto de información." ;
-	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesoModo "Plaza casco urbano de Berberana" ;
-	cjcyl:nombre "Anexo a la Casa del Parque de Monte Santiago" ;
-	cjcyl:cerramiento "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidadDiscapacitados "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:emailOWeb "http://www.patrimonionatural.org/casas.php?id_casa=3" ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-3.060006598593254 42.917983461633199)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:cidaBiblio "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
-	cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
-	cjcyl:tiendaVerde "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://geo.linkeddata.es/cjcyl/resource/CasaParque/84491> a cjcyl:CasaParque ; cjcyl:obseravaciones "De momento no tiene dotación propia. Lugar para realización de talleres y exposiciones temporales. Funciona como punto de información." ; cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesoModo "Plaza casco urbano de Berberana" ; cjcyl:nombre "Anexo a la Casa del Parque de Monte Santiago" ; cjcyl:cerramiento "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidadDiscapacitados "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:emailOWeb "http://www.patrimonionatural.org/casas.php?id_casa=3" ; cjcyl:geometria "POINT (-3.060006598593254 42.917983461633199)" ; cjcyl:cidaBiblio "false"^^<http://www.w3.org/2001/XMLSchema#boolean> ; cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ; cjcyl:tiendaVerde "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 
-<http://geo.linkeddata.es/cjcyl/resource/CasaParque/89130> a cjcyl:CasaParque ;
-	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesoModo "La Casa se sitúa en la localidad de Hoyos del Espino. Desde el núcleo de Hoyos del espino tomar la carretera de la Plataforma y a 300 metros del cruce de la Cabra se encuentra la casa." ;
-	cjcyl:nombre "Pinos Cimeros" ;
-	cjcyl:cerramiento "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidadDiscapacitados "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:emailOWeb "http://www.miespacionatural.es/espaciospanel/2359?tab=casas#tab-casa-2353" ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-5.175368367242332 40.346166426472635)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:cidaBiblio "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
-	cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
-	cjcyl:tiendaVerde "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://geo.linkeddata.es/cjcyl/resource/CasaParque/89130> a cjcyl:CasaParque ; cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesoModo "La Casa se sitúa en la localidad de Hoyos del Espino. Desde el núcleo de Hoyos del espino tomar la carretera de la Plataforma y a 300 metros del cruce de la Cabra se encuentra la casa." ; cjcyl:nombre "Pinos Cimeros" ; cjcyl:cerramiento "2"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidadDiscapacitados "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:emailOWeb "http://www.miespacionatural.es/espaciospanel/2359?tab=casas#tab-casa-2353" ; cjcyl:geometria "POINT (-5.175368367242332 40.346166426472635)" ; cjcyl:cidaBiblio "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ; cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ; cjcyl:tiendaVerde "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 
-<http://geo.linkeddata.es/cjcyl/resource/CasaParque/83693> a cjcyl:CasaParque ;
-	cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesoModo "La casa se ubica en el núcleo urbano de Carucedo, en la comarca del Bierzo. La mejor forma de llegar es cogiendo la N-120 en el kilómetro 400 de la A-6, a la altura de Carracedelo, a 10 km tomar la salida a Carucedo por la Cl-536." ;
-	cjcyl:nombre "Casa del Parque del Monumento Natural Las Médulas" ;
-	cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:accesibilidadDiscapacitados "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	cjcyl:emailOWeb "http://www.miespacionatural.es/espaciospanel/4353?tab=casas#tab-casa-4358" ;
-	cjcyl:geometria "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POINT (-6.772653390857339 42.489125238183554)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> ;
-	cjcyl:cidaBiblio "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
-	cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
-	cjcyl:tiendaVerde "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://geo.linkeddata.es/cjcyl/resource/CasaParque/83693> a cjcyl:CasaParque ; cjcyl:estado "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesoModo "La casa se ubica en el núcleo urbano de Carucedo, en la comarca del Bierzo. La mejor forma de llegar es cogiendo la N-120 en el kilómetro 400 de la A-6, a la altura de Carracedelo, a 10 km tomar la salida a Carucedo por la Cl-536." ; cjcyl:nombre "Casa del Parque del Monumento Natural Las Médulas" ; cjcyl:cerramiento "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidad "3"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:accesibilidadDiscapacitados "1"^^<http://www.w3.org/2001/XMLSchema#int> ; cjcyl:emailOWeb "http://www.miespacionatural.es/espaciospanel/4353?tab=casas#tab-casa-4358" ; cjcyl:geometria "POINT (-6.772653390857339 42.489125238183554)" ; cjcyl:cidaBiblio "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ; cjcyl:servicioInformativo "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ; cjcyl:tiendaVerde "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
