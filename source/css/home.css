@@ -139,6 +139,11 @@ body {
   text-shadow: 0px 3px 3px rgba(84, 84, 84, 0.8);
 }
 
+.facet .spinning {
+  font-size: 18px;
+  text-shadow: 0px 3px 3px rgba(84, 84, 84, 1);
+}
+
 footer {
   border-style: dashed;
   border-width: 1.5px;

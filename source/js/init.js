@@ -2,10 +2,15 @@
 'use strict';
 
 var toogleFacet = function toogleFacet(e) {
+  var fac = $(e.currentTarget).context.textContent;
+  fac = fac.replace(/^\s\s*/, '').replace(/\s\s*$/, '');
+  
   if ($(e.currentTarget).hasClass('on')) {
     $(e.currentTarget).removeClass('on');
+    hideFacetsInfo(fac);
   } else {
     $(e.currentTarget).addClass('on');
+    showFacetsInfo(fac);
   }
 };
 
