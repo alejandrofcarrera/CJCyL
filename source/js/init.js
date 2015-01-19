@@ -1,6 +1,8 @@
 
 'use strict';
 
+var gmap;
+
 var toogleFacet = function toogleFacet(e) {
   var fac = $(e.currentTarget).context.textContent;
   fac = fac.replace(/^\s\s*/, '').replace(/\s\s*$/, '');
@@ -21,8 +23,15 @@ $(document).ready(function () {
 		center: new google.maps.LatLng(41.6551800, -4.7237200),
 		zoom: 7,
 		disableDefaultUI: true,
-		mapTypeId: google.maps.MapTypeId.ROADMAP
+    mapTypeControl: true,
+    mapTypeId: google.maps.MapTypeId.ROADMAP,
+    mapTypeControlOptions: {
+        position: google.maps.ControlPosition.RIGHT_TOP,
+        style: google.maps.MapTypeControlStyle.DROPDOWN_MENU
+    },
+    panControl: false,
+    streetViewControl: false
 	};
-	new google.maps.Map(document.getElementById("rightPanelMap"), mapOptions);
+	gmap = new google.maps.Map(document.getElementById("rightPanelMap"), mapOptions);
   
 });

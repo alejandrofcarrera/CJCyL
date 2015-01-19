@@ -1,53 +1,83 @@
 
 'use strict';
 
-var serverQueries = "http://127.0.0.1:4500/sparql?query=";
+var categoriesCache = {};
+
+var iWindow = null;
 
 var categoriesQueries = {
   "Sendas": {
-    "query": "",
-    "number": 0
+    "id": '1XWcOfx5YCW2m36wJXwL5kPJztK2uJ7b3JkLxeAMp',
+    "number": 0,
+    "style": 2,
+    "template": 3
   },
+  
   "Espacios naturales": {
-    "query": "",
+    "id": "",
     "number": 1
   },
   "Miradores": {
-    "query": "",
+    "id": "",
     "number": 2
   },
   "Árboles singulares": {
-    "query": "",
+    "id": "",
     "number": 3
   },
   "Puntos de interés": {
-    "query": "",
+    "id": "",
     "number": 4
   },
   "Lugares de descanso": {
-    "query": "",
+    "id": "",
     "number": 5
   },
   
   "Municipios": {
-    "query": 'SELECT+*+WHERE+%7B%0D%0A++%3Furi+a+%3Chttp'+    
-    '%3A%2F%2Fgeo.linkeddata.es%2Fcjcyl%23Municipio%3E+.%0D%0A+'+
-    '+%3Furi+%3Chttp%3A%2F%2Fgeo.linkeddata.es%2Fcjcyl%23nombre'+
-    '%3E+%3Fname+.%0D%0A++%3Furi+%3Chttp%3A%2F%2Fgeo.linkeddata'+
-    '.es%2Fcjcyl%23area%3E+%3Farea+.%0D%0A++%3Furi+%3Chttp%3A%2'+       
-    'F%2Fgeo.linkeddata.es%2Fcjcyl%23geometria%3E+%3Fgeome'+
-    'try+.%0D%0A%7D&format=application%2Fsparql-results%2Bjson"',
+    "id": "",
     "number": 6
   },
   
   "Provincias": {
-    "query": "",
+    "id": "",
     "number": 7
   }
   
 };
 
-var loadFacetsValues = function loadFacetsValues(name) {
+var parseTextSenda = function parseTextSenda(infoWindow) {
+  var infoText = infoWindow.split("\n");
+  var infoNewWindow = infoText[0];
+  for(var i = 1; i < infoText.length - 1; i++) {
+    var t = infoText[i];
+    var label = t.substring(t.indexOf("<b>")+3, t.indexOf("</b>")-1);
+    var value = t.substring(t.indexOf("</b>")+5, t.indexOf("<br>"));
+    if ((label === 'Longitud' && value === '0.0') || 
+        (label === 'Tiempo estimado' && value === '0') ||
+        (value === ' %') ||
+        (value === '')) {
+      continue;
+    } else {
+      infoNewWindow += "\n";
+      infoNewWindow += t;
+    }
+  }
+  infoNewWindow += "\n";
+  infoNewWindow += infoText[infoText.length-1];
+  return infoNewWindow;
+};
+
+var hideFacetsInfo = function hideFacetsInfo(name) {
+  if(iWindow !== null) {
+    iWindow.close();
+    iWindow = null;
+  }
+  categoriesCache[name].setMap(null);
+  delete categoriesCache[name];
+};
+
+var showFacetsInfo = function showFacetsInfo(name) {
   
   var numberFacet = categoriesQueries[name].number;
   
@@ -56,29 +86,64 @@ var loadFacetsValues = function loadFacetsValues(name) {
     '<i class="fa fa-spinner fa-spin spinning"></i>'
   );
   
-  // Get SPARQL Resources
-  var urlSPARQL = serverQueries + categoriesQueries[name].query;
-  var request = $.ajax({
-    url: urlSPARQL,
-    type: "GET",
-    crossDomain: true,
-    dataType: 'jsonp'
-  });
+  var url = categoriesQueries[name].id;
   
-  // Handler and remove Spinner of Facet
-  request.done(function( msg ) {
-    $('.facet')[numberFacet].children[2].remove();
-  });
- 
-  request.fail(function( jqXHR, textStatus ) {
-    $('.facet')[numberFacet].children[2].remove();
-    alert("Compruebe la conexión a internet ... ");
-  });
+  categoriesCache[name] = new google.maps.FusionTablesLayer({
+		map: gmap,
+		query: {
+			select: "geometry",
+			from: url
+		},
+		options: {
+			styleId: categoriesQueries[name].style,
+			templateId: categoriesQueries[name].template,
+			suppressInfoWindows: false
+		}
+	});
+  
+  google.maps.event.addListener(categoriesCache[name], 'click',
+    function(e) {
     
-};
+    // Close previous infoWindow
+    if (iWindow !== null) {
+      iWindow.close();
+      iWindow = null;
+    }
+    
+    // Get Identifier
+    var val = e.row['atr_gr_id'].value;
 
-var showFacetsInfo = function showFacetsInfo(name) {
+    // Change Style for Fusion Table Object
+    categoriesCache[name].set("styles", [{
+      where: "'atr_gr_id' IN("+val+")",
+      polylineOptions: {
+        strokeColor: "#FF0000"
+      }
+    }]);
+    
+    // Generate InfoWindow Content
+    var infoNewWindow;
+    if(name === 'Sendas') {
+      infoNewWindow = parseTextSenda(e.infoWindowHtml);
+    }
+    iWindow = new google.maps.InfoWindow();
+    iWindow.setContent(infoNewWindow);
+    iWindow.setPosition(e.latLng);
+    iWindow.open(gmap);
+    
+    // Add event for close button on InfoWindow
+    google.maps.event.addListener(iWindow, 'closeclick', function() {
+      iWindow = null;
+      categoriesCache[name].set("styles", [{
+        where: "'atr_gr_id' IN("+val+")",
+        polylineOptions: {
+          strokeColor: "#073763"
+        }
+      }]);
+    });
+    
+  });
   
-  loadFacetsValues(name);
+  $('.facet')[numberFacet].children[2].remove();
   
 };

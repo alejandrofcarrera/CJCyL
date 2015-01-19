@@ -40,6 +40,7 @@ body {
   box-shadow: inset 0px 2px 20px 0px rgba(50, 50, 50, 0.75);
   border-radius: 25px;
   position: absolute;
+  pointer-events: none;
 }
 
 #rightPanelMap {
@@ -52,8 +53,8 @@ body {
 }
 
 .verticalButton {
-  position: inherit;
-  right: 0;
+  position: absolute;
+  right: 20px;
   width: 30px;
   height: 120px;
   background-color: #F4F4F4;
@@ -66,6 +67,8 @@ body {
   -webkit-box-shadow: -8px 0px 13px 1px rgba(50, 50, 50, 0.5);
   -moz-box-shadow: -8px 0px 13px 1px rgba(50, 50, 50, 0.5);
   box-shadow: -8px 0px 13px 1px rgba(50, 50, 50, 0.5);
+  z-index: 999;
+  cursor: pointer;
 }
 
 #leftPanelContent {
