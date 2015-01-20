@@ -23,14 +23,11 @@ $(document).ready(function () {
 		center: new google.maps.LatLng(41.6551800, -4.7237200),
 		zoom: 7,
 		disableDefaultUI: true,
-    mapTypeControl: true,
+    mapTypeControl: false,
     mapTypeId: google.maps.MapTypeId.ROADMAP,
-    mapTypeControlOptions: {
-        position: google.maps.ControlPosition.RIGHT_TOP,
-        style: google.maps.MapTypeControlStyle.DROPDOWN_MENU
-    },
-    panControl: false,
-    streetViewControl: false
+    panControl: true,
+    streetViewControl: false,
+    zoomControl: true
 	};
 	gmap = new google.maps.Map(document.getElementById("rightPanelMap"), mapOptions);
   
