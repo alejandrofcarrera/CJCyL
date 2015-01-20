@@ -159,9 +159,12 @@ var loadWeatherValues = function loadWeatherValues(coordinates) {
   urlOWM += coordinates.lon;
   urlOWM += "&mode=xml&units=metric";
   
+  $.support.cors = true;
   var request = $.ajax({
     url: urlOWM,
-    type: "GET"
+    type: "GET",
+    datatype: "jsonp",
+    crossDomain: true
   });
  
   request.done(function( msg ) {
