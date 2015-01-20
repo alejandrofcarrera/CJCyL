@@ -162,15 +162,27 @@ footer {
   width: 100%;
 }
 
-footer p{
+footer p {
   margin-top: 5px;
   margin-bottom: 10px;
 }
 
-footer a{
+footer a {
   text-decoration: none;
   color: lightblue;
 }
+
+/* Fusion Tables */
+
+.googft-info-window a {
+  text-align: center;
+  width: 100%;
+  display: block;
+  text-decoration: none;
+  color: #A22B49;
+}
+
+/* Retina */
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and ( min-resolution: 192dpi),
