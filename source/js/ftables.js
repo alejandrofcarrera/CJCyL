@@ -1,8 +1,6 @@
 
 'use strict';
 
-var zIndex = 2;
-
 var categoriesCache = {};
 
 var categoriesOrder = {};
@@ -27,16 +25,16 @@ var categoriesQueries = {
     "number": 3
   },
   
-  //Campamentos, Refugios, Zonas Acampada
+  //Refugios, Zonas Acampada
   "Lugares de descanso": {
-    "id": "14c4nlSofKCuoK6PhJ8rdJWBHwczivwaq9lVjG3qc", 
+    "id": "1PTi-DE9_YY6RBkKXmYez2zSiwg6qo0zh-tENphUR", 
     "number": 4
   },
   
   //Aparcamientos, C.Parque, C.Visitantes, Otros, Zonas
-  //Recreativas, Quioscos
+  //Recreativas, Quioscos, Campamentos
   "Otros": {
-    "id": "1GXKB7Ib2UyL2JgobLyz2G3b7P9t43PElxFOtPmHu", 
+    "id": "1v_VOQdlusNknn7StYwEZDltiYI7M-G4SljsLII0e", 
     "number": 5
   },
   "Municipios": {
@@ -121,10 +119,11 @@ var generateLayer = function generateLayer(name) {
 		query: {
 			select: "geometry",
 			from: categoriesQueries[name].id,
-      where: "'atr_gr_visible' NOT EQUAL TO 'false'",
+      where: "atr_gr_visible = 'true' AND equip_b_nombre NOT EQUAL TO ''",
 		},
     options: {
-      styleId: 2
+      styleId: 2,
+      templateId: (name === 'Lugares de descanso' || name === 'Otros') ? 2 : 3
     },
     suppressInfoWindows: true,
     clickable: clicked,
@@ -151,9 +150,16 @@ var generateLayer = function generateLayer(name) {
       var infoNewWindow;
       if(name === 'Sendas') {
         infoNewWindow = parseTextSenda(e);
-      }
-      else if(name === 'Espacios naturales') {
+      } else if(name === 'Espacios naturales') {
         infoNewWindow = parseTextEspacio(e);
+      } else if(name === 'Miradores') {
+        infoNewWindow = parseTextGenerico(e, 'mirador');
+      } else if(name === 'Árboles singulares') {
+        infoNewWindow = parseTextGenerico(e, 'árbol singular');
+      } else if(name === 'Lugares de descanso') {
+        infoNewWindow = parseTextDescanso(e);
+      } else {
+        infoNewWindow = parseTextOtros(e);
       }
       iWindow = new google.maps.InfoWindow();
       iWindow.setContent(infoNewWindow);
@@ -258,9 +264,7 @@ var showFacetsInfo = function showFacetsInfo(name) {
     categoriesOrder[name] = 3;
   }
   
-  //deleteLayers();
   generateLayer(name);
   reorderCategories();
-  //generateLayers(sort);
   
 };

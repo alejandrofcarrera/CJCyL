@@ -177,8 +177,17 @@ footer a {
 .googft-info-window a {
   text-align: center;
   width: 100%;
-  display: block;
   text-decoration: none;
+  color: #A22B49;
+}
+
+.googft-info-window .plink {
+  display: inline-block;
+}
+
+.googft-info-window b{
+  margin-top: 5px;
+  display: inline-block;
   color: #A22B49;
 }
 
