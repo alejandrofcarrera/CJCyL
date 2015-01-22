@@ -14,6 +14,40 @@ var toogleFacet = function toogleFacet(e) {
     $(e.currentTarget).addClass('on');
     showFacetsInfo(fac);
   }
+  
+  showInformation();
+  
+};
+
+var getSum = function getSum(name) {
+  if (name === 'Sendas') return 403;
+  else if (name === 'Espacios naturales') return 44;
+  else if (name === 'Miradores') return 139;
+  else if (name === 'Árboles singulares') return 94;
+  else if (name === 'Lugares de descanso') return 402;
+  else if (name === 'Otros') return 1789;
+  else if (name === 'Provincias') return 9;
+  else return 2303;
+};
+
+var showLabelInformation = function showLabelInformation(val) {
+  $('body').append(
+    '<div id="labelGeoResources">'+val+' georecursos mostrados</div>'
+  );
+};
+
+var showInformation = function showInformation() {
+  $('#labelGeoResources').remove();
+  var facetsOn = $('.on');
+  var sum = 0;
+  if (facetsOn.length > 0) {
+    for(var i = 0; i < facetsOn.length; i++) {
+      var fac = facetsOn[i].textContent;
+      fac = fac.replace(/^\s\s*/, '').replace(/\s\s*$/, '');
+      sum += getSum(fac);
+    }
+    showLabelInformation(sum);
+  }
 };
 
 $(document).ready(function () {
