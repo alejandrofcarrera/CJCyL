@@ -93,10 +93,10 @@ var addLoading = function addLoading() {
 };
 
 var addError = function addError() {
+  var weatherView = $('#weatherViewContainer');
   weatherView.empty();
   $("#weatherInput").prop('disabled', true);
   $("#weatherInput").val('');
-  var weatherView = $('#weatherViewContainer');
   weatherView.append(
     '<p id="weatherErrorLabel">Es posible que no tenga conexión'+
     ' o el servicio meteorológico no esté disponible.'+
@@ -178,6 +178,7 @@ var loadWeatherValues = function loadWeatherValues(coordinates) {
   urlOWM += coordinates.lon;
   urlOWM += "&mode=xml&units=metric";
   
+  $('#weatherViewContainer').empty();
   addLoading();
   
   var request = $.ajax({
