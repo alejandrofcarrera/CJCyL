@@ -85,6 +85,25 @@ var getWeatherIcon = function getWeatherIcon(iconOWM) {
   
 };
 
+var addLoading = function addLoading() {
+  var weatherView = $('#weatherViewContainer');
+  weatherView.append(
+    '<i id="weatherLoadIcon" class="fa fa-spinner fa-pulse"></i>'
+  );
+};
+
+var addError = function addError() {
+  weatherView.empty();
+  $("#weatherInput").prop('disabled', true);
+  $("#weatherInput").val('');
+  var weatherView = $('#weatherViewContainer');
+  weatherView.append(
+    '<p id="weatherErrorLabel">Es posible que no tenga conexión'+
+    ' o el servicio meteorológico no esté disponible.'+
+    ' Inténtelo más tarde.</p>'
+  );
+};
+
 var addWeatherValues = function addWeatherValues(val) {
   
   // Add Weather Days Views to View
@@ -159,7 +178,8 @@ var loadWeatherValues = function loadWeatherValues(coordinates) {
   urlOWM += coordinates.lon;
   urlOWM += "&mode=xml&units=metric";
   
-  $.support.cors = true;
+  addLoading();
+  
   var request = $.ajax({
     url: urlOWM,
     type: "GET",
@@ -172,7 +192,7 @@ var loadWeatherValues = function loadWeatherValues(coordinates) {
   });
  
   request.fail(function( jqXHR, textStatus ) {
-    alert("Compruebe la conexión a internet ... ");
+    addError();
   });
 };
 
