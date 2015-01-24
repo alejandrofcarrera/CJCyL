@@ -10,32 +10,38 @@ var iWindow = null;
 var categoriesQueries = {
   "Sendas": {
     "id": '1XWcOfx5YCW2m36wJXwL5kPJztK2uJ7b3JkLxeAMp',
-    "number": 0
+    "number": 0,
+    "type": "line"
   },
   "Espacios naturales": {
     "id": "1fW6CPtx1Ab7ozWvOeGP3lk_fV4xgwpvHRVHeApt6",
-    "number": 1
+    "number": 1,
+    "type": "polygon"
   },
   "Miradores": {
     "id": "103M34f8drtHCW1CSjy_zmkf68PajhJPEv7TqON5z",
-    "number": 2
+    "number": 2,
+    "type": "point"
   },
   "Árboles singulares": {
     "id": "1F6ccBvHYJBlx8Tdan_p4USVbOH3Iw8BSTeQRuDfa",
-    "number": 3
+    "number": 3,
+    "type": "point"
   },
   
   //Refugios, Zonas Acampada
   "Lugares de descanso": {
     "id": "1PTi-DE9_YY6RBkKXmYez2zSiwg6qo0zh-tENphUR", 
-    "number": 4
+    "number": 4,
+    "type": "point"
   },
   
   //Aparcamientos, C.Parque, C.Visitantes, Otros, Zonas
   //Recreativas, Quioscos, Campamentos
   "Otros": {
     "id": "1v_VOQdlusNknn7StYwEZDltiYI7M-G4SljsLII0e", 
-    "number": 5
+    "number": 5,
+    "type": "point"
   },
   "Municipios": {
     "id": "16j8wgXuaZ6NwKsu5c9gw9gY9qn-ietBLzskNd64e",
