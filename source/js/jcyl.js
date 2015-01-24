@@ -19,7 +19,17 @@ var parseTextSenda = function parseTextSenda(resource) {
       infoNewWindow += t;
     }
   }
-  infoNewWindow += '<br><a class="plink" href="#" onclick="addResource(\''+resource+'\')">Añadir senda al recorrido</a>';
+  
+  var georesource = {
+    id: resource.row['atr_gr_id'].value,
+    lat: resource.latLng.k,
+    lng: resource.latLng.D,
+    tipo: categoriesQueries['Sendas'].type,
+    facet: 'Senda'
+  };
+  georesource = JSON.stringify(georesource);
+  
+  infoNewWindow += '<br><a class="plink" href="#" onclick=\'addRes('+georesource+')\'>Añadir senda al recorrido</a>';
   infoNewWindow += "\n";
   infoNewWindow += infoText[infoText.length-1];
   return infoNewWindow;
@@ -51,7 +61,17 @@ var parseTextOtros = function parseTextOtros(resource) {
       infoNewWindow += t;
     }
   }
-  infoNewWindow += '<br><a class="plink" href="#" onclick="addResource(\''+resource+'\')">Añadir punto de interés al recorrido</a>';
+  
+  var georesource = {
+    id: resource.row['atr_gr_id'].value,
+    lat: resource.latLng.k,
+    lng: resource.latLng.D,
+    tipo: categoriesQueries['Otros'].type,
+    facet: 'Otro'
+  };
+  georesource = JSON.stringify(georesource);
+  
+  infoNewWindow += '<br><a class="plink" href="#" onclick=\'addRes('+georesource+')\'>Añadir punto de interés al recorrido</a>';
   infoNewWindow += "\n";
   infoNewWindow += infoText[infoText.length-1];
   return infoNewWindow;
@@ -67,7 +87,17 @@ var parseTextDescanso = function parseTextDescanso(resource) {
     infoNewWindow += "\n";
     infoNewWindow += t;
   }
-  infoNewWindow += '<br><a class="plink" href="#" onclick="addResource(\''+resource+'\')">Añadir lugar de descanso al recorrido</a>';
+  
+  var georesource = {
+    id: resource.row['atr_gr_id'].value,
+    lat: resource.latLng.k,
+    lng: resource.latLng.D,
+    tipo: categoriesQueries['Áreas de descanso'].type,
+    facet: 'Descanso'
+  };
+  georesource = JSON.stringify(georesource);
+  
+  infoNewWindow += '<br><a class="plink" href="#" onclick=\'addRes('+georesource+')\'>Añadir lugar de descanso al recorrido</a>';
   infoNewWindow += "\n";
   infoNewWindow += infoText[infoText.length-1];
   return infoNewWindow;
@@ -80,7 +110,17 @@ var parseTextEspacio = function parseTextEspacio(resource) {
     infoNewWindow += "\n";
     infoNewWindow += infoText[i];
   }
-  infoNewWindow += '<br><a class="plink" href="#" onclick="addResource(\''+resource+'\')">Añadir espacio natural al recorrido</a>';
+  
+  var georesource = {
+    id: resource.row['atr_gr_id'].value,
+    lat: resource.latLng.k,
+    lng: resource.latLng.D,
+    tipo: categoriesQueries['Espacios naturales'].type,
+    facet: 'Espacio'
+  };
+  georesource = JSON.stringify(georesource);
+  
+  infoNewWindow += '<br><a class="plink" href="#" onclick=\'addRes('+georesource+')\'>Añadir espacio natural al recorrido</a>';
   infoNewWindow += "\n";
   infoNewWindow += infoText[infoText.length-1];
   return infoNewWindow;
@@ -100,7 +140,17 @@ var parseTextGenerico = function parseTextGenerico(resource, type) {
       infoNewWindow += t;
     }
   }
-  infoNewWindow += '<br><a class="plink" href="#" onclick="addResource(\''+resource+'\')">Añadir '+type+' al recorrido</a>';
+  
+  var georesource = {
+    id: resource.row['atr_gr_id'].value,
+    lat: resource.latLng.k,
+    lng: resource.latLng.D,
+    tipo: (type === 'mirador') ? categoriesQueries['Miradores'].type : categoriesQueries['Árboles singulares'].type,
+    facet: (type === 'mirador') ? 'Mirador' : 'Árbol',
+  };
+  georesource = JSON.stringify(georesource);
+  
+  infoNewWindow += '<br><a class="plink" href="#" onclick=\'addRes('+georesource+')\'>Añadir '+type+' al recorrido</a>';
   infoNewWindow += "\n";
   infoNewWindow += infoText[infoText.length-1];
   return infoNewWindow;
