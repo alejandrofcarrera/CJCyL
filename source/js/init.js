@@ -6,7 +6,6 @@ var gmap;
 var toogleFacet = function toogleFacet(e) {
   var fac = $(e.currentTarget).context.textContent;
   fac = fac.replace(/^\s\s*/, '').replace(/\s\s*$/, '');
-  
   if ($(e.currentTarget).hasClass('on')) {
     $(e.currentTarget).removeClass('on');
     hideFacetsInfo(fac);
@@ -14,9 +13,7 @@ var toogleFacet = function toogleFacet(e) {
     $(e.currentTarget).addClass('on');
     showFacetsInfo(fac);
   }
-  
   showInformation();
-  
 };
 
 var getSum = function getSum(name) {
@@ -27,7 +24,7 @@ var getSum = function getSum(name) {
   else if (name === 'Lugares de descanso') return 402;
   else if (name === 'Otros') return 1789;
   else if (name === 'Provincias') return 9;
-  else return 2303;
+  else if (name === 'Municipios') return 2303;
 };
 
 var showLabelInformation = function showLabelInformation(val) {
