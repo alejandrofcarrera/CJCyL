@@ -1,0 +1,60 @@
+#routeButton {
+  top: 10%;
+  height: 100px;
+  background-image: url(../../resources/rutas.png);
+  background-repeat: no-repeat;
+  background-size: 26px 80px;
+  background-position: left center;
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-right-color: #A0A0A0;
+}
+
+#routeViewClose {
+  width: 19px;
+  height: 19px;
+  right: 10px;
+  top: 10px;
+  position: absolute;
+  color: #A22B49;
+  cursor: pointer;
+  font-size: 20px;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#routeButton.on {
+  cursor: default;
+}
+
+#routeEmptyLabelTop {
+  margin-top: 12px;
+  margin-left: 20px;
+  margin-right: 10px;
+  height: 80%;
+  color: #A22B49;
+  font-size: 16px;
+  text-align: center;
+}
+
+#routeEmptyLabelDown {
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 10px;
+  height: 80%;
+  color: #A22B49;
+  font-size: 16px;
+  text-align: center;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and ( min-resolution: 192dpi),
+only screen and ( min-resolution: 2dppx) {
+  #routeButton {
+    background-image: url("../../resources/rutas@2x.png");
+  }
+}

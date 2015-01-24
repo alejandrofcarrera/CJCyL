@@ -35,7 +35,7 @@ var showLabelInformation = function showLabelInformation(val) {
 
 var showInformation = function showInformation() {
   $('#labelGeoResources').remove();
-  var facetsOn = $('.on');
+  var facetsOn = $('.facet.on');
   var sum = 0;
   if (facetsOn.length > 0) {
     for(var i = 0; i < facetsOn.length; i++) {
@@ -50,6 +50,7 @@ var showInformation = function showInformation() {
 $(document).ready(function () {
   $('.facet').click(toogleFacet);
   $('#weatherButton').click(toogleWeather);
+  $('#routeButton').click(toogleRoute);
 	var mapOptions = {
 		center: new google.maps.LatLng(41.6551800, -4.7237200),
 		zoom: 7,
