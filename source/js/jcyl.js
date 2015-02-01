@@ -22,6 +22,7 @@ var parseTextSenda = function parseTextSenda(resource) {
   
   var georesource = {
     id: resource.row['atr_gr_id'].value,
+    name: resource.row['equip_b_nombre'].value,
     lat: resource.latLng.k,
     lng: resource.latLng.D,
     tipo: categoriesQueries['Sendas'].type,
@@ -64,6 +65,7 @@ var parseTextOtros = function parseTextOtros(resource) {
   
   var georesource = {
     id: resource.row['atr_gr_id'].value,
+    name: resource.row['equip_b_nombre'].value,
     lat: resource.latLng.k,
     lng: resource.latLng.D,
     tipo: categoriesQueries['Otros'].type,
@@ -90,6 +92,7 @@ var parseTextDescanso = function parseTextDescanso(resource) {
   
   var georesource = {
     id: resource.row['atr_gr_id'].value,
+    name: resource.row['equip_b_nombre'].value,
     lat: resource.latLng.k,
     lng: resource.latLng.D,
     tipo: categoriesQueries['Áreas de descanso'].type,
@@ -113,6 +116,7 @@ var parseTextEspacio = function parseTextEspacio(resource) {
   
   var georesource = {
     id: resource.row['atr_gr_id'].value,
+    name: resource.row['equip_b_nombre'].value,
     lat: resource.latLng.k,
     lng: resource.latLng.D,
     tipo: categoriesQueries['Espacios naturales'].type,
@@ -143,6 +147,7 @@ var parseTextGenerico = function parseTextGenerico(resource, type) {
   
   var georesource = {
     id: resource.row['atr_gr_id'].value,
+    name: resource.row['equip_b_nombre'].value,
     lat: resource.latLng.k,
     lng: resource.latLng.D,
     tipo: (type === 'mirador') ? categoriesQueries['Miradores'].type : categoriesQueries['Árboles singulares'].type,
