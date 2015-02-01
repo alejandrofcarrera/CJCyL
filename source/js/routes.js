@@ -3,11 +3,45 @@
 
 var directionsService = new google.maps.DirectionsService();
 
+var directionsDisplay = null;
+
 var waypoints = [];
 
 var waypointsName = [];
 
 var routeInfoShowed = false;
+
+// Update Google Maps Route
+var rebuildRouteMap = function rebuildRouteMap() {
+  if (directionsDisplay !== null) {
+    directionsDisplay.setMap(null);
+    directionsDisplay = null;
+  }
+  if (waypoints.length < 2) {
+    return;
+  }
+  var wayDirections = waypoints.slice(1, waypoints.length-1);
+  var wayService = [];
+  for (var i = 0; i < wayDirections.length; i++) {
+    wayService.push({
+      location:wayDirections[i].lat+","+wayDirections[i].lng,
+      stopover:true
+    });
+  }
+  directionsService.route({
+    origin: waypoints[0].lat+","+waypoints[0].lng,
+    destination: waypoints[waypoints.length-1].lat+","+waypoints[waypoints.length-1].lng,
+    waypoints: wayService,
+    optimizeWaypoints: true,
+    travelMode: google.maps.TravelMode.WALKING
+  }, function(response, status) {
+    directionsDisplay = new google.maps.DirectionsRenderer();
+    directionsDisplay.setMap(gmap);
+    if (status === google.maps.DirectionsStatus.OK) {
+      directionsDisplay.setDirections(response);
+    }
+  });
+};
 
 // Add resource to list
 var addRes = function addRes(resource) {
@@ -21,13 +55,16 @@ var addRes = function addRes(resource) {
   } else {
     return;
   }
+  
   if (routeInfoShowed) {
     rebuildRouteInfo();    
   }
-  
+  if (waypoints.length > 1) {
+    rebuildRouteMap();
+  }
 };
 
-// Handler to Change list Order
+// Handler to Remove Resource of list
 var remRes = function remRes(e) {
   var rId = e.currentTarget.id;
   $(rId).off(remRes);
@@ -44,6 +81,7 @@ var remRes = function remRes(e) {
     );
   }
   rebuildRouteInfo();
+  rebuildRouteMap();
 }
 
 // Handler to Change list Order
@@ -64,6 +102,9 @@ var changeOrder = function changeOrder(e) {
     waypoints[oldPos] = bac;
     waypointsName[oldPos] = bac.name;
   }
+  if (waypoints.length > 1) {
+    rebuildRouteMap();
+  }
 }
 
 // Add Rame to RouteView
@@ -80,9 +121,21 @@ var addNameToRoute = function addNameToRoute(nameResource, n) {
 // Create Label Top With Waypoints number
 var updateWPointsLabel = function updateWPointsLabel() {
   var routeView = $('#routeView');
-  routeView.append(
-    '<p id="routeLabelTop">'+waypoints.length+' / 10 Paradas</p>'
-  );
+  var labelCode = '<p id="routeLabelTop">'+waypoints.length+' / 10 Paradas';
+  if (waypoints.length > 1) {
+    var legs = directionsDisplay.directions.routes[0].legs;
+    var d = 0;
+    for (var i = 0; i < legs.length; i++) {
+      d += legs[i].distance.value;
+    }
+    d /= 1000;
+    d = d.toFixed(2);
+    d = d.replace(".", ". ");
+    labelCode += " ("+d+" km)</p>";
+  } else {
+    labelCode += "</p>";
+  }
+  routeView.append(labelCode);
 };
 
 // Create RouteView with message
