@@ -31,7 +31,7 @@ var categoriesQueries = {
   
   //Refugios, Zonas Acampada
   "Lugares de descanso": {
-    "id": "1PTi-DE9_YY6RBkKXmYez2zSiwg6qo0zh-tENphUR", 
+    "id": "19mG4jgXSLvAlNLQGpbz2cJqFHSGQ7iTKE-Ag1MFh", 
     "number": 4,
     "type": "point"
   },
@@ -53,57 +53,6 @@ var categoriesQueries = {
     "number": 7
   }
   
-};
-
-var removeOpacityLayer = function removeOpacityLayer(name, id) {
-  for(var i in categoriesCache) {
-    if(i !== name) {
-      categoriesCache[i].setMap(null);
-    }
-    else {
-      categoriesCache[i].set("styles", [{
-        where: "'atr_gr_id' IN "+id+"",
-          polygonOptions: {
-            fillOpacity: 1,
-            strokeOpacity: 1
-          },
-          polylineOptions: {
-            strokeOpacity: 1
-          }
-        },{
-        where: "'atr_gr_id' NOT EQUAL TO "+id+"",
-          polygonOptions: {
-            fillOpacity: 0.1,
-            strokeOpacity: 0.1
-          },
-          polylineOptions: {
-            strokeOpacity: 0.1
-          }
-        }
-      ]);
-    }
-  }
-  google.maps.event.trigger(gmap, 'resize');
-};
-
-var addOpacityLayer = function addOpacityLayer(name) {
-  for(var i in categoriesCache) {
-    if(i !== name) {
-      categoriesCache[i].setMap(gmap);
-    }
-    else {
-      categoriesCache[i].set("styles", [{
-        polygonOptions: {
-          fillOpacity: 0.5,
-          strokeOpacity: 0.5
-        },
-        polylineOptions: {
-          strokeOpacity: 0.5
-        }
-      }]);
-    }
-  }
-  google.maps.event.trigger(gmap, 'resize');
 };
 
 var hideFacetsInfo = function hideFacetsInfo(name) {
@@ -149,9 +98,6 @@ var generateLayer = function generateLayer(name) {
       // Get Identifier
       var val = e.row['atr_gr_id'].value;
 
-      // Change Style for Fusion Table Object
-      // removeOpacityLayer(name, val);
-
       // Generate InfoWindow Content
       var infoNewWindow;
       if(name === 'Sendas') {
@@ -171,12 +117,7 @@ var generateLayer = function generateLayer(name) {
       iWindow.setContent(infoNewWindow);
       iWindow.setPosition(e.latLng);
       iWindow.open(gmap);
-
-      // Add event for close button on InfoWindow
-      google.maps.event.addListener(iWindow, 'closeclick', function() {
-        iWindow = null;
-        /*addOpacityLayer(name);*/
-      }); 
+ 
     });
   }
   
