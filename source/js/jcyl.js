@@ -84,10 +84,16 @@ var parseTextDescanso = function parseTextDescanso(resource) {
   var infoNewWindow = infoText[0];
   for(var i = 1; i < infoText.length - 1; i++) {
     var t = infoText[i];
-    t = t.replace("false", "No");
-    t = t.replace("true", "Sí");
-    infoNewWindow += "\n";
-    infoNewWindow += t;
+    var label = t.substring(t.indexOf("<b>")+3, t.indexOf("</b>")-1);
+    var value = t.substring(t.indexOf("</b>")+5, t.indexOf("<br>"));
+    if (value === '') {
+      continue;
+    } else {
+      t = t.replace("false", "No");
+      t = t.replace("true", "Sí");
+      infoNewWindow += "\n";
+      infoNewWindow += t;
+    }
   }
   
   var georesource = {
@@ -95,7 +101,7 @@ var parseTextDescanso = function parseTextDescanso(resource) {
     name: resource.row['equip_b_nombre'].value,
     lat: resource.latLng.k,
     lng: resource.latLng.D,
-    tipo: categoriesQueries['Áreas de descanso'].type,
+    tipo: categoriesQueries['Lugares de descanso'].type,
     facet: 'Descanso'
   };
   georesource = JSON.stringify(georesource);
@@ -116,7 +122,7 @@ var parseTextEspacio = function parseTextEspacio(resource) {
   
   var georesource = {
     id: resource.row['atr_gr_id'].value,
-    name: resource.row['equip_b_nombre'].value,
+    name: resource.row['espacio_nombre'].value,
     lat: resource.latLng.k,
     lng: resource.latLng.D,
     tipo: categoriesQueries['Espacios naturales'].type,
