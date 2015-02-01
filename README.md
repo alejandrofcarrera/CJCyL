@@ -19,3 +19,9 @@ Los datasets elegidos (espacios naturales) para esta aplicación son:
 Los datasets elegidos (administración pública) para esta aplicación son:
 - Límites de Municipios
 - Límites de Provincia
+
+Nota: para el uso de la aplicación es necesario cambiar la API_KEY del fichero index.html (13)
+
+Aplicación publicada en: http://vps147.cesvima.upm.es/rutasjcyl
+
+Alejandro F. Carrera
