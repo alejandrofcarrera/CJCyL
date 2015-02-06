@@ -11,7 +11,6 @@ Los datasets elegidos (espacios naturales) para esta aplicación son:
 - Áreas de espacios naturales
 - Miradores
 - Zonas de acampada
-- Miradores
 - Quioscos de venta al público
 - Zonas recreativas
 - Infraestructuras menores
